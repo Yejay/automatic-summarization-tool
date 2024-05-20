@@ -1,8 +1,5 @@
 # Wissensdatenbank: Entwicklung eines KI-gestützten Textzusammenfassungstools für wissenschaftliche Studien und Meta-Analysen im Sport unf Fitness Bereich
 
-
-# Bachelor Project: AI-Powered Text Summarization Tool
-
 ## Project Overview
 
 This project aims to develop a tool for automated text summarization of scientific studies and meta-analyses in the field of sport and fitness. The tool takes PDF files, summarizes their content, and returns the results via a web interface.
