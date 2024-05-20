@@ -6,6 +6,7 @@
 ## Project Overview
 
 This project aims to develop a tool for automated text summarization of scientific studies and meta-analyses in the field of sport and fitness. The tool takes PDF files, summarizes their content, and returns the results via a web interface.
+This project uses a Python virtual environment for the backend and Vite for the frontend. Here's how to set up the project and manage dependencies:
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -24,45 +25,50 @@ This project aims to develop a tool for automated text summarization of scientif
 
 ## Backend Setup
 
+1. Navigate to the backend directory:
+
+   ```bash
+   cd backend
+
 ### Create Virtual Environment
 
 If you haven't already, create a virtual environment:
 
-\`\`\`bash
+```bash
 # On macOS and Linux
 python3 -m venv venv
 
 # On Windows
 python -m venv venv
-\`\`\`
+```
 
 ### Activate the Virtual Environment
 
 Activate the virtual environment:
 
-\`\`\`bash
+```bash
 # On macOS and Linux
 source venv/bin/activate
 
 # On Windows
 venv\Scripts\activate
-\`\`\`
+```
 
 ### Install Dependencies
 
 Install the required dependencies:
 
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 ### Start Backend Server
 
 Start the backend server:
 
-\`\`\`bash
+```bash
 python app.py
-\`\`\`
+```
 
 The backend server will start running at [http://localhost:5000](http://localhost:5000).
 
@@ -70,33 +76,33 @@ The backend server will start running at [http://localhost:5000](http://localhos
 
 To deactivate the virtual environment, use the \`deactivate\` command:
 
-\`\`\`bash
+```bash
 deactivate
-\`\`\`
+```
 
 ## Frontend Setup
 
 Navigate to the frontend directory:
 
-\`\`\`bash
+```bash
 cd frontend
-\`\`\`
+```
 
 ### Install Dependencies
 
 Install the required dependencies:
 
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 ### Start Frontend Server
 
 Start the frontend server:
 
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 The frontend server will start running at [http://localhost:3000](http://localhost:3000).
 
@@ -108,13 +114,13 @@ The \`requirements.txt\` file lists the Python dependencies required by the back
 
 Activate your virtual environment:
 
-\`\`\`bash
+```bash
 # On macOS and Linux
 source venv/bin/activate
 
 # On Windows
 venv\Scripts\activate
-\`\`\`
+```
 
 ### Generate requirements.txt
 
@@ -122,20 +128,17 @@ Ensure all necessary packages are installed in your virtual environment.
 
 Run the following command to generate the \`requirements.txt\` file:
 
-\`\`\`bash
+```bash
 pip freeze > requirements.txt
-\`\`\`
+```
 
 This will create a \`requirements.txt\` file that lists all of the installed packages and their versions. Others can then install these dependencies in their own virtual environment by running:
 
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 ---
-
-Feel free to customize any part of this README to better fit your project's specifics!
-
 
 
 ## Projektübersicht
