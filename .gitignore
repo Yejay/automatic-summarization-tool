@@ -414,4 +414,23 @@ sketch
 .history
 .ionide
 
+# Vite
+node_modules
+dist
+*.log
+.log*
+vite.config.ts
+vite.config.js
+
+# Vite + React
+.pnp
+.pnp.js
+coverage
+build
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+react-refresh
+
 # End of https://www.toptal.com/developers/gitignore/api/python,flask,react,macos,visualstudiocode,intellij+all
