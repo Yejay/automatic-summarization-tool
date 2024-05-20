@@ -25,10 +25,11 @@ This project uses a Python virtual environment for the backend and Vite for the 
 
 ## Backend Setup
 
-1. Navigate to the backend directory:
+Navigate to the backend directory:
 
-   ```bash
-   cd backend
+```bash
+cd backend
+```
 
 ### Create Virtual Environment
 
