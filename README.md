@@ -250,6 +250,69 @@ Ich arbeite an einem Projekt zur Entwicklung eines KI-gestützten Tools für die
 - **Bereitstellung**: Deployment der Web-App auf Plattformen wie AWS oder Heroku.
 - **Dokumentation**: Erstelle eine ausführliche Dokumentation und Anleitungen zur Nutzung und Weiterentwicklung der App.
 
-## Zusammenfassung
+## Zusammenfassung der verwendeten Technologien und theoretischen Grundlagen
+Textvorverarbeitung und -analyse
 
-Mit diesen Ressourcen und diesem Plan kannst du ein praktikables Textzusammenfassungstool entwickeln, das später durch wissenschaftliche Literatur weiter verfeinert und unterstützt werden kann. Wenn du konkrete Fragen hast oder Unterstützung bei bestimmten Schritten benötigst, lass es mich wissen!
+    PyPDF
+        Theoretische Grundlage: PDF-Verarbeitung
+        Funktion: Extraktion von Text und Metadaten aus PDF-Dateien
+
+    NLTK (Natural Language Toolkit)
+        Theoretische Grundlage: NLP
+        Funktion: Tokenisierung, Stopwörter-Entfernung, Textnormalisierung
+        Abhängigkeiten: NumPy, Punkt (für Tokenisierung)
+
+    spaCy
+        Theoretische Grundlage: NLP
+        Funktion: Schnelle und effiziente Textverarbeitung und -analyse
+        Abhängigkeiten: NumPy, Thinc (Backend für Deep Learning)
+
+Modellierung und Textzusammenfassung
+
+    transformers (Hugging Face)
+        Theoretische Grundlage: Deep Learning, Transformer-Modelle
+        Funktion: Implementierung und Nutzung von vortrainierten Modellen wie BERT, GPT-3
+        Abhängigkeiten: PyTorch oder TensorFlow, NumPy, Tokenizers
+
+    BERT (Bidirectional Encoder Representations from Transformers)
+        Theoretische Grundlage: Transformer-Architektur
+        Funktion: Kontextbezogene Textrepräsentationen und Textzusammenfassung
+        Verwendung: Implementierung durch die transformers Bibliothek
+
+Webentwicklung
+
+    Flask
+        Theoretische Grundlage: Webentwicklung, RESTful APIs
+        Funktion: Aufbau und Verwaltung des Backend-Servers
+        Abhängigkeiten: Werkzeug (WSGI-Toolkit), Jinja2 (Template-Engine)
+
+    Gunicorn
+        Theoretische Grundlage: Webserver-Gateway-Interface (WSGI)
+        Funktion: Bereitstellung des Flask-Servers in einer Produktionsumgebung
+
+    React
+        Theoretische Grundlage: Webentwicklung, UI-Komponenten
+        Funktion: Erstellung und Verwaltung der Benutzeroberfläche
+        Abhängigkeiten: Babel (für die Transpilation), Webpack (für die Bündelung von Assets)
+
+Ablauf und Integration der Technologien
+
+    PDF-Verarbeitung:
+        PyPDF extrahiert Text aus PDF-Dateien wissenschaftlicher Studien.
+
+    Textvorverarbeitung:
+        Der extrahierte Text wird durch NLTK und spaCy verarbeitet, um Tokenisierung, Stopwörter-Entfernung und Textnormalisierung durchzuführen.
+
+    Textzusammenfassung:
+        Der vorverarbeitete Text wird an die transformers Bibliothek übergeben, die Modelle wie BERT verwendet, um eine Zusammenfassung zu erzeugen.
+
+    Backend-Verwaltung:
+        Flask dient als Backend-Server, der Anfragen entgegennimmt, den Text durch die NLP-Pipeline leitet und die Ergebnisse zurückgibt.
+        Gunicorn wird verwendet, um den Flask-Server in einer Produktionsumgebung bereitzustellen.
+
+    Frontend-Entwicklung:
+        React wird verwendet, um eine benutzerfreundliche Oberfläche zu erstellen, die es Nutzern ermöglicht, PDF-Dateien hochzuladen und die Zusammenfassungen anzuzeigen.
+
+Zusammengefasster Ablauf
+
+    PDF wird hochgeladen → 2. PyPDF extrahiert Text → 3. NLTK und spaCy verarbeiten Text → 4. transformers (BERT) erzeugen Zusammenfassung → 5. Flask verarbeitet Anfragen und gibt Ergebnisse zurück → 6. React zeigt Ergebnisse an.
