@@ -1,4 +1,4 @@
-# Wissensdatenbank: Entwicklung eines KI-gestützten Textzusammenfassungstools
+# Wissensdatenbank: Entwicklung eines KI-gestützten Textzusammenfassungstools für wissenschaftliche Studien und Meta-Analysen im Sport unf Fitness Bereich
 
 ## Projektübersicht
 
