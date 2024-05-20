@@ -1,35 +1,49 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { useState, useRef } from 'react';
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [summary, setSummary] = useState<string>('');
+  const fileInput = useRef<HTMLInputElement>(null);
+
+  const handleSubmit = async (event: React.FormEvent) => {
+    event.preventDefault();
+    const file = fileInput.current?.files?.[0];
+    if (!file) {
+      return;
+    }
+
+    const formData = new FormData();
+    formData.append('file', file);
+
+    const response = await fetch('http://localhost:5000/summarize', {
+      method: 'POST',
+      body: formData,
+    });
+
+    const data = await response.json();
+    setSummary(data.summary);
+  };
+
+  const handleDelete = () => {
+    setSummary('');
+  };
 
   return (
     <>
+      <h1>Zusammenfassen</h1>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <form onSubmit={handleSubmit}>
+          <input type='file' id='fileInput' ref={fileInput} />
+          <button type='submit'>Summarize</button>
+        </form>
+        <div id='summary'>
+          <h2>Summary</h2>
+          <p id='summaryText'>{summary}</p>
+        </div>
+        <button id='deleteButton' onClick={handleDelete}>Delete Summary</button>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
