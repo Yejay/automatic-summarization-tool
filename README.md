@@ -1,5 +1,143 @@
 # Wissensdatenbank: Entwicklung eines KI-gestützten Textzusammenfassungstools für wissenschaftliche Studien und Meta-Analysen im Sport unf Fitness Bereich
 
+
+# Bachelor Project: AI-Powered Text Summarization Tool
+
+## Project Overview
+
+This project aims to develop a tool for automated text summarization of scientific studies and meta-analyses in the field of sport and fitness. The tool takes PDF files, summarizes their content, and returns the results via a web interface.
+
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Backend Setup](#backend-setup)
+  - [Create Virtual Environment](#create-virtual-environment)
+  - [Install Dependencies](#install-dependencies)
+  - [Start Backend Server](#start-backend-server)
+  - [Deactivate Virtual Environment](#deactivate-virtual-environment)
+- [Frontend Setup](#frontend-setup)
+  - [Install Dependencies](#install-dependencies-1)
+  - [Start Frontend Server](#start-frontend-server)
+- [Generating requirements.txt](#generating-requirementstxt)
+  - [Activate Virtual Environment](#activate-virtual-environment)
+  - [Generate requirements.txt](#generate-requirementstxt)
+  - [Install Dependencies from requirements.txt](#install-dependencies-from-requirementstxt)
+
+## Backend Setup
+
+### Create Virtual Environment
+
+If you haven't already, create a virtual environment:
+
+\`\`\`bash
+# On macOS and Linux
+python3 -m venv venv
+
+# On Windows
+python -m venv venv
+\`\`\`
+
+### Activate the Virtual Environment
+
+Activate the virtual environment:
+
+\`\`\`bash
+# On macOS and Linux
+source venv/bin/activate
+
+# On Windows
+venv\Scripts\activate
+\`\`\`
+
+### Install Dependencies
+
+Install the required dependencies:
+
+\`\`\`bash
+pip install -r requirements.txt
+\`\`\`
+
+### Start Backend Server
+
+Start the backend server:
+
+\`\`\`bash
+python app.py
+\`\`\`
+
+The backend server will start running at [http://localhost:5000](http://localhost:5000).
+
+### Deactivate Virtual Environment
+
+To deactivate the virtual environment, use the \`deactivate\` command:
+
+\`\`\`bash
+deactivate
+\`\`\`
+
+## Frontend Setup
+
+Navigate to the frontend directory:
+
+\`\`\`bash
+cd frontend
+\`\`\`
+
+### Install Dependencies
+
+Install the required dependencies:
+
+\`\`\`bash
+npm install
+\`\`\`
+
+### Start Frontend Server
+
+Start the frontend server:
+
+\`\`\`bash
+npm run dev
+\`\`\`
+
+The frontend server will start running at [http://localhost:3000](http://localhost:3000).
+
+## Generating requirements.txt
+
+The \`requirements.txt\` file lists the Python dependencies required by the backend. It is generated using the \`pip freeze > requirements.txt\` command, which should be run within the virtual environment after all dependencies have been installed.
+
+### Activate Virtual Environment
+
+Activate your virtual environment:
+
+\`\`\`bash
+# On macOS and Linux
+source venv/bin/activate
+
+# On Windows
+venv\Scripts\activate
+\`\`\`
+
+### Generate requirements.txt
+
+Ensure all necessary packages are installed in your virtual environment.
+
+Run the following command to generate the \`requirements.txt\` file:
+
+\`\`\`bash
+pip freeze > requirements.txt
+\`\`\`
+
+This will create a \`requirements.txt\` file that lists all of the installed packages and their versions. Others can then install these dependencies in their own virtual environment by running:
+
+\`\`\`bash
+pip install -r requirements.txt
+\`\`\`
+
+---
+
+Feel free to customize any part of this README to better fit your project's specifics!
+
+
+
 ## Projektübersicht
 
 **Ziel des Projekts:** Entwicklung eines Tools zur automatisierten Textzusammenfassung wissenschaftlicher Studien und Meta-Analysen im Bereich Sport und Fitness. Das Tool soll PDF-Dateien entgegennehmen, diese zusammenfassen und die Ergebnisse über eine Weboberfläche an den Nutzer zurückgeben.
