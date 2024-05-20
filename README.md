@@ -273,12 +273,6 @@ pip install -r requirements.txt
 
 ---
 
-## Prompt für zukünftige Gespräche:
-
-```plaintext
-Ich arbeite an einem Projekt zur Entwicklung eines KI-gestützten Tools für die automatisierte Textzusammenfassung von wissenschaftlichen Studien im Bereich Sport und Fitness. Ich brauche Unterstützung bei der Evaluierung verschiedener Ansätze, wie Lexikalische Methoden vs. neuronale Netze und Language Models, sowie bei der technischen Umsetzung des Tools.
-```
-
 # Plan zur Entwicklung eines KI-gestützten Textzusammenfassungstools
 
 ## Zusammenfassung der Ressourcen
