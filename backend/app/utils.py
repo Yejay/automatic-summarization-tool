@@ -12,13 +12,11 @@ def extract_text(file):
                 text += page_text
     else:
         text = file.read().decode("utf-8", errors="ignore")
-    # print(text, file=sys.stderr)
+    print(text, file=sys.stderr)
     return text
 
 def split_text(text, max_length, tokenizer):
-    inputs = tokenizer(
-        text, return_tensors="pt", truncation=True, max_length=max_length, padding=False
-    )
+    inputs = tokenizer(text, return_tensors="pt", truncation=True, max_length=max_length, padding=False)
     input_ids = inputs["input_ids"].squeeze(0).tolist()
     chunks = []
     current_length = 0
@@ -37,13 +35,26 @@ def split_text(text, max_length, tokenizer):
 
     return chunks
 
+def combine_summaries(summaries, tokenizer, summarizer, max_length):
+    combined_text = " ".join(summaries)
+    final_chunks = split_text(combined_text, max_length, tokenizer)
+    final_summary = []
+
+    for chunk in final_chunks:
+        summary = summarizer(chunk, do_sample=False)
+        final_summary.append(summary[0]["summary_text"])
+
+    return " ".join(final_summary)
+
 def map_reduce_summarize(text, max_length, summarizer, tokenizer):
+    # Split the text into smaller chunks
     chunks = split_text(text, max_length, tokenizer)
+
+    # First round of summarization (map step)
     first_round_summaries = []
     for chunk in chunks:
         summary = summarizer(chunk, do_sample=False)
         first_round_summaries.append(summary[0]["summary_text"])
 
-    combined_text = " ".join(first_round_summaries)
-    final_summary = summarizer(combined_text, do_sample=False)
-    return final_summary[0]["summary_text"]
+    # Combine summaries and perform a second round of summarization (reduce step)
+    return combine_summaries(first_round_summaries, tokenizer, summarizer, max_length)
