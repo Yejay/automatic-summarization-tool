@@ -1,11 +1,30 @@
+# Import necessary modules from the transformers library
 from transformers import pipeline, PegasusTokenizer
-from ..utils import extract_text, split_text, map_reduce_summarize
 
-# Initialize Pegasus summarizer and tokenizer
+# Import utility functions from the utils module
+from ..utils import extract_text, summarize_text
+
+# Initialize the Pegasus summarizer using the pre-trained "google/pegasus-pubmed" model
 pegasus_summarizer = pipeline("summarization", model="google/pegasus-pubmed")
+# Initialize the Pegasus tokenizer using the same pre-trained model
 pegasus_tokenizer = PegasusTokenizer.from_pretrained("google/pegasus-pubmed")
 
-def summarize_pegasus(file):
+
+# Function to summarize a text file using the Pegasus model
+def summarize_pegasus(file, max_length=512, min_length=30):
+    # Extract the text from the file
     text = extract_text(file)
-    combined_summary = map_reduce_summarize(text, 1024, pegasus_summarizer, pegasus_tokenizer)
-    return combined_summary
+    # Summarize the text using the Pegasus summarizer and tokenizer
+    # The text is split into chunks of 512 tokens, and the reduce step is used
+    ffinal_summary = summarize_text(
+        text,
+        chunk_size=512,
+        summarizer=pegasus_summarizer,
+        tokenizer=pegasus_tokenizer,
+        max_length=max_length,
+        min_length=min_length,
+        # Set to True to resummarize the combined text after the first round of summarization
+        use_reduce_step=True,
+    )
+    # Return the final summary
+    return final_summary
