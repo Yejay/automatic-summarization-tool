@@ -1,0 +1,18 @@
+Background: This study examined associations between students’physical fitness and physical activity (PA), as well
+as what specific physical fitness components were more significant correlates to being physically active in different
+settings for boys and girls.
+Methods: A total of 265 fifth-grade students with an average age of 11 voluntarily participated in this study. The
+students’physical fitness was assessed using four FitnessGram tests, including Progressive Aerobic Cardiovascular
+Endurance Run (PACER), curl-up, push-up, and trunk lift tests. The students’daily PA was assessed in various settings
+using a daily PA log for 7 days. Data was analyzed with descriptive statistics, univariate analyses, and multiple R-
+squared liner regression methods.
+Results: Performance on the four physical fitness tests was significantly associated with the PA minutes spent in
+physical education (PE) class and recess for the total sample and for girls, but not for boys. Performance on the four
+fitness tests was significantly linked to participation in sports/dances outside school and the total weekly PA
+minutes for the total sample, boys, and girls. Further, boys and girls who were the most physically fit spent
+significantly more time engaging in sports/dances and had greater total weekly PA than boys and girls who were
+not physically fit. In addition, the physically fit girls were more physically active in recess than girls who were not
+physically fit.
+Conclusions: Overall, students’performance on the four physical fitness tests was significantly associated with
+them being physically active during PE and in recess and engaging in sports/dances, as well as with their total
+weekly PA minutes, but not with their participation in non-organized physical play outside school.

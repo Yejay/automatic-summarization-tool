@@ -1,0 +1,256 @@
+ORIGINAL PAPER
+Architectural model for muscle growth during maturation
+Stefan Papenkort1  · Markus Böl2  · Tobias Siebert1
+Received: 16 February 2021 / Accepted: 9 July 2021 / Published online: 24 July 2021
+© The Author(s) 2021, corrected publication 2021
+Abstract
+Muscle architecture, which includes parameters like fascicle length, pennation angle, and physiological cross-sectional area, strongly influences skeletal muscles' mechanical properties. During maturation, the muscle architecture has to adapt to a growing organism. This study aimed to develop an architectural model capable of predicting the complete 3D fascicle architecture for primarily unipennate muscles of an arbitrary age, based on fascicle data for an initial age. For model develop- ment, we collected novel data on 3D muscle architecture of the rabbit (Oryctolagus cuniculus) M. plantaris of eight animals ranging in age from 29 to 106 days. Experimental results show that plantaris muscle belly length increases by 73%, whereas mean fascicle length and mean pennation angle increases by 39 and 14%, respectively. Those changes were incorporated into the model. In addition to the data collected for M. plantaris the predictions of the model were compared to existing literature data of rabbit M. soleus and M. gastrocnemius medialis. With an error of −1.0 ± 8.6% for relative differences in aponeurosis length, aponeurosis width, muscle height, and muscle mass, the model delivered good results matching interindividual dif- ferences. For future studies, the model could be utilized to generate realistic architectural data sets for simulation studies.
+Keywords Muscle model · Muscle architecture · Fascicle length · Pennation angle · Aponeurosis · Muscle morphology
+1 Introduction
+The muscle’s architecture strongly influences the skeletal muscle’s mechanical properties (Gans and Gaunt 1991;
+Wickiewicz et al. 1984; Woittiez et al. 1983). It is commonly characterized by parameters like the fascicle length, the physiological cross-sectional area (PCSA), the angle of pen- nation, and aponeuroses’ dimensions (Kupczik et al. 2015;
+Papenkort et al. 2020). Moreover, the free tendon length (if present) is often considered when the entire muscle-tendon- complex’s (MTC) mechanical behavior is of interest.
+In general, muscles with comparatively long fascicles show higher contraction velocities due to many sarcomeres in series. In contrast, comparatively short fascicles result in muscles with lower contraction velocity. However, when combined with a larger PCSA, they show an increased force production due to more parallel myofibrils (Lieber et al. 2000). On the MTC level, the ratio between muscle belly length and free tendon length plays an essential role in the system’s compliance and energetics (Mörl et al. 2016).
+MTCs with long tendons are, for example, able to store and recover large amounts of elastic energy during periodic movements.
+During maturation, the increase in bone size requires adjustments in muscle length. Additionally, increases in force production and thus PCSA are necessary to compen- sate for increasing body weight during growth. As a result, the muscle has to undergo architectural changes to remain functional. Many studies dealt with architectural investiga- tions of human and animal skeletal muscle (Bénard et al.
+1 Department of Motion and Exercise Science, University of Stuttgart, Stuttgart, Germany
+2 Institute of Mechanics and Adaptronics, Technische
+Universität Braunschweig, Braunschweig, Germany
+1 3 for different stages of maturation. Their results showed similar findings, where substantial increases in aponeurosis length accompanied increases in muscle belly length. Fas- cicle lengths increased as well, whereas pennation angles remained nearly unchanged. Furthermore, Papenkort et al.
+Different modeling attempts have been made to better understand and predict muscle growth. Various models deal with muscle architecture changes during active con- traction (Randhawa and Wakeling 2015) with a varying degree of abstraction. Here, muscles are often reduced to line segments (Zajac 1989) or two-dimensional objects
+However, to the best of the authors’ knowledge, no model deals with 3D muscle architecture changes during growth.
+As mentioned before, increases in fascicle and aponeuro- sis length differ strongly during maturation, suggesting that muscle growth, e.g., cannot be captured by simple scaling.
+However, a realistic representation of the muscle’s architec- ture is important to predict its function (Woittiez et al. 1983;
+Wickiewicz et al. 1984; Gans and Gaunt 1991).
+Therefore, this study presents a versatile 3D geometrical model that predicts different size muscles' architecture dur - ing maturation using fascicle coordinates from an initial data set. To provide model input, we collected new architectural data for the M. plantaris, spanning several months of age in rabbits. The study is structured as follows: The methods section starts with a description of the experimental data collection and includes definitions for considered architec- tural parameters considered. Another subsection introduces the architectural model. For model development, we used the entire experimental data of the M. plantaris. The results section starts with an analysis of the experimental data of the M. plantaris and continues with an analysis of model predictions for the M. plantaris, as well as the M. soleus
+(Papenkort et al. 2020) and M. gastrocnemius medialis (Sie- bert et al. 2017).
+2  Methods
+This study was exempted from ethical committee review according to national regulations (German Animal Welfare Act), as we obtained rabbits (Oryctolagus cuniculus) from a slaughterhouse immediately after animal sacrifice. During their life, the rabbits had free access to food and grew up in bigger cells allowing for almost natural movement pat- terns. We recorded the muscle architecture as 3D fascicle coordinates of the PLA of eight animals (R1 to R8) ranging in age from 29 to 106 days. For more information about the animals' age and weight, see Table  3.
+Preparations began by removing the left hind limbs' skin and thigh muscles, where the entire calf and foot section of the leg remained intact. We mounted the legs onto a frame to control ankle joint angles (65°) and knee joint angles (90°).
+Therefore, we inserted bone screws into the femur, distal tibia, middle foot, and front foot. Afterward, we stored the frames in Bouin’s solution (Böl et al. 2013), a fixative, for at least 7 d. The preparation process from slaughter to fixation took less than 3.5 h, during which the legs were cooled down and kept wet by applying  Ca++-free Krebs solution. Finally, the legs were molded in wax. Therefore, standard candle wax was melted and subsequently cooled down close to its solidi- fication point at around 40 °C in order to avoid heat damage to the tissue. The legs were placed upon the wax's surface and gently pushed into it, immersing them by approximately one half. After solidification, preparation ended by securely clamping the block of wax on a measuring table.
+For the muscle architecture acquisition, muscle fascicles were individually recorded with a Microscribe MLX digi- tizer with an internal accuracy of 0.076 mm. We went about this process by sequentially removing individual fascicles from the muscle belly with a tweezer, each leaving behind a small groove. While moving the measuring tip of the Micro- scribe MLX along this groove, coordinates were recorded at a frequency of 5 Hz, leading to a detailed geometric repre- sentation of the fascicle. Additionally, the muscle-tendon- complex's endpoints at the femur and Achilles tendon were recorded (raw data are available in the Online Resource).
+This methodology was validated in previous studies (Schenk et al. 2020; Wick et al. 2018; Papenkort et al.2020).
+The digitization process' result is a set of fascicle coor - dinates for several hundred fascicles, which were further processed with MATLAB (MATLAB R2018b, The Math-
+The fascicle’s length was computed as the sum of line segment lengths connecting the fitted fascicle points. For further definitions, we introduce a coordinates system
+( /u1D41E1,/u1D41E2,/u1D41E3 ) (cf. Fig.  2d), obtained by principal component
+1 3 analysis of fascicle endpoints. Here, /u1D41E1 and /u1D41E3 point in aponeurosis length and width direction, respectively, and together form the aponeurosis plane. They represent the average direction of the principal components for the indi- vidual aponeuroses shown in Fig.  7a.
+For this coordinate system, /u1D6FC is the transversal deviation of the fascicle’s projection from the aponeurosis length axis /u1D41E1 , and the pennation angle /u1D6FD is the vertical deviation from the aponeurosis plane. Furthermore, the aponeurosis length and width were defined for each of the two super - ficial aponeuroses as the largest distance of two aponeu- rosis points in /u1D41E1 and /u1D41E3 direction, respectively. The third principal component /u1D41E2 points in the normal direction of the aponeurosis plane. The distance of the two aponeurosis center-points with respect to /u1D41E2 was defined as the mus- cle's height. The muscle belly length was obtained by the same technique and followed to the largest distance of two fascicle points in /u1D41E1 direction. The free tendon length of the Achilles tendon's PLA compartment was derived by subtracting the muscle belly length from the recorded
+MTC length. For an estimation of the muscle’s volume
+Vm , we performed a boundary analysis on the entirety of tracked points by applying the MATLAB function bound- ary with a shrink factor of 0.6. The appropriate shrink factor ensured a tight fit around the point cloud that also included non-convex sections. The muscle mass resulted Fig. 1  Visualization of the
+PLA of rabbit R6. The bone geometry was obtained from a standard CAD model of a rabbit skeleton that was scaled and adjusted in joint angles to fit the tracking data
+Fig. 2  a Scaling in muscle belly length. The fascicle’s length dis- placement ul is parallel to the muscle’s length axis x . Its magnitude
+ΔxF depends on its location xF in relation to the muscle belly length
+LMB . b Scaling in muscle belly width. The fascicle’s transversal dis- placement ut is parallel to the transversal direction y− or y+ , depend- ing on the side of the muscle belly cross section. Its magnitude ΔyF depends on the distance yF , which is scaled according to Eq. (3). c Fascicle lengthening. Here, fascicle endpoint displacement u1 and u2 depends on the distance of the respective endpoint ( d1 or d2 ) to the muscle’s line of action (dashed line), according to Eq. (4). d Fasci- cle rotation. For changes in pennation angle between the fascicle and the aponeurosis plane /u1D6FD is changed by Δ/u1D6FD . The transversal angle /u1D6FC remains unchanged
+1 3 from multiplying the muscle’s volume with the skeletal muscle density of 1.056 g/cm−3 (Méndez 1960). Finally, we calculated the PCSA as where ̃LF is the mean fascicle length. Note that here fas - cicles are not necessarily at optimal length, implying that
+PCSA at optimal length may be different from what we com - pute here.
+For the presented architectural model, the assumption is made that muscle growth can be described by the superpo- sition of four distinct geometrical operations, namely scal- ing in the length direction, scaling in the width direction, fascicle lengthening, and fascicle rotation. The model was developed based on a predominantly unipennate muscle with two large, superficial aponeuroses, like the rabbit PLA.
+Scaling in the length direction is achieved by shifting individual fascicles in the aponeurosis’ length direction /u1D431 , where the magnitude of the displacement vector ΔxF can be expressed as
+(cf. Fig.  2a). Here, LMB is the muscle belly length and
+ΔLMB is the change in muscle belly length. xF represents the x-coordinate of the fascicle’s midpoint. fc>1 is a correction term ensuring that LMB is actually increasing by ΔLMB , since scaling is applied to fascicle midpoints and, therefore, a sub - domain Ω<(0,LMB) of the muscle. This correction factor can be determined based on the given fascicle coordinate input and does not need to be prescribed separately, for more information on the determination of fc , see “Appendix 2 .”
+Note, the operation of length scaling preserves the muscle’s height.
+For scaling in the width direction, the muscle cross sec- tion was divided into two sides with individual scaling direc- tions (cf. Fig.  2b). This distinction was made in order to preserve the muscle’s cross-sectional shape for muscles with non-planar aponeuroses. Fascicles on both sides of the divid - ing plane were shifted in a direction that considers the local aponeuroses directions on the respective side, which were once again obtained by principal component analysis (see
+“Appendix 3”). Magnitudes for the displacement in trans- versal direction ΔyF were obtained similar to Equation (2 ).(1) PCSA =Vm
+̃LF,
+LMB⋅fc
+WMB.Here, yF represents the distance of the fascicle’s center-point from the dividing plane in /u1D432 direction, where /u1D432 can be /u1D432− or
+/u1D432+ (cf. Fig.  2b).
+In the next step, fascicles were lengthened by ΔLF . In gen- eral, fascicles do not have to end on external aponeuroses.
+For compartmentalized muscles, they can also insert into internal aponeuroses, a previously reported finding for the rabbit PLA (Böl et al. 2015). To minimize fascicle protru- sion of internal structures, fascicle endpoint displacement /u1D42E was modeled in proportion to the point’s distance d to the muscle’s line of action where the index refers to the respective fascicle endpoint
+(cf. Fig.  2c), and /uni007C.x/uni007C.x/u1D42E1/uni007C.x/uni007C.x+/uni007C.x/uni007C.x/u1D42E2/uni007C.x/uni007C.x=ΔLF . Note, this stretching in length direction leads to an increase in muscle height and to a reduction in fascicle curvature.
+Finally, to capture changes in pennation angle /u1D6FD , the fas- cicles were rotated by Δ/u1D6FD in the vertical plane shown in
+Fig. 2d. Fascicles were rotated about their centers, resulting in a pure rotation without translation, since the center of the fascicles remained fixed during transformation. The trans- versal angle /u1D6FC remained unchanged. This operation again affects the muscle’s height.
+The operations above are applied to each fascicle of the data set. Prescribed input arguments are the four parame- ters muscle belly length change ΔLMB , muscle belly width change ΔWMB , fascicle length change ΔLF and pennation angle change Δ/u1D6FD . Note that fascicle length change and pen- nation angle change are assumed constant and are, therefore, equal for every fascicle. Figure  3 shows a summary of the model, including its input and output. Since the above-men- tioned architectural parameters were used as the input, they are not suitable for subsequent error estimation. Instead, we focused our analysis on the relative error between measured values and model predictions for the derived parameters aponeurosis length, aponeurosis width, muscle height, and muscle mass.
+3  Results
+During growth, all architectural parameters of the PLA expe- rienced increases (cf. Fig.  4). From 29 to 106 d, muscle belly length increased by 73%, whereas mean fascicle length increased by 39% (p = 0.0037). The mean angle of pennation
+/u1D6FD increased by 14% but this difference did not reach sig- nificance (p = 0.109). Moreover, muscle belly length growth seems to reach a saturation state (cf. Fig.  4a). Besides, (4)/uni007C.x/uni007C.x/u1D42E2/uni007C.x/uni007C.x
+/uni007C.x/uni007C.x/u1D42E1/uni007C.x/uni007C.x=d2 d1,
+1 3 fascicle length distributions for individual animals showed normal distribution patterns with similar standard deviations
+(cf. Fig.  4b, colored areas). The lateral angle /u1D6FC was notably smaller than /u1D6FD (cf. Fig.  4c) and showed a strong correlation
+(R = 0.74) with age, however, absolute increases were small.
+For growth from 29 to 106 d, /u1D6FC and /u1D6FD increased by 2.2° and
+The fascicle length was further evaluated for the fascicle’s normalized midpoint position along the muscle belly length axis
+̃x (cf. Fig.  5a). Results indicate increases in fascicle length from proximal to distal. However, there is no apparent change in the distribution pattern with age. Also, fascicle length was evaluated for the polar angle of its midpoint coordinates in the transversal plane (cf. Fig.  5b). Here, polar angles of 0° and 90° correspond to the posterior and lateral directions. Results show only a weak dependency of the fascicle length on the polar angle, where polar plots almost resemble circular shapes. Furthermore, there is no change in the distribution pattern from younger to older animals. For older animals, curves merely expand to higher lengths while maintaining their circular shapes.Finally, we evaluated the aponeurosis length, aponeuro- sis width, PCSA, muscle mass, and free tendon length, which increased (from youngest to oldest animal) by 76%, 162%, 478%,
+705%, and 81%, respectively. Detailed documentation of numeri- cal data for architectural parameters can be found in Table  3.
+We investigated the model predictions for older animals
+(R3-R8) based on fascicle data from the youngest animal
+(R1). Note that R1 and R2 are the same age. The parameter input for each prediction could be obtained from Table  3.
+Figure  6 exemplarily shows the model prediction for the oldest animal (R8).
+The relative error of the model for aponeurosis length, aponeurosis width, muscle height, and muscle mass is given in Table  1. Results show that errors stayed below ± 10% for the entire age range except for the muscle mass. Here, the maximum error reaches a value of −17.3%. On average, for all metrics and ages, the PLA's model error resulted in Fig. 3  Visualization of the model’s workflow as well as its input and output. The input consists of a fascicle data set and the four input parameters muscle belly length change
+ΔLMB , muscle belly width change ΔWMB , fascicle length change ΔLF and pennation angle change Δ/u1D6FD . The model starts with a preprocessing step where the muscle’s coordinate system
+( e1,e2,e3 ) (cf. Fig. 2d), the muscle belly dimensions LMB and WMB , the correction factor fc and the transversal direc- tions y− and y+ are determined
+(for further explanations see
+“Appendix 2” and “Appendix
+3”). Subsequently, model opera- tions are applied to each fascicle individually via a loop. The output resembles a new fascicle data set for the same muscle at a different size
+1 3
+−0.9 ± 6.0%. The agreement of fascicle length distributions of experimental data and model predictions is shown in the right column of Fig.  6.
+Next, the model was tested for different calf muscles.
+For this purpose, the SOL and GM were chosen. Fasci- cle data for these muscles were obtained from Papenkort et al. ( 2020 ) and Siebert et al. ( 2017 ), respectively. Results for 3D architectures and model errors are again shown in Fig.  6 and Table  1. For SOL, results are in a similar range compared to the results for the PLA. However, the mus- cle mass shows slightly higher errors, where individual errors are between 10 and 20%. The GM shows increased errors for the younger prediction ages, again not exceeding
+20%, but very accurate results for older ages (cf. Table  1).
+Again, fascicle length distributions of model predictions and experimental data were in good agreement for both Fig. 4  Evolution of the architectural parameters of the
+PLA. a Muscle belly length with respect to age. Triangles indicate measured lengths for individual muscles. The dashed line represents a quadratic fit through the dataset. b Violin plot for the fascicle lengths with respect to age. Areas indicate probability distributions. Bars show standard deviations, and dots represent mean fascicle lengths. The dashed line rep- resents a linear regression line for the mean fascicle lengths of individual muscles. c The pen- nation angle with respect to age.
+Here, triangles represent meas- ured mean angles. The dashed lines represent linear regression models, and the colored areas indicate standard deviations
+1 3 muscles (cf. Fig.  6 right column). The overall model error for all muscles, ages, and error metrics resulted in
+−1.0 ± 8.6%. It should be noted that the predictions of the
+GM were based on a comparatively sparse data set of 78 fascicles (Siebert et al. 2017), compared to 115 and 252 fascicles for the SOL and PLA, respectively.4  Discussion
+In this study, an architectural model was developed that predicts the three-dimensional muscle architecture during maturation. The model was validated for three different calf muscles, namely PLA, SOL, and GM. An overall error Fig.5  Growth in fascicle length for the transversal plane and muscle belly length axis. a
+Sagittal view on the leg with a plot of the fascicle length LF along the normalized muscle belly length axis ∼x . b Fascicle length displayed in the transver - sal plane in polar coordinates.
+Data points were obtained by evaluating the polar angle for every fascicle in combination with its length. Lines represent smoothing spline fits through these data (MATLAB: smooth- ing parameter p = 0.999). Line colors refer to the same legend as in a
+1 3 of −1.0 ± 8.6% and a maximum error of 19.0% for all mus- cles (PLA, SOL, GM), error metrics (aponeurosis length, aponeurosis width, muscle height, muscle mass), and ages, indicated a good quality of the model’s predictions. We analyzed the PLA architecture of eight rabbits, ranging in age from 29 to 106 d, obtained by manual digitization for model development. This experimental method is consid- ered to be very reliable since its data acquisition depends on the specimen's direct inspection. Results revealed major increases in muscle belly length (73%) that were accom- panied by similar increases in aponeurosis length (76%) and even higher increases in aponeurosis width (162%).
+Fascicle length and pennation angle increased to a lesser extent by 39% and 14%, respectively.4.1  Model considerations
+The developed four-parameter model incorporates changes in muscle belly length, muscle belly width, mean fascicle length, and mean pennation angle, and predicts the 3D fas- cicle architecture for an arbitrary age based on a given initial data set.
+The scaling in muscle length, where fascicles are shifted in the aponeurosis length direction, was motivated by similar increases in muscle belly length (73%) and aponeurosis length (76%). However, the pronounced differ - ences in aponeurosis length growth (76%) to aponeurosis width growth (162%) required independent scaling in the transverse direction. Furthermore, due to the non-planar
+Fig. 6  Model predictions and experimental data. (top row) Model prediction for the PLA of rabbit R8. Besides, model predictions for the muscles SOL (middle row) and GM (bottom row) are shown.
+1 3 geometry of the proximal, superficial PLA aponeurosis
+(cf. Fig.  5), with a distinct crest running centrally along the aponeurosis, the muscle cross section was divided into two parts, with separate directions ( /u1D432− , /u1D432+ ) for transversal scaling (cf. Fig.  2b). This distinction preserved the overall muscle shape during maturation, which was observed for the PLA. Changes in aponeurosis size are generally assumed to be connected to muscle fascicle thickness changes since aponeuroses represent the fascicles' attachment sites. Dom- inating contributions to muscle belly length growth by increases in fascicle width were also explicitly reported by
+For the fascicle length, homogeneous growth was observed. Fascicle length distributions in Fig.  4b show a similar standard deviation for animals of different age.
+Moreover, Fig.  5 shows that distribution patterns for fasci- cle length are preserved during maturation. These findings motivated a constant lengthening of fascicles by ΔLF.
+Changes Δ/u1D6FD in pennation angle were comparably small but were nevertheless taken into account because of its connection to muscle height. Since muscle height changes were comparably small in absolute terms, incorporating even small pennation angle changes had a strong influ- ence on the model results. Furthermore, more profound changes in the pennation angle, and muscle height, are documented for other muscles (Binzoni et al. 2001).
+For the three muscles investigated in this study (PLA,
+SOL, GM), the model yielded accurate results with an overall error of −1.0 ± 8.6% and a maximum error of
+For the PLA and SOL, the model input data were obtained from a 29 d old animal
+For the GM, the initial data set was from a 21 d old animal. For the aponeuroses, values refer to the average length and width of the proximal and distal aponeurosis. Note that the prediction is shown for 5 PLA muscles, as R1 was the initial data, and there were two data sets for 29d and
+64d (see Table  3). Experimental input and reference data for the SOL and GM were taken from (Papenkort et al. 2020) and (Siebert et al. 2017), respectively.Muscle Age of predic- tion (d)Aponeurosis length (%) Aponeurosis width (%) Muscle height (%) Muscle mass (%)
+PLA 33 5.3 3.8 − 5.9 0.4
+PLA 64 − 2.1 0.4 8.5 − 3.6
+PLA 78 − 4.8 0.4 2.2 4.7
+PLA 86 − 4.4 0.5 − 7.2 − 17.3
+PLA 106 − 2.5 1.2 8.1 − 6.5
+PLA Mean ± Std – − 1.7 ± 4.1 1.3 ± 1.5 1.2 ± 7.4 −4.5 ± 8.3
+SOL 33 15.8 − 15.9 − 17.2 − 17.0
+SOL 64 − 1.1 − 2.8 2.9 1.3
+SOL 78 − 3.5 − 1.9 5.1 14.5
+SOL 86 − 4.7 − 2.3 3.5 14.3
+SOL 106 − 5.0 − 1.2 4.5 − 12.3
+SOL 109 1.4 − 2.5 − 3.6 − 11.8
+SOL Mean ± Std – 0.5 ± 7.9 − 4.4 ± 5.6 −0.8 ± 8.6 −1.8 ± 14.0
+GM 37 13.8 10.5 − 12.7 − 0.1
+GM 50 − 13.7 − 0.9 19.0 − 18.8
+GM 70 − 1.7 0.3 14.8 − 3.8
+GM 100 − 4.5 − 2.1 3.8 − 9.1
+GM Mean + Std – − 1.5 ± 11.5 2.0 ± 5.8 6.2 ± 14.1 − 8.0 ± 8.1
+Aponeurosis length 106% | 72.0 mm 77% | 29.9 mm
+Aponeurosis width 165% | 32.9 mm 163% | 12.5 mm
+Muscle belly length 86% | – 73% | 36.4 mm
+Muscle mass 544% | 7.94 g 703% | 6.13 g
+PCSA 672% | 652  mm2478% | 290  mm2
+Fascicle length 4% | 0.5 mm 39% | 5.3 mm
+1 3 almost identical to the 19.0% found in model predictions.
+Individual errors for the other error metrics followed to
+To the best of the authors’ knowledge, there is only one study in the literature dealing with architectural changes in the developing rabbit PLA (Böl et al. 2016). However, this study did not measure 3D fascicle architecture but mainly focused on the PLA muscle-tendon complex's morphomet- ric measures and its isolated aponeuroses. Linear regres- sion models were evaluated so that data matched the growth period of 29 d to 106 d as investigated in the present study.
+A detailed comparison of the results is shown in Table  2.
+The increased angle might, in part, stem from increasing pennation angles at the shorter length.
+The aforementioned large growth in muscle belly length is accompanied by a similar tendon length growth (cf. Table  3), leading to a change in the tendon-muscle fascicle length ratio (Siebert et al. 2017). This ratio is of critical functional importance (Biewener 1998; Mörl et al. 2016). Muscles with a small tendon-fascicle length ratio show only small amounts of elastic recoil and act primarily as motors in concentric contractions, as in the pigeon pectoralis muscle (Biewener
+During active contractions, positive strains in perpendicular direction account for a higher stiffness in the aponeurosis’s length direction (Raiteri 2018). The increased stiffness of the aponeurosis results in a more responsive system, which may be advantageous compared with a system in which the contribution of a tendon lacking the potential of stiffness modulation dominates the series elastic component length.
+Similar to the tendon length, growth in PCSA far exceeds the increases in fascicle length, resulting in a muscle with a higher fascicle width to length ratio. For thicker fascicles, an increased number of myofibrils in parallel leads to increased force production. Fascicle length, on the other hand, can directly be linked to the contraction velocity. Due to an increased number of sar - comeres in series, longer fascicles show a higher veloc- ity of contraction. Comparably short muscle fascicles also lead to a shorter range of motion. An effect that may be partially be compensated for by architectural gear - ing (Azizi et al. 2008), in which muscle length changes exceed fascicle length changes during shortening contrac- tion due to a change in the pennation angle, allowing the muscle to generate forces over a longer range of motion.
+During rabbit PLA development, our data show a clear trend in favor of force production with increasing age.
+Analysis of the aponeurosis width shows that increases in PCSA are primarily achieved by increases in muscle width. These increases in PCSA are presumably neces- sary due to an increasing overall body weight. However, a lower ratio of PCSA to muscle fascicle length, which favors contraction velocity, appears to be advantageous in predatory situations where younger animals are par - ticularly vulnerable.
+In this study, the PLA architecture of rabbits during mat- uration was analyzed and an architectural model for 3D muscle growth was derived. Based on a specific, initial
+1 3
+3D data set, the model requires the input of only four parameters to predict the whole 3D fascicle architecture of the muscle at a different age. According to the model approach, growth could be described by a superposition of scaling in the length direction, scaling in the width direc- tion, fascicle lengthening, and fascicle rotation, with all operations applied homogeneously over the entire domain.
+The analysis of experimental data showed that muscle growth (72% in muscle belly length) is primarily facili- tated by increases in aponeurosis dimensions (76% and
+162% in length and width, respectively), whereas mus - cle fascicle length and pennation angle increased by only
+39% and 14%, respectively. The model can make accurate predictions for the architecture of three different rabbit calf muscles, namely PLA, SOL, and GM, supporting the validity of the model assumptions and suggesting that it captures primarily unipennate muscles' general growth characteristics. The analysis of the error in this study focused on metrics related to the entire muscle, such as muscle height and volume, and yielded an overall error of
+− 1.0 ± 8.6%. Moreover, fascicle length distributions were accurately predicted by the model.
+In the future, the presented model could be used in basic research and clinical applications to generate architectural datasets for unknown stages during growth that can be used as input for subsequent simulations on the mechani- cal behavior of skeletal muscle (Blemker et al. 2005; Sey - dewitz et al. 2019; Röhrle et al. 2017). To achieve realistic results in such simulations, it is essential to incorporate models that feature actual growth characteristics (Gans and Gaunt 1991; Woittiez et al. 1983) and avoid over - simplified approaches in which muscles are, for example, volumetrically scaled to a given target length.
+Appendix 1: animal information and results
+See Table  3.
+Table 3  Summary of the numerical data on the progression of architectural parameters with age
+The pennation angle refers to the angle β in Fig.  2d. Parameters that refer to muscle fascicles refer to mean values for the entire muscle. The values for the aponeurosis length and width refer to mean values between the proximal and distal aponeurosis. An additional column at the right depicts the relative changes Δ% between rabbit R1 and R8Rabbit ID R1 R2 R3 R4 R5 R6 R7 R8 Δ% R1 → R8
+Age [d] 29 29 33 64 64 78 86 106 266
+Animal mass [kg] 0.80 0.60 0.76 2.30 2.46 2.00 3.06 5.00 525
+Ankle joint angle [°] 56.5 62.9 54.2 71.5 63.0 60.6 66.1 60.3 –
+Knee joint angle [°] 81.6 83.4 82.6 88.4 87.8 89.8 83.7 87.1 –
+Muscle belly length [mm] 50.8 50.4 49.1 78.6 74.2 77.5 74.0 87.2 72
+Fascicle length [mm] 13.7 ± 1.2 13.8 ± 1.2 15.3 ± 1.0 16.2 ± 1.5 16.0 ± 1.2 16.6 ± 1.4 15.4 ± 1.4 19.0 ± 1.3 39
+Pennation angle /u1D6FD [°] 11.6 ± 4.6 10.1 ± 3.6 7.8 ± 3.6 10.8 ± 5.2 12.1 ± 5.4 9.3 ± 5.1 14.6 ± 6.4 13.2 ± 5.6 14
+Muscle mass [g] 0.87 0.71 0.65 3.28 3.13 2.37 5.04 7.00 705
+PCSA  [mm2] 60.6 49.1 40.1 192.1 185.0 134.9 310.5 350.3 478
+Free tendon length [mm] 14.5 14.2 13.6 22.6 22.4 7.6 30.5 26.3 81
+Aponeurosis length [mm] 38.7 37.0 35.3 62.6 61.0 62.0 59.5 68.0 76
+Aponeurosis width [mm] 7.7 7.3 6.9 14.6 14.6 12.4 17.6 20.2 162
+1 3
+Appendix 2: length scaling
+For muscle belly length scaling, a fascicle is shifted in length direction, based on the location of its center-point xF . In order to achieve muscle belly lengthening by ΔLMB , fascicle displacement ΔxF can be calculated viawhere Lref is the distance of the most proximal and most distal fascicle in muscle belly length direction, see Fig.  7b
+Comparing Eqs. (5 ) to (2 ), the correction term fc follows to(5) ΔxF=xF⋅ΔLMB
+Lref,
+Fig. 7  Length and transversal scaling. a Muscle belly with fascicles as red tubes. Fascicle endpoints correspond to points on an aponeu- rosis. e/uni2032.var
+1 , e/uni2032.var
+3 and e/uni2032.var/uni2032.var
+1 , e/uni2032.var/uni2032.var
+3 denote the first and second principal compo- nent of the aponeurosis points of the first and second aponeurosis, respectively. b Muscle belly with only its most proximal (O) and dis- tal (I) fascicle. Here, LMB and Lref define the muscle belly length and the reference length for scaling, respectively. c Top view of a single aponeurosis. Individual aponeurosis points (fascicle endpoints) are drawn in gray. The aponeurosis is divided by a circle with the center- point Ccirc and the radius Rcirc that runs through the points P1 , P1,int ,
+P2 , P2,int and P3 . Its construction is based on the vectors v1 and v2 and the lines g1 and g2 . d Dividing planes for the assignment of points to one side of the muscle. Individual planes are determined based on the aforementioned points P1 , P1,int , P2 , P2,int and P3 of each aponeuro- sis. The center-point Cplane of the plane follows as the center-point of the four points defining the plane. The plane’s normal vector nplane is calculated based on the normal vectors n and n∗ of line segments on aponeurosis 1 and aponeurosis 2. e Transversal directions of the muscle belly. Gray points indicate aponeurosis points assigned to the positive side of the muscle. Light red points indicate points assigned to the negative side of the muscle. Local directions e�
+1+ , e�
+3+ and e��
+1+ , e��
+3+ follow from principal component analysis of the respective aponeurosis and muscle side. The transversal directions y+ is calcu- lated based on e�
+3+ and e��
+3+ . f Transversal distance yF for a fascicle on the positive side of the muscle. yF can be computed based on the plane’s center-point Cplane , the plane’s normal vector nplane , the posi- tive transversal direction y+ and the fascicle’s center-point Cfasc . X denotes the projection of Cfasc onto the dividing plane in direction of y+
+1 3
+Appendix 3: transversal scaling
+In order to preserve muscle shape during transversal scaling, the muscle belly is divided into two sides with individual scaling directions for fascicles on each side. The calculation of the muscle sides starts with determining the center line on an aponeurosis which is approximated by a circle (cf.
+Fig. 7c). To calculate the center line, first the most proximal and distal points (  P1 and P3 ) of the aponeurosis are deter - mined. Furthermore, the center-point ( P2 ) is calculated. Vec- tors from P2 to P1 ( v1 ) and P2 to P3 ( v2 ) represent secants of the circle. Therefore, a line g1 perpendicular to v1 that inter - sects v1 half way, points in radial direction. In a similar way, we construct a line g2 . Since g1 and g2 both point in radial direction, they intersect at the center-point Ccirc of the circle.
+Now, the radius Rcirc of the circle can be identified based on the distance between Ccirc and P2 . We now want to approxi- mate the circle in the region of interest by 4 straight line seg- ments. Therefore, we determine two additional, intermediate points on the circle P1,int and P2,int.
+Based on the points [  P1 , P1,int , P2,P2,int,P3 ] of both aponeuroses, we defined four intersection planes via their normal form that divide the muscle into two sides (cf.
+Fig. 7d). Plane 1 for example was determined by [ P1 , P1,int ,
+P∗
+1,int , P∗
+1 ], where “*” indicates that the point belongs to the second aponeurosis. The center-point of these four points determines the point Cplane of the plane. Its normal vector follows to where n1 and n2 are normal vectors of the line segments
+(P1,P1,int) and (P∗
+1,P∗
+1,int) in the respective aponeurosis plane.
+For the transversal directions y− and y+ we first assigned each fascicle endpoint on an aponeurosis to its respective side. Therefore, we determined the dividing plane with the closest center-point distance to the fascicle endpoint of interest. In the next step, we determined if the fascicle endpoint lied on the positive muscle side as indicated by the direction of the normal vector of the dividing plane, or on the negative, opposite side. Based on this analysis we carried out principal component analyses of the fascicle endpoints on each side of the two aponeuroses indepen- dently (cf. Fig.  7e). We defined the transversal direction for each side as.(6) fc=LMB
+Lref.
+For computational purposes we can describe the plane in its normal form where x  is the location of an arbitrary point on the plane.
+For the line segment this point can be expressed as
+Inserting Eq. (4 ) into Eq. (3 ) and solving for yF leads to
+Acknowledgements This work was supported by the Deutsche
+Forschungsgemeinschaft (DFG) under Grants SI 841/13–1 and BO
+Author’s contributions M.B. and T.S. conceived and developed the ideas. T.S. and S.P. designed the experiments. S.P. performed the meas- urements and developed the model. S.P. analyzed the data, prepared the figures, performed the statistical analyses and drafted the first version of the manuscript. M.B. and T.S. assisted by drafting the final version of the manuscript. All authors gave final approval for publication.
+Funding Open Access funding enabled and organized by Projekt
+DEAL. This work was supported by the Deutsche Forschungsgemein- schaft (DFG) under Grants SI 841/13–1 and BO 3091/19–1.
+Availability of data and material All necessary data and information are provided in the Online Resource so that published research is fully reproducible and the results reported can be verified.
+Code availability An implementation of the architectural in MATLAB
+(MATLAB R2018b, The MathWorks, Inc., Natick, MA, USA) is pro- vided in the online resource.
+Declarations
+Conflicts of interest The authors declare no competing interests.
+Ethics approval This study was exempted from ethical committee review according to national regulations (German Animal Welfare
+Act), as animals were obtained from a slaughterhouse after animal sacrifice.(8)y+=(/u1D41E�
+3++e��
+3+)∕/uni007C.var/uni007C.var(/u1D41E�
+3++e��
+3+)/uni007C.var/uni007C.var, y−=(/u1D41E�
+3−+e��
+3−)∕/uni007C.var/uni007C.var(/u1D41E�
+3−+e��
+3−)/uni007C.var/uni007C.var.
+1 3
+Consent to participate Not applicable.
+Consent for publication All authors have given their consent for pub- lication.
+Open Access This article is licensed under a Creative Commons Attri- bution 4.0 International License, which permits use, sharing, adapta- tion, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http:// creat iveco mmons. org/ licen ses/ by/4. 0/.
+References
+Effects of growth on geometry of gastrocnemius muscle in chil- dren: A three-dimensional ultrasound analysis. J Anat 219:388–
+Binzoni T, Bianchi S, Hanquinet S, Kaelin A, Sayegh Y, Dumont
+Anthropol Appl Hum Sci 20:293–298. https:// doi. org/ 10. 2114/ jpa. 20. 293
+Biomech 38:657–665. https:// doi. org/ 10. 1016/j. jbiom ech. 2004.
+Rec 300:1123–1136. https:// doi. org/ 10. 1002/ ar. 23538
+Böl M, Leichsenring K, Ernst M, Wick C, Blickhan R, Siebert T
+Mech Behav Biomed Mater 51:25–39. https:// doi. org/ 10. 1016/j. jmbbm. 2015. 06. 026
+Böl M, Leichsenring K, Weichert C, Sturmat M, Schenk P, Blickhan
+12:1205–1220. https:// doi. org/ 10. 1007/ s10237- 013- 0476-1
+J Biomech 24:53–65
+Kupczik K, Stark H, Mundry R, Neininger FT, Heidlauf T, Röhrle
+199:93–101
+Metabolism 9:184–188
+382:57–63. https:// doi. org/ 10. 1016/j. jtbi. 2015. 06. 001
+Mechanobiol 16:743–762
+Physiol A Physiol 111:569–575
+Mechanobiol 18:1665–1681
+Siebert T, Leichsenring K, Rode C, Wick C, Stutzig N, Schubert H,
+Changes in three-dimensional muscle structure of rabbit gas - trocnemius, flexor digitorum longus, and tibialis anterior during growth. J Mech Behav Biomed Mater 74:507–519. https:// doi. org/
+Locomot 11:191–249
+LAB Central File Exchange
+Weide G, Huijing PA, Maas JC, Becher JG, Harlaar J, Jaspers RT
+Muscle architecture and force-velocity relationships in humans. J
+Appl Physiol 57:435–443
+Eng 17:359–411
+Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.

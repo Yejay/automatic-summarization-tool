@@ -1,0 +1,226 @@
+STUDY PROTOCOL Open Access
+Study protocol: a randomized controlled trial study on the effect of a game-based exercise training program on promoting physical fitness and mental health in children with autism spectrum disorder
+Clare C. W. Yu1*, Simpson W. L. Wong2,3, Farica S. F. Lo5, Raymond C. H. So4and Dorothy F. Y. Chan5
+Abstract
+Background: Suboptimal physical activity levels and tolerance, poor motor skills and poor physical health are demonstrated in children with Autism Spectrum Disorder (ASD). We speculate that social interaction and communication deficits in children with ASD are two major factors that hinder these children from actively participating in group physical activities. While previous studies have demonstrated that exercise intervention improves motor skills and behavioral outcomes in children with ASD, these programs tend to focus only on a single sport, which may not cater to the interests of different children with ASD. In this protocol, a game-based exercise training program designed by a multi-disciplinary team (pediatrics, physical education and psychology) will be implemented by front- line healthcare providers trained following the train-the-trainer (TTT) model and subjected to validation.
+Method: Using a randomized controlled trial design, the effectiveness of the game-based exercise program will be examined for 112 young children with ASD. These children were randomly assigned to two groups, which will be tested and trained in either one of the two arms of the waitlist conditions (control and intervention). The assessment of physical and psychological traits will be conducted at baseline (pre-test), at 16-weeks (post-treatment) and at 32- weeks (follow-up) of the program.
+Discussion: Most of the interventions designed for ASD children target either their psychological traits or physical conditions, without bridging the two states. With the recognition of bidirectional relations between mental and physical health, the present game-based exercise program which includes multiple level of difficulties was developed to equip ASD children with the necessary skills for engaging in sustainable team sports or even professional sport training. The program, if effective, will provide an entertaining and engaging training for whole-person development among children with ASD.
+Trial registration: This study is registered with the Chinese Clinical Trial Registry ( ChiCTR-IOR-17011898 ). Registered 6th
+July 2017.
+Keywords: Autism Spectrum Disorder, Game-based learning, aerobic exercise, Physical health, Psychological well-being
+* Correspondence: yucw@eduhk.hk ;clarecwyu@gmail.com
+1Department of Health and Physical Education, The Education University of
+Hong Kong, 10 Lo Ping Road, Tai Po, New Territories, Hong Kong
+Full list of author information is available at the end of the article
+© The Author(s). 2018 Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+Background
+The prevalence of Autism Spectrum Disorder (ASD) is increasing globally, and Hong Kong is of no exception
+Kong children have increased remarkably, with 184% new cases reported from year 1997 to 2005 [ 3]. ASD is characterised by a number of neurodevelopmental-based impairments, including social interaction and communi- cation deficits, repetitive and stereotypical behaviours and interests [ 4]. Apart from the core diagnostic symp- toms, many ASD children may also have impairments in the cognitive-behavioural and perceptuomotor domains, motor function, as well as static and dynamic balance
+[6,7]. Motor skills in ASD children are typically poorly developed or delayed [ 8], and sadly, ASD in children is often comorbid with developmental coordination dis- order [ 9]. These deficiencies in motor control, coupled with a lack of engagement in physical activity, make in- dividuals with ASD prone to chronic diseases [ 10].
+Obesity, for example, is highly prevalent amongst chil- dren with ASD [ 5,10].
+Five previous reviews have been conducted regarding the impact of physical activity or exercise intervention on children and adults with ASD [ 11–15] and all report promising results. Apart from improvements in motor skills, improvements on numerous behavioural out- comes including stereotypic behaviours, social-emotional functioning, cognition and attention have also been re- ported in children after physical activity or exercise intervention [ 12,13]. Vigorous exercise was reported to have a more pronounced effect than milder less strenu- ous exercise [ 12,16–19]. However, studies that use a randomized controlled trial (RCT) design [ 20–24]o r focus on younger children (4 to 6 years old) [ 25] are very limited. Among the existing studies with children, jog- ging and swimming are the two most common exercises selected as the core component of the intervention.
+Other exercise items include horseback riding, martial arts, resistance training, yoga and dance [ 12,13].
+To encourage children with ASD to engage in physical activity, more support for these children and their par- ents is necessary. The present study implements a multidimensional training program that incorporates el- ements such as aerobic and resistance training, funda- mental movement skills, speed, plyometric and agility development, etc. to benefit these children, especially the younger age group [ 26]. The multidimensional de- sign of the exercise training program aims to strengthenthe fundamental physical conditions that support a var- iety of sports and exercise activities. The incorporation of multiple sport skills also prevents the risk of overuse injuries when performing a single exercise training in the long run [ 26]. To the best of our knowledge, no studies of exercise training program with multidimen- sional training elements in young children with ASD have been published. Thus, our research team consisting of experts from multiple disciplines such as pediatrics, psychology, sport sciences and physical education de- signed the present game-based exercise program to pro- vide more comprehensive support for children with
+ASD. Furthermore, we adopted a train-the-trainer
+(TTT) model to facilitate the sustainable use of the pro- gram in the community. Following this model, we trained a group of front-line healthcare providers from non-governmental organizations, who in turn imple- mented the training on children.
+The training program in the present study was de- signed specifically to cater to children. The exercise activities were presented to children in the form of games, with each game carefully designed such that it has elements that train both physical and mental abil- ities. In addition, the games were designed to include various levels of difficulty so that trainers can admin- ister the game at appropriate levels for children. This may also motivate children to progress to higher levels in the course of the training. In this study pro- posal, the impact of our exercise program on the physical and psychological conditions of children with
+ASDs was hypothesized. The success of the program will also provide support for the feasibility of the train-the-trainer model.
+Aims and hypotheses
+The first aim of this study was to test the effectiveness of a supervised game-based exercise training program in promoting motor skills and physical fitness, as well as reducing stereotypical and maladaptive behaviours in preschool children with ASD. These physical abilities served as the primary outcomes, while social and lan- guage skills were measured as secondary outcomes. Sec- ondly, this study also aimed to evaluate the efficacy of this program as implemented by front-line healthcare providers through the train-the-trainer approach. We hypothesized that when compared to the waitlist control group, the exercise training program will lead to (1) in- creased motor skills and physical fitness and reduced stereotypical and maladaptive behaviours in preschool children with ASD; thus providing evidence for (2) the feasibility and sustainability of this supervised tailor- made exercise training program for young children with
+Methods/Design
+Study design
+This is a randomized controlled trial (RCT) study registered with the Chinese Clinical Trial Registry (ChiCTR-IOR-
+Participants
+With an agreed partnership w ith a local non-governmental organization (NGO), children were recruited through the community centers within this NGO. Front-line healthcare providers (mainly social work ers) from these centers was recruited as trainers to implement the supervised exercise training program for children with ASD after completing the train-the-trainer worksh op. Children aged 4 to 6 years old with a formal diagnosis o f either Autism, Autisticfeatures, Autism Spectrum disorder, Asperger Syndrome,
+Pervasive Developmental Disorder by Developmental Pae- diatricians or Clinical Psychologists based on the Fourth
+Edition of the Diagnostic and S tatistical Manual of Mental
+Disorder (DSM-IV) were invited to join the study[ 27]. Chil- dren with underlying congenit al abnormalities or other dis- eases that limit them to part icipate in daily physical activities was excluded from the study.
+Intervention
+The exercise program is a 16-week game-based exercise training program. Two sessions will be run each week to form a total of 32 sessions over 16 consecutive weeks.
+Each session will last for an hour. Six to eight stations will be set up and children will be instructed to finish the exercises in all stations one after another in a fixed order. After finishing a circuit of the prescribed exercises in a particular session, children will be guided by front- line healthcare providers to complete another circuit of the prescribed exercises. Three circuits of prescribed ex- ercises are expected to be finished within a training ses- sion. The exercises in different stations are designed to train various muscle groups or fitness components. Ex- ercise stations within an exercise session will be changed
+The program encapsulates physical, social, linguistic and communication skills training aspects, and can be divided into three phases (about 5 to 6 weeks for each phase) to achieve different targets:
+Phase I
+To establish trust between the children and their coa- ches, and to allow children to get used to the training re- gime of the program. Paired group activities are included in this phase.
+Phase II
+To promote cardiopulmonary fitness and muscular strength, and to increase the range of movement of large joints. Paired group activities are included in this phase, with increased exercise intensity of each session.
+Phase III
+To reduce maladaptive behaviors amongst the children and to improve their attention span. Exercise intensity for each session is the highest among three phases.
+Large group activities are included in this phase.The train-the-trainer approach
+Two 4-hour sessions of the train-the-trainer workshops will be provided for front-line healthcare providers par- ticipating in the study. The workshop a) covers the de- velopmental characteristics, medical issues and special needs in ASD children, b) discusses the basic concepts, training skills and safety issues of exercise training for children with ASD, after which c) the details of the 16- week exercise training program will be introduced. Steps for running the exercises and using the exercise equip- ment correctly will be demonstrated by professional trainers. The workshop also involves a trial run of the exercises among the participants. We further prepare a manual that provides information on the method and training goals, exercise and visual tools, safety concerns, and guidelines for adjusting the difficulty levels of each exercise to current physical fitness levels of the participants. In addition, five physical and psychosocial components including muscle strength, coordination, endurance, social skills, and following instruction should also be evaluated and plotted on a radar chart for each exercise item (Fig. 2). This information will facilitate front-line health care providers to select and plan for their exercise training sessions for their group of chil- dren. Each training class will be conducted by three front-line healthcare providers with a group of 7 to 8 children in each community center. A professional coach and an exercise specialist in our research team will visit
+Ethics
+The study protocol has been approved by the Human
+Research Ethics Committee of the Education University of Hong Kong (Ref. No.: 2016-2017-0223). All the par- ticipants will join the research on a voluntary basis. After an introductory presentation at each community center, an information fact sheet and a consent form will be dis- tributed to the front-line healthcare providers and par- ents. The completed consent form will be collected by the research team before the study commences. Consent to publish will also be obtained from parents that infor- mation obtained from this research may be used in fu- ture research and may be published, however, the personal details of each child will not be revealed; video- tape or photos of the training sessions may be taken which will be used for teaching or presentation purpose, however, children ’s’faces will be blurred on the videos / photos and cannot be recognized.
+Measurements
+Symptoms of ASD
+The Childhood Autism Spectrum Test (CAST) Previ- ously known as the Childhood Asperger Syndrome Test, is a 37-item parental questionnaire to screen for Autism
+Spectrum Disorders [ 28]. The cut-off score is 15 for pos- sible ASD or related social-communication difficulties.
+The Autism Spectrum Quotient-Children ’s Version
+(AQ-Child) Is a parent-report questionnaire to quantify autistic traits [ 29]. There are five subscales. A Chinese version was developed in 2008 [ 30].
+Children ’s physical fitness
+Children ’s physical fitness will be assessed by a battery of tests: the PREFIT battery [ 31], which comprises the measurements of body weight and height and waist cir- cumference to assess anthropometry, the PREFIT 20 meter shuttle run test [ 32] for cardiorespiratory fitness, handgrip strength and standing long jump tests for mus- cular strength of upper limbs and lower limbs respect- ively, 4 x 10 meter shuttle run test for speed-agility and one-leg stance test for balance [ 31]. In addition, the upper limb power [ 33] of each child will be assessed.
+Anthropometric Standing height without shoes will be measured using a seca 217 stable stadiometer to the nearest 0.1 cm. Body weight will be measured using a portable Tanita scale (Model BF-522; Tanita Corpor- ation, Tokyo, Japan). Waist circumference is taken as themean of two readings of the minimum circumference between the umbilicus and xiphoid process.
+PREFIT 20 meter shuttle run test [32]In this test, chil- dren run back and forth between 2 parallel lines 20 me- ters apart concurrently with an audio signal. The test finishes when the child failed to reach the end lines concurrent with the audio signal on two consecutive oc- casions or when the child stops because of exhaustion.
+Because of the young age of the preschoolers, adapta- tions of the original test will be made by decreasing the initial speed and by having two evaluators running with a reduced group of children in order to provide an ad- equate pace [ 31]. Test results will be expressed as the number of laps completed.
+Handgrip strength Each child will be given a brief dem- onstration and verbal instructions for the handgrip strength test using the Takei T.K.K.5001 GRIP-A hand- grip dynamometer (Takei Scientific Instruments Co. Ltd,
+Tokyo, Japan). The dynamometer will be adjusted ac- cording to the child ’s hand size. The test will be done in the standing position, with the wrist in the neutral pos- ition and the elbow extended. Children will be given ver- bal encouragement to ‘squeeze as hard as possible ’and apply maximal effort for at least 2 seconds. Two trials will be allowed alternately with both hands. The best value (kg) of the two trials for each hand will be chosen, and the average of both hands will be recorded [ 31,34].
+Standing broad jump After demonstration, the child will be instructed to stand with his/her feet at the shoul- der ’s width, and toes just behind the take-off line. When ready, he/she bends the knees with swing both arms, then push off vigorously and jump as far as possible.
+The distance is measured from the take-off line to the point where the back of the heel nearest to the take-off line lands on the ground [ 35]. Three jumps are allowed and the best of these attempts will be recorded [ 31].
+4 x 10 meter shuttle run Two parallel lines 10 meters apart will be marked on the floor using marking tape.
+Children will be instructed to run and turn as fast as possible between the two lines. The test covers a distance of 40 meters. The best of two attempts will be recorded in seconds [ 31].
+Overhand throw When ready, the child uses the pre- ferred arm to complete an overarm throw of a bean bag
+(140 grams). Three trials are allowed and the furthest dis- tance for the throw will be recorded in centimeters [ 33].
+Children ’s nonverbal intelligence, socio-emotional skills and cognitive-linguistic skills
+The Standard Raven ’s Progressive Matrices (SRPM)
+This is a test of nonverbal reasoning ability [ 36]. The
+Standard Raven ’s Progressive Matrices (SRPM) consists of 60 patterned diagrams with a missing part to be iden- tified. The SRPM is norm-referenced in Hong Kong . This test will be used to estimate nonverbal ability among our participants.
+The Chinese version of the Psychoeducational Pro- file, Third Edition (CPEP-3) The CPEP-3 assesses skills and behaviors in children with ASD [ 37]. We will ad- minister the social reciprocity and affective expression subtests. The Psychoeducational Profile-Revised (PEP-R) has been previously translated into Chinese and a valid- ation study done in Hong Kong to examine the psycho- metric properties [ 38]. The current Chinese PEP-3 edition is also well validated and will be used in this study [ 39].
+Joint attention task The assessment of joint attention for socio-emotional skills will be performed under super- vision of the experimenter. A series of tasks will be con- ducted within a time span of 25 minutes. The tasks are based on earlier developed tasks to provoke checking, gazing, pointing, follow pointing and joint visual atten- tion of the child [ 40].
+The face and eye tests The ability to read facial expres- sions and eyes for the understanding of emotion is assessed by the Face and Eye tests developed by a team of re- searchers from the Autism Research Centre, University of
+Cambridge [ 41,42]. The two tests have been widely used for assessing children with autism spectrum condition.
+The Faces Test is a 20-item test on simple emotions and complex mental states [ 41]. Originally, the photos were taken with a western model. As our project takes place in Hong Kong where all our participants are Chin- ese, a Chinese model was recruited to pose the same fa- cial expressions. The photographs were displayed digitally with the corresponding emotion or mental state word below the photo. The translation of those emo- tions was completed by independent translators and all discrepancies were resolved by consensus.
+The Eyes Test is a 28-item test with photos of different sets of eyes belonging to different people [ 42]. The test is designed to examine social intelligence by investigat- ing how well an individual can identify the photographedperson ’s feelings or thoughts. This is more challenging than the Faces Test, as participants have to choose among four options provided, the feelings and thoughts are more implicit, and the eyes are the only available clue to determining the person ’s emotion.
+Recognition of facial emotions For the facial emotion recognition task, eight faces are chosen for each of the six basic emotions from the JAFFE database [ 43]. Chil- dren view the faces on the computer screen and are asked to choose which emotion the face is portraying from a list of the six basic emotions that appear along- side the picture.
+Cantonese Oral Language Deficiency Early Identifi- cation Test for Pre-primary Children (CEIT) The
+CEIT is the second locally published standardized lan- guage screening test [ 44]. The contents of the test are mainly selected from the curriculum adopted in Po
+Leung Kuk kindergartens with additional reference to two local studies on oral language development in pre- school children [ 45,46]. The test contains 11 sections, which measure a wide range of expressive language knowle dge, including vocabulary (nouns, verbs, adjec- tives, super-ordinates and classifiers), sentence structures
+(active sentence, passive sentence, comparative sentence, double object construction and relative clauses) and nar- rative. There are between two and six items in each sec- tion and a total of 49 items altogether. Section 1 to 5 (24 items) are selected for use in this study. The test adopts a dichotomized scoring method (i.e. correct and incor- rect responses) and children scoring below -1 SD for age are considered to fail the screening [ 47].
+Motor automaticity This test will be administered to assess children ’s cognitive-linguistic skills. In the single- task motor automaticity condition, the finger-tapping task and the stepping task will be applied. The finger- tapping task will be adopted from a digital finger- tapping test[ 48]. Children will be instructed to tap as many times as possible with their index finger of the preferred hand within one minute. The frequency of taps will be recorded. In the stepping task, children are instructed to step on a mini exercise stepper for as many times as possible within one minute. The frequency of steps within one minute will be recorded. In the dual- task coordination, children will be asked to tap as many times as possible with the index finger of their preferred hand while simultaneously stepping on the stepper. The frequency of steps and finger-taps in one minute will be recorded [ 49,50].
+It is typically used to assess sustained and divided visual attention, sequencing, cognitive flexibility and inhibition
+[51,52].
+M&M (Unexpected contents) false belief test This test will be administered to assess the first- and second- order Theory of Mind abilities of the children. In the
+"Unexpected contents" or "Smarties" task, experimenters ask children what they believe to be the contents of a box that looks as though it holds the candy "Smarties".
+After the child guesses (usually) "Smarties", it will be demonstrated to the childthat the box in fact contains pencils. The experimenter then re-closes the box and asks the child what he/she thinks another person, who has not been shown the true contents of the box, will think is inside. The child passes the task if he/she re- sponds that another person will think that "Smarties" exist in the box, but fails the task if he/she responds pencils [ 53].
+Adaptive functioning in real-life situations
+The Adaptive Behavior Assessment System, Second
+Edition (ABAS-II) Will be used to assess adaptive skills where ratings are provided by parents, teachers and caregivers [ 54]. It is widely used to evaluate independent and social functioning among individuals with ASD. The rating scale measures 10 adaptive behavior skills, includ- ing Communication, Community Use, Functional Aca- demics, Health and Safety, Home or School Living,
+Leisure, Self-Care, Self-Direction, Social, and Motor
+Skills. In our project, we focus on five of those rating scales, namely communication, community use, leisure, self-direction and social skills.
+Children ’s adherence to the training program
+Children ’s adherence to this exercise training program will be monitored by their attendance rate of the 16- week training sessions (32 sessions) and their perform- ance record in each session. The performance record for each child will be recorded by the front-line healthcare providers, which includes the items of (1) exercise items the child performed; (2) how many circuits the child fin- ishes in a session; (3) the Borg Rating of Perceived Ex- cretion (RPE) by each child [ 55]; (4) appearance of physical signs of vigorous exercise (shortness of breath, sweating, face flushing) in each child.
+Coaching efficacy of the front-line healthcare providers
+(trainers)
+An 8-item adherence score is developed to assess the coaching efficacy of the trainers. The assessment items include whether the trainers (1) can apply simple and direct instruction; (2) have provided visual assistedinstruction; (3) have demonstrated the activities; (4) have provided encouragement in the form of small gifts such as stickers; (5) have provided verbal positive reinforcement;
+Evaluation on global functioning improvement of children by their parents
+The Clinical Global Impression scale on Improvement
+(CGI-I) evaluates change from the initiation of treatment on a seven-point scale from 1=very much improved since the initiation of treatment to 7=very much worse since the imitation of treatment [ 56]. The CGI-I re- ported by parents or caretaker will be used for evaluat- ing children ’s global functioning improvement in three aspects, namely social and communication skills, atten- tion and behaviour and motor functioning.
+Sample size calculation
+A priori power analysis was performed in G*Power 3.1
+ASD individuals [ 58], in which a difference between the treated and untreated group of 0.90 SD of the mean out- come was yielded. In order to detect clinically signifi- cance differences on the outcome measures between the two conditions with 80 % power ( α= 0.05; two-sided),
+50 children are required per condition. Based on our ex- periences in past research, we presumed a drop-out rate of 10%, implying a minimal sample size of 50/.9 = 56 children in the control condition and 24/.9 = 56 in the intervention condition (total n= 112).
+Statistical methods
+Raw data of all key variables will be tested for normality prior to analysis. Analyses will be done using repeated- measures Analysis of Variance (ANOVA) and mixed models as the primary design. Multiple imputations will be used for missing observations at post-intervention and 3-month follow-up. Reporting of the results of the study will be in accordance with the CONSORT 2010
+Statement [ 59].
+First, the two groups will be compared with respect to age, gender, nonverbal intelligence (IQ), and CAST and
+AQ-Child severity score in order to assess the compar- ability between them with independent samples t-tests.
+Baseline descriptors that differ significantly are taken into account in the following analyses.
+To investigate the effectiveness of the TTT program, we explore both within-subject effects (changes within children across time) and between-subject effects
+(changes between children in the control condition ver- sus the intervention condition). ‘Time ’is the within- subject variable, with three levels: T1 (baseline), T2 (ef- fect), and T3 (follow-up). ‘Condition ’is the between- subject variable, with two levels: intervention condition and control condition. The tasks we employed will all yield continuous data. We corrected for multiple testing using Bonferroni correction. Statistical analyses are per- formed using SPSS 24.0 statistical software (SPSS) and are two-tailed, with a level of significance of α= 0.05.
+Drop out analyses
+For participants in both conditions (the intervention condition and the control condition), we examine the differences between the drop-outs and fully participating individuals concerning several descriptors (age, gender, nonverbal IQ, CAST and AQ-Child severity score) to in- vestigate whether the incidence of drop-outs is selective or random.
+Discussion
+The prevalence of Autism Spectrum Disorder is increas- ing worldwide. However, social and behavioural deficits among children with ASD make interaction with peers difficult, and such physical and social constraints have shown to reduce the physical activity level in children with ASD. Sedentary lifestyle not only affects a child ’s general health and family dynamics but may further iso- late and deprive the child ’s social adaptive function and skills. The design of this protocol is a randomized con- trolled design, which focuses on young children (4 to 6 years old) with ASD. The protocol also includes a train- ing manual for front-line healthcare providers, which al- lows them to implement the training to young children with ASD in community settings after they have equipped through the train-the-trainer workshop.
+The design of the training program is different from previous studies in that a multidimensional training pro- gram which includes a number of training elements is adopted. This allows children to build up their physical conditioning needs for a variety of sports and activities.
+If this training program is shown to be effective, it can be promoted as one of the interventional strategiesamong young children with ASD, to equip them life skills which are necessary for enjoying leisure and sport, in turn, enhance physical fitness and psychological well- being. The implementation of the training program by front-line healthcare providers can facilitate the program to be used sustainably in the community.
+Abbreviations
+ASD: Autism Spectrum Disorder; TTT: train-the-trainer; NGO: non- governmental organization
+Acknowledgements
+We are most grateful to Mr Lam Hon Kit Keith, Mr Tsang Fan Pong, and Miss
+Nek Mak for their assistance in the development of the exercise training manual for this study. Special thanks are given to The Boys ’and Girls ’Clubs
+Association of Hong Kong, for their fully support and participation in the study.
+Funding
+This study has received funding from The Boys ’and Girls ’Clubs Association of Hong Kong (BGCA) for conducting the train-the-trainer workshop and supervision of the training program. The BGCA is independent of the design of the study and collection, analysis, and interpretation of data and in writing the manuscript.
+Availability of data and materials
+Available upon request.
+Authors ’contributions
+All authors have been involved in conception of the study and made substantial contributions to the study design and the development of the exercise manual. CCWY and SWLW were a major contributor in writing the manuscript. SWLW corresponded to the sample size estimation, statistical analysis, and psychological assessment of this proposal. CCWY and FSFL corresponded to the physical assessment of this proposal. FSFL and RCHS designed the training program for this study protocol. DFYC designed the train-the-trainer workshops and corresponded to the recruitment of participants in this project. All authors have been involved in drafting the manuscript and have read and approved the final manuscript.
+Authors' information
+CCWY and RCHS are Certified Strength and Conditioning Specialist through the National Strength and Conditioning Association (NSCA), SWLW is a psychologist, FSFL is a sports coach and a qualified physical education teacher in Hong Kong, DFYC is a specialist in developmental and behavioural paediatrics.
+Ethics approval
+This proposal is approved by Human Research Ethics Committee of the Education
+University (Ref. No.: 2016-2017-0223). An information fact sheet and a consent form will be distributed to the front-line healthcare providers and parents after an introductory talk of the program. They understand the benefits and risks involved in the program, and their participation in the program is voluntary. They have the right to question any part of the procedure and can withdraw at any time without negative consequences. The completed consent form will be collected by the research team before the study commences.
+Consent for publication
+An information fact sheet with a consent form or a parental consent form of the whole project including consent for publication will be distributed to the front-line health providers who are going to implement the exercise program and the parents respectively. They understand that information obtained from this research may be used in future research and may be published. However, their right to privacy will be retained, i.e., participants ’ personal details will not be revealed.
+Competing interests
+Publisher ’sN o t e
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Author details
+1Department of Health and Physical Education, The Education University of
+Hong Kong, 10 Lo Ping Road, Tai Po, New Territories, Hong Kong.
+2Department of Psychology, The Education University of Hong Kong, 10 Lo
+Ping Road, Tai Po, New Territories, Hong Kong.3Department of Education
+Studies, Hong Kong Baptist University, Kowloon Tong, Kowloon, Hong Kong.
+4Hong Kong Sports Institute, Hong Kong. 25 Yuen Wo Road, Shatin, Hong
+Kong.5Department of Paediatrics, The Chinese University of Hong Kong, 6/F
+Clinical Science Building, Prince of Wales Hospital, Shatin, Hong Kong.
+Received: 18 July 2017 Accepted: 19 February 2018
+References
+Surveillance summaries (Washington ,DC : 2002) 2014, 63(2):1-21.
+China. J. Child Neurol. 2008;23(1):67 –72.
+Gnlletin. Hong Kong: Child Assessment Service. Hong Kong Special
+Adminstrative Region of the People's Republic of China: Department of
+Health. p. 2007.
+Mental Disorders (DSM-5), 5 edn. Arlington: American Psychiatric
+Association; 2013.
+Comparison of sedentary behaviors between children with autism spectrum disorders and typically developing children. Autism : the international journal of research and practice. 2014;18(4):376 –84.
+Palaestra. vol. Fall Edition; 2002. p. 20 –7.
+Stability of motor problems in young children with or at risk of autism spectrum disorders, ADHD, and or developmental coordination disorder.
+Dev. Med. Child Neurol. 2010;52(8):e174 –8.
+Intellect Dev Disabil. 2011;116(5):371 –80.
+Autism Spectrum Disorders: A Comprehensive Review. Review Journal of
+Autism and Developmental Disorders. 2014;1(4):344 –53.
+Disorders: A meta-analysis. Research in Autism Spectrum Disorders. 2012;
+6(1):46 –57.
+60(2):134 –45.
+Autism Dev Disord 1994, 24(5):565-576.
+Behaviors of Individuals with Autism. Adapted Physical Activity Quarterly.
+Techniques Training on Communication Deficit of Children with Autism
+Spectrum Disorders. J Autism Dev Disord. 2016;46(3):978 –86.
+Controlled Trial of Therapeutic Horseback Riding in Children and
+Adolescents With Autism Spectrum Disorder. Journal of the American
+Academy of Child and Adolescent Psychiatry. 2015;54(7):541 –9.
+Richardson TA, Trivedi MH. Prospective trial of equine-assisted activities in autism spectrum disorder. Alternative therapies in health and medicine.
+Kata techniques training. Research in Autism Spectrum Disorders. 2013;7(9):
+Pediatric physical therapy : the official publication of the Section on
+Pediatrics of the American Physical Therapy Association. 2011;23(2):187 –93.
+Edited by Haff GG TN: Human Kinetics; 2016: 115 - 134.
+Mental Disorders (DSM-IV-TR). 4th ed. Washington, DC: American Psychiatric
+Association; 2000.
+CAST (Childhood Asperger Syndrome Test): test accuracy. Autism : the international journal of research and practice. 2005;9(1):45 –68.
+Quotient: Children's Version (AQ-Child). J Autism Dev Disord. 2008;38(7):
+Woo EKF; 2008.
+Castro-Piñero J, Löf M, Ruiz JR, Ortega FB. Assessing physical fitness in preschool children: Feasibility, reliability and practical recommendations for the PREFIT battery. J. Sci. Med. Sport. 2016;19(11):910 –5.
+J, Martinez-Tellez B, Herrador-Colmenero M, Jimenez-Pavon D, Femia P, Ruiz
+JR, Ortega FB. Assessment of cardiorespiratory fitness in preschool children: adaptation of the 20 metres shuttle run test. Nutr. Hosp. 2014;30(6):1333 –43.
+Children's Motor Performance in Hong Kong. Early Child Development and
+Care. 2003;173(1):109 –18.
+Chillon P, Lof M, Ortega FB, Ruiz JR. Assessment of handgrip strength in preschool children aged 3 to 5 years. The Journal of hand surgery,
+European volume. 2015;40(9):966 –72.
+Speech. Adapt. Phys. Act. Q. 1993;10(2):157 –63.
+Oxford, UK: Oxford Psychologists Press; 1998.
+Third Edition (PEP-3). Edited by Pro-Ed ed. USA; 2004.
+Kranenburg MJ, van IJzendoorn MH, van Engeland H. Joint Attention and
+Attachment in Toddlers with Autism. J. Abnorm. Child Psychol. 2007;35(6):
+899 –911.
+Evidence from normal adults, and adults with autism or Asperger syndrome. Vis. Cogn. 1997;4(3):20.
+Mind in the Eyes" Test revised version: a study with normal adults, and adults with Asperger syndrome or high-functioning autism. J Child Psychol
+Psychiatry. 2001;42(2):241 –51.
+Test for Pre-primary Children. In: Fund QE, editor. . Hong Kong; 2008.
+Development: A Guide: Standing Committee on Language Education and
+Research (SCOLAR); 2000.
+港幼兒口語發展): Hong Kong University Press.; 2006.
+(Pokfulam, Hong Kong); 2010.
+Western. Psychological Services. 1985;
+Color Trails Test 1 & 2: Test –Retest Reliability and Factorial Validity. Clin.
+Neuropsychol. 2009;23(4):645 –60.
+Change and Its Relation to the Understanding of False Belief and the
+Appearance-Reality Distinction. Child Dev. 1988;59(1):26 –37.
+4(7):28 –37.
+Behavior research methods. 2007;39(2):175 –91.
+Syndrome. J Autism Dev Disord. 2008;38(10):1944 –57.
+& Muthen; 1998-2010.•  We accept pre-submission inquiries
+  Our selector tool helps you to find the most relevant journal
+  We provide round the clock customer support
+  Convenient online submission
+  Thorough peer review
+  Inclusion in PubMed and all major indexing services
+  Maximum visibility for your research

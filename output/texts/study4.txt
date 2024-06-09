@@ -1,0 +1,180 @@
+RESEARCH Open Access
+The relationship between quality of life and physical fitness in people with severe mental illness
+D. Perez-Cruzado1,2, A. I. Cuesta-Vargas1,3,2*, E. Vera-Garcia1,4and F. Mayoral-Cleries4
+Abstract
+Background: Quality of life of people with severe mental illness may be decrease by the high occurrence of metabolic and cardiovascular diseases. Physical fitness emerges as a modifying factor in this population through physical activity and this modification could influence in the quality of life of this population. The aim of the present study is to determine the contribution of physical fitness to the quality of life of people with severe mental illness.
+Methods: In the current study, a physiotherapist and an occupational therapist assessed 62 people with severe mental illness. Physical fitness was measured with a range of 11 fitness tests that covered flexibility, strength, balance, and endurance. To assess quality of life the EQ-5D-3 L scale was used, which measures five dimensions (mobility, self-care, usual activities, pain-discomfort, and anxiety-depression).
+Results: Significant correlations are presented between the quality of life and primary variables of physical fitness
+(balance, endurance, and upper limb strength). Endurance explained 22.9% of the variance of the quality of life in people with severe mental illness. Functional reach added another 36.2% variance to the prediction of quality of life.
+Conclusions: The results of the present study suggest that some variables of physical fitness are associated with quality of life in people with severe mental illness. The improvement in physical fitness of this population should be a primary objective.
+Trial registration: ClinicalTrials.gov Identifier: NCT02413164 “retrospective registered ”Registered Febr 2017.
+Keywords: Quality of life, Physical activity, Physical fitness, Fitness condition, Severe mental illness
+Background
+Severe mental illness (SMI) includes a set of pathologies with, an ICD-10 diagnosis of an affective or non- affective functional psychotic disorder (codes F20-F22,
+F24, F25, F28-F31, F32.3, F33.3) [ 15]. People with SMI have consistently higher levels of mortality and morbid- ity than the general population [ 10,16].Although suicide contributes to the increased mortality associated with schizophrenia, individuals with schizophrenia have in- creased mortality risks attributable to a wide range of comorbid somatic conditions and unhealthy lifestyles
+1Department of Physiotherapy, Faculty of Health Sciences, University of
+Malaga, Av/ Arquitecto Peñalosa s/n, Malaga, Spain
+3School of Clinical Science, Faculty of Health Science, Queensland University
+Technology, Brisbane, QLD, Australia
+Full list of author information is available at the end of the article
+© The Author(s). 2018 Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+Given the potential for an even greater disease burden as a result of the introduction of second-generation anti- psychotic medications, research aimed at optimising the physical health of people with schizophrenia needs to be undertaken with a sense of urgency in order to minimize the consumption of this type of medication [ 22,25].
+In people with schizophrenia or schizoaffective disorder, physical fitness seems to emerge as a major modifiable risk factor for obesity and metabolic and cardiovascular diseases, and overall morbidity and mortality [ 23,27,29].
+In addition to modifiable lifestyle factors and psycho- tropic medication side effects, poorer access to, and quality of, received health care remain addressable prob- lems for patients with SMI [ 30].
+Health related quality of life is a measure of the impact of an illness and consequent upon functional health sta- tus and well-being as perceived by the patient [ 21]. The quality of life criterion is a valid and useful outcome in patients with schizophrenia. However, a lack of consen- sus on the scales hinders research into its predictive capacity [ 9]. Physical activity reduces symptoms of schizophrenia and improves anthropometric measures, aerobic capacity, and quality of life among people with mental illness [ 14].
+The objective of the present study is to identify the re- lationship between the quality of life and a modifiable factor, such as the physical condition, in people with
+SMI. In this way, specific interventions could be under- taken to improve the levels of physical status and thereby modify the quality of life in this population.
+Methods
+Participants
+The study procedure was approved by the Ethical Com- mittee of Research of Málaga Northeast. Patients of the
+Mental Health Service of the Regional University Hos- pital of Málaga were recruited in November 2016, over a
+6-month period. All subjects should have been admitted for more than 6 months and not be planned for discharge in the next 3 months. The sample included 62 participants
+(37 men and 25 women), between the ages of 26 and
+61 years, diagnosed with SMI by the psychiatrists respon- sible for the patients ’treatment, using ICD-10. The sample was recruited by a researcher belonging to the research group. Before participating in the study, the purpose was explained to the participants, as well as their relatives, and the patients signed a written informed consent. Two pa- tients were excluded, due to a comorbid diagnosis of sub- stance abuse or a somatic problem, like cardiovascular, metabolic or musculoskeletal disorders, which would not allow us to perform the physical tests safely. None of the patients who were invited to participate in the study rejected this invitation.Study design and procedures
+A cross-sectional study was performed. The sociodemo- graphic variables were collected in a semi-structured interview. The anthropometrics measurements (body weight, height and waist circumference) were collected according to standards of the International Society for the Advancement of Kinanthropometry [ 20].
+The assessors were a physiotherapist and an occupa- tional therapist, who had previously been trained in the proper performance of the 11 physical tests that were assessed and EQ-5D-3 L scale. The scale was explained to the patients and the examiners demonstrated how to perform the tests.
+Outcome measures
+A range of 11 physical tests were used to measure physical fitness: passive knee extension test, calf muscle flexibility test, anterior hip flexibility test, functional shoulder rota- tion test, timed-stand test, partial sit-up test, seated push- up test, grip test, single leg stance, open and closed eyes; functional reach test, and the two minute step test [ 3].
+Those tests include measures of the different categories of physical condition (flexibility, balance, strength, and endurance).
+To measure quality of life, the EQ-5D-3 L scale was employed. The EQ-5D-3 L assesses five dimensions: mo- bility, self-care, usual activities, pain-discomfort, and anxiety-depression. The respondents are asked to indi- cate their health state in each of the five dimensions ac- cording to one of three levels: “no problems ”,“moderate problems ”,o r “severe problems ”[1]. The second part of the EQ-5D-3 L is a visual analogue scale (VAS), a verti- cal 20 cm scale, ranging from zero (worst imaginable health state) to 100 (best imaginable health state). The individuals must mark the point on the vertical line that best reflects their assessment of their global health status as it is at this point. The use of the VAS provides a com- plementary score to the descriptive system of self- assessment of the health status of the individual [ 8]. All tests and the scale were measured on the same day. Each item of the EQ-5D-EL scale was explained if the partici- pant could not understand or if a mistake could occur.
+Conversely, physical fitness tests were described repeat- edly and physically demonstrated to ease the anxiety of the participants. Participants could attempt the exercises before the measurement. Once the analysis was com- pleted, all participants received information about their physical profile and recommendations on how to in- crease their physical qualities.
+Data analysis
+A correlation between .30 and .60 was considered to be mild and stronger correlations were considered to be high [ 12].
+A linear regression analysis was performed to assess the independent variables with EQ-5D-3 L scale, after control for covariates (age and gender) to know what the physical condition contributes to the general quality of life of people with severe mental illness. Data analysis was per- formed with SPSS version 22.0 statistical software.
+Results
+The mean age of the participants was 45.69 (± 8.04) years old. The mean weight was 81.26 (± 15.84) kilo- grams, and mean height was 165 (± 20.81) centimetres.
+The body mass index was 30.63 (± 5.24). The mean and standard deviation of quality of life scale and physical tests are presented in Table 1.
+Table 2shows the correlations between the EQ-5D-
+3 L scale and physical tests. Significant correlations were found between quality of life and balance ( r= 0.360) and endurance ( r= 0.312). It is important to highlight the significant correlation found between upper limb strength and the VAS of quality of life ( r= 0.306).
+The regression analyses with EQ-5D-3 L scale showed that the variance in quality of life for physical fitness could be explained 49% (Model Summary r2= 0.26; F 4.34; p= 0.01) with a level of contribution of each predictor ofβ=0.23 by endurance and in β=0.36 by the test
+‘functional reach ’(Table 3). A regression analyses with
+EQ5D-3 L was performed with demographic data (Age) and Functional Reach test (Model Summary r2= 0.13;
+F3 . 1 8 ; p= 0.05), with a level of contribution of β=0.22 by
+Functional Reach test, in contrast, the level of contribution of demographic data (Age) was not significant (Table 4).
+Discussion
+The current study was developed to determine the rela- tionship between physical fitness and quality of life in people with SMI.
+Positive mild correlations were found between a few variables of quality of life and strength, balance and en- durance. This was the first study that related different primary physical variables (flexibility, strength, balance and endurance) within the concept of physical fitness to quality of life in people with SMI, but endurance and quality of life were related in people with schizophrenia in an previous study [ 24].
+The study of Vancampfort et al. [ 24,29] assessed en- durance in people with schizophrenia by the Astrand –
+Rhyming cycle ergometer test and the quality of life through the 36-item Short-Form Health Survey (SF-36).Despite using different scales to assess these variables,
+Vancampfort et al. [ 24,29] found a significant correlation between quality of life (physical component) ( r= 0.57; p< 0.01), similarly to the results found in the current study ( r=0 . 3 1 ; p< 0.05). This finding is clinically relevant, due to the importance of aerobic condition, regarding the risk of death in people with SMI [ 31]. Nonetheless, the present manuscript adds further information about the as- sociation between physical fitness and quality of life in people with severe mental illness, by considering flexi- bility, strength and balance.Table 1 Characteristics of participants
+Men Women
+Cutoffs Mean (sd) Mean (sd)
+Age 43.70 (7.86) 47.68 (8.22)
+Height (cm) 169.62 (22.28) 159.92 (19.34)
+Wheight (kg) 89.21 (18.30) 73.29 (13.38)
+BMI 30.24 (5.01) 31.02 (5.47)
+Waist circunference 105.02 (14.07) 100.88 (12.99)
+Cigarette/day 26.62 (12.29) 17.96 (8.65)
+QoL 0 –1 0.63 (0.20) 0.67 (0.22)
+VAS 0 –100 64.76 (18.44) 68.46 (18.88)
+PKE_R(°) ( −30−30) −26.46 (14.95) −21.22 (13.45)
+PKE_L(°) ( −30−30) −18.98 (13.26) −20.36 (13.94)
+CMF_R(°) ( −15−0) −0.87 (3.24) −0.95 (3.02)
+CMF_L(°) ( −15−0) −1.83 (5.55) −1.91 (5.29)
+AHF_R(°) ( −10−0) −0.31 (1.87) −0.33 (1.69)
+AHF_L(°) ( −10−0) −0.30 (1.88) −0.34 (1.78)
+FRS_R(cm) ( −21−14) −10.83 (12.34) −11.01 (12.12)
+FRS_L(cm) ( −21−14) −16.85 (14.05) −16.55 (13.87)
+SPU(s) (0 −60) 30.00 (15.46) 28.34 (16.12)
+PSUT(max. repetition/1 m) (0 −45) 30.07 (15.03) 24.39 (12.75)
+TST(s) (5 −60) 17.96 (9.61) 12.56 (8.63)
+HGT(max. kg) (0 −47) 32.14 (14.02) 23.06 (12.14)
+SLSEO(s) (0 −30) 15.50 (10.67) 14.22 (10.01)
+SLSEC(s) (0 −30) 6.93 (6.59) 7.01 (6.67)
+FRT(cm) (0 −60) 35.94 (9.16) 35.28 (9.48)
+2MEST_BE (bpm) (60−110) 88.64 (16.99) 87.88 (16.03)
+2MEST_AE(bpm) (80−140) 106.14 (20.26) 116.34 (22.32)
+2MEST_2MA(bpm) (60 −110) 89.30 (15.93) 93.82 (17.03)
+N=6 2
+BMIBody mass index, QoL Quality of life of EQ-5D-3 L Scale, VAS Visual analogue scale of EQ-5D-3 L Scale, PKE_R Right passive knee extension, PKE_L
+Left passive knee extension, CMF_R Right calf muscle flexibility, CMF_L Left calf muscle flexibility, AHF_R Right anterior hip flexibility, AHF_L Left anterior hip flexibility, FSR_R Right functional shoulder rotation, FSR_L Left functional shoulder rotation, SPUSeated push-up, PSUT Partial sit-up test, TSTTime-stands test, HGT
+The present study gives us more information about the relationship between physical fitness and quality of life: variables were included that had not been previously described as factors relevant to quality of life in people with SMI. The current research found significant correla- tions between quality of life and balance ( r= 0.36; p<0 . 0 5 ) and strength ( r= 0.31; p< 0.05). These could be relevant f a c t o r st ot h eq u a l i t yo fl i f eo ft h i sp o p u l a t i o n .
+There are reasons to hypothesise about the relation- ship of these variables with quality of life. As Vancamp- fort et al. [ 24,29] states, aerobic condition improves the capacity of muscles without the appearance of fatigue; as a result there is an improvement in the independence inactivities of daily life [ 11]. Moreover, aerobic condition plays a key role in people with SMI; a worse aerobic condition is related to a higher risk of death in people with SMI [ 31]. On the other hand, muscular strength and balance are important variables in quality of life, as they are paramount in healthy ageing, improving inde- pendence in the activities of daily life, and decreasing the risk of falls [ 5,11]. As shown in the backward step- wise regression analysis, the quality of life in people with
+SMI could be explained by dynamic balance in 26.3% and by endurance in 22.9%, with almost 50% of the vari- ance of the overall quality of life in this population.
+The present findings must be interpreted with caution because of some methodological limitations. First, the study was cross-sectional and, therefore, we cannot es- tablish cause and effect. However, it has been demon- strated that the use of longitudinal studies in HRQOL research is also pivotal, to control for unobserved het- erogeneity [ 7]. Second, the sample size was rather small and only included participants limited to a single centre, which reduces the generalisability.
+Another limitation is the relatively limited number of variables examined; in addition to sociodemographic and clinical data, a complex interaction of other factors, such as self-esteem, premorbid adjustment, therapy, and so- cial support network could also play a role in determin- ing subjective quality of life.
+Finally, a potential limitation of the study was the use of the EQ-5D-3 L, a generic questionnaire that may not have detected subtle changes in subjective quality of life in the specific population of schizophrenia patients.
+However, the huge variation in quality of life scales used in patients with schizophrenia complicates the compari- son of results of different studies. Future research needs to find more consensus on the concept and measures of quality of life.
+Although there are these limitations, the data shown in the current study have important practice implications. In spite of lower levels of quality of life found in people with
+SMI and the difficulty in achieving recovery, the data in the current study suggest that some variables of physical fitness may be associated with quality of life in people with severe mental illness.
+Physical activity should be encouraged in people with
+SMI as it is an important factor in improving physical fitness, and physical activity is closely related to the quality of life of this population ([ 6]; Andy [ 18,19,28]).Table 2 Correlations (Pearson r) between quality of life and physical tests
+QoL VAS
+Flexibility PKE_R .05 (.06) .01 (.07)
+PKE_L −.02 (.11) −.03 (.17)
+CMF_R .06 (.13) .12 (.06)
+CMF_L −.12 (.07) .17 (.09)
+AHF_R .06 (.06) .08 (.14)
+AHF_L .06 (.17) .08 (.09)
+FRS_R −.07 (.14) .10 (.15)
+FRS_L −.09 (.18) .09 (.17)
+Strength SPU .15 (.08) .31* (.01)
+PSUT −.20 (.06) −.06 (.15)
+TST −.33 (.06) −.16 (.22)
+HGT .12 (.11) .10 (.09)
+Balance SLSEO .14 (.22) .13 (.18)
+SLSEC .10 (.09) .02 (.13)
+FRT .36*(.02) .25 (.08)
+Endurance 2MEST_BE .10 (.21) .01 (.10)
+2MEST_AE .31*(.02) .02 (.07)
+2MEST_2MA −.17 (.11) .06 (.13)
+QoL Quality of life of EQ-5D-3 L Scale, VAS Visual analogue scale of EQ-5D-3 L
+Scale, PKE_R Right passive knee extension, PKE_L Left passive knee extension,
+CMF_R Right calf muscle flexibility, CMF_L Left calf muscle flexibility, AHF_R
+Right anterior hip flexibility, AHF_L Left anterior hip flexibility, FSR_R Right functional shoulder rotation, FSR_L Left functional shoulder rotation, SPU
+Seated push-up, PSUT Partial sit-up test, TSTTime-stands test, HGT Handgrip test, SLSEO Single-leg stance with opened eyes, SLSEC Single-leg stance with closed eyes, FRTFunctional reach test, 2MEST_BE Two-minute step test_before exercise, 2MEST_AE Two-minute step test_before exercise, 2MEST_2MA Two- minute step test_2 minute after
+*p< 0,05
+Table 3 Regression analyses with EQ-5D-3 L scale scores as the dependent variables (Endurance and Functional Reach test)
+VariablesaBS E β tp
+Endurance 0.01 0.01 0.23 1.04 0.05
+Functional Reach test 0.01 0.01 0.36 2.82 < 0.01 aOnly significant correlates were included in the model; Bunstandardized coefficient, SEstandard error, βstandardized coefficientTable 4 Regression analyses with EQ-5D-3 L scale scores as the dependent variables (Functional Reach test and Age)
+Variables B SE β tp
+Functional Reach test 0.01 0.01 0.22 1.73 0.05
+Age 0.01 0.01 −0.18 −1.47 0.08
+Nonetheless it is important to develop interventions with the aim of removing the barriers that people with
+SMI find when participating in physical activity focused on the improvement of the endurance and balance ([ 13];
+Andrew [ 19]).
+Conclusion
+The current study shows how physical fitness (strength, flexibility and balance) may be a contributing factor to the quality of life in people with SMI. Thus, it highlights the importance of the physical fitness since the quality of life of people with severe mental illness may be influence by this.
+This study is the first to show the relationship between physical status and quality of life in people with SMI. Ac- cordingly, it would be beneficial to encourage programs fo- cused on improving the physical health of this population, which can influence their quality of life, overall.
+Abbreviations
+HIB: Human immunodeficiency virus; MET: Metabolic equivalent of task;
+SMI: Severe mental illness; SPSS: Statistical analysis software package;
+VAS: Visual analogue scale
+Acknowledgements
+The authors would like to thank all participants and collaborating staff who took part in the research.
+Funding
+This research was partially funded by grants from OTRI-UMA (ref 806/423505 –1) with a grant of part-time assistant research to David Perez-Cruzado.
+Availability of data and materials
+The datasets used and/or analysed during the current study are available from the corresponding author on reasonable request.
+Authors ’contributions
+AIC-V has made contribution to conception of this study. EV-G and FM-C par- ticipated in the collect of data. AI. C-V, DP-C participated in the analysis and interpretation of data and were involved in drafting the manuscript or revis- ing it critically for important intellectual content. All the authors have given final approval of the version to be published.
+Ethics approval and consent to participate
+The institutional review committee at the University of Malaga approved the procedures used in this study and ethical recommendations were taken into consideration at all stages during the research. The study complied with the principles laid out in the Declaration of Helsinki.
+Competing interests
+The authors state that no conflicts of interest have been reported by the authors or by any individual in control of the content of this article. This information has not been presented previously.
+Publisher ’sN o t e
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Author details
+1Department of Physiotherapy, Faculty of Health Sciences, University of
+Malaga, Av/ Arquitecto Peñalosa s/n, Malaga, Spain.2Clinimetric Research
+Group of Biomedicine Research Institute of Malaga (IBIMA) Spain, Regional
+University Hospital, Málaga, Spain.3School of Clinical Science, Faculty of
+Health Science, Queensland University Technology, Brisbane, QLD, Australia.
+4Mental Health Research Group of Biomedicine Research Institute of Malaga
+(IBIMA) Spain, Regional University Hospital, Malaga, Spain.Received: 15 May 2017 Accepted: 23 April 2018
+References
+Med Clín. 1999;112(Suppl 1):79 –85.
+Gilaberte-Asín I, Ciudad-Herrera A. Delphi consensus on the physical health of patients with schizophrenia: evaluation of the recommendations of the
+Spanish societies of psychiatry and biological psychiatry by a panel of experts. Actas Esp Psiquiatr. 2012;40(3):114 –28.
+Mendoza R, Torres-Gutiérrez JL. Correlation between gait speed and muscular strength with balance for reducing falls among elderly. Cir Cir.
+Clin Neurosci. 2014;16(2):185 –95.
+JCP.13r08765
+Sci. 2000;177:149 –55.
+González MP, Grupo de Trabajo sobre la Salud Física del Paciente con
+Esquizofrenia. Consensus on physical health of patients with schizophrenia from the Spanish societies of psychiatry and biological psychiatry. Actas Esp
+Psiquiatr. 2008;36(5):251 –64.
+Advancement of Kinanthropometry; 2011. p. 125f.
+Relationships between physical fitness, physical activity, smoking and metabolic and mental health parameters in people w ith schizophrenia. Psychiatry Res.
+Hert M. Lack of physical activity during leisure time contributes to an impaired health related quality of life in patients with schizophrenia. Schizophr Res.
+The functional exercise capacity in patients with bipolar disorder versus healthy controls: a pilot study. Psychiatry Res. 2015b;229(1 –2):194 –9.https:// doi.org/10.1016/j.psychres.2015.07.040

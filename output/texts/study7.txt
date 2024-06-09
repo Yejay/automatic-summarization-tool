@@ -1,0 +1,206 @@
+Research Initiative Competitive Grant no. 2018-67016-27498 and the Utah Agricultural Experiment Station.
+2This article is based on the presentation given at the
+Triennial Growth Symposium: The nutrition of muscle growth titled “Impacts of nutrition and other environmental factors on the differentiation and proliferation of satellite cells” at the 2018 Annual Meeting of the American Society of Animal Science held in Vancouver, BC, Canada, in July 8 to 12, with publication sponsored by the Journal of Animal
+Science  and the American Society of Animal Science.
+3Corresponding author: kara.thornton@usu.edu
+Received October 19, 2018.
+Accepted February 27, 2019.TRIENNIAL GROWTH SYMPOSIUM: THE NUTRITION OF MUSCLE
+GROWTH: Impacts of nutrition on the proliferation and differentiation of satellite cells in livestock species1,2
+Kara J. Thornton3
+Department of Animal, Dairy and Veterinary Science, Utah State University, Logan, UT 84322
+ABSTRACT:  Nutrition and other external fac - tors are known to have a marked effect on growth of skeletal muscle, modulated, at least in part, through effects on satellite cells. Satellite cells and their embryonic precursors play an integral role in both prenatal and postnatal skeletal muscle growth of mammals. Changes in maternal nu - trition can impact embryonic muscle progenitor cells which ultimately impacts both prenatal and postnatal skeletal muscle development. Satellite cells are important in postnatal skeletal muscle growth as they support the hypertrophy of ex - isting myofibers. Hypertrophy of existing fi - bers is the only mechanism of postnatal muscle growth because muscle fiber number is fixed at birth and fiber nuclei have exited the cell cycle.
+Because fiber nuclei do not divide, additional nu - clei required for hypertrophy must be acquired from satellite cells. To date, little research has aimed at determining whether nutrition directly impacts satellite cell populations within skeletal muscle of livestock species. However, it is well established that nutrition alters circulating con - centrations of various growth factors such as insulin-like growth factor 1, epidermal growth factor, hepatocyte growth factor, and fibroblast growth factor. Each of these different growth factors impacts satellite cell proliferation and/or activation, indicating that nutrition likely plays a large role in skeletal muscle growth through impacting the satellite cell pool in both pre - natal and postnatal growth. The relationship among nutrition, growth factors, and satellite cells relative to skeletal muscle growth is an im - portant area of research that warrants further consideration.
+Key words:  growth, livestock, nutrition, satellite cells, skeletal muscle
+© The Author(s) 2019. Published by Oxford University Press on behalf of the American Society of
+Animal Science. All rights reserved. For permissions, please e-mail: journals.permissions@oup.com.
+INTRODUCTION
+Skeletal muscle growth is of the utmost im - portance in the livestock industry as it becomes the marketable product, meat. It is especially im - portant to producers that their livestock grow to produce more lean product and less fat to increase overall production efficiency, while still maintain - ing a certain level of fat to ensure production of a high-quality product. Many different factors, including nutrition, genetics, and management practices, are known to impact growth of skeletal muscle in livestock species. It is well established that skeletal muscle growth occurs through a combin - ation of protein accretion, myonuclear accretion,
+Skeletal muscle is a heterogeneous tissue and grows through several different mechanisms, making de - termination of how these different factors impact skeletal muscle growth complicated. Satellite cells
+(SC) and their embryonic precursor cells play an in - tegral role in skeletal muscle growth both prenatally and postnatally as they are required for myonuclear accretion. Prenatally skeletal muscle forms from embryonic muscle progenitor cells that are believed to be distinct from SC, but share a common origin
+Postnatally, it is generally accepted that SC are important for providing the nuclei necessary for hypertrophy of existing myofibers. However, recent data suggest that skeletal muscle hypertrophy oc - curs in the absence of SC in a rodent model, but whether or not this occurs in livestock is unknown
+EFFECTS OF NUTRITION ON SKELETAL
+MUSCLE GROWTH
+Skeletal muscle hypertrophy occurs through protein accretion when the fractional synthesis rate of protein exceeds the fractional breakdown rate
+Layman, 2006 ).
+A study conducted in neonatal piglets showed that skeletal muscle growth is controlled through both AA and insulin concentrations ( Davis et al.,
+EFFECTS OF NUTRITION ON
+CIRCULATING GROWTH FACTORS
+GH and IGF-1 are directly responsible for controlling growth in both cattle and swine ( Lucy,
+GH acts on the liver to increase circulating concen - trations of IGF-1 demonstrating that a strong rela - tionship exists between these two growth factors
+(Boyd and Bauman, 1989 ). Circulating IGF-1 from the liver is known to act in an endocrine manner to influence growth and differentiation of tissues such as skeletal muscle and bone ( Boyd and Bauman,
+In addition, other growth factors such as IGF-2, epidermal growth factor ( EGF ), fibroblast growth factor ( FGF ), and transforming growth factor beta
+(TGF β) are known to impact both skeletal muscle growth and differentiation and proliferation of SC.
+This research demonstrates that dietary energy and protein concentrations, as well as the types of feed the energy and protein come from, have an impact on circulating concentrations of GH and IGF-1 in ruminant species.
+Blum, 1989 ). The role that nutritional status has on circulating concentrations of IGF-2 is less under - stood. Research demonstrates that steers fed 1% dry matter of the their BW had similar circulating
+IGFBP concentrations and the resultant effects of those IGFB on SC activity. Furthermore, as some
+IGFBP promote the actions of IGF-1 and others antagonize IGF-1 action, it could be postulated that IGFBP concentrations are going to fluctuate with those of IGF-1 to best maintain the actions of
+(Clemmons and Underwood, 1991 ; Brameld, 1997 ;
+IGF-1, and TGF β are each known to impact SC, myoblast, and myofiber growth in primary cultured cells of livestock species ( Allen and Boxhorn, 1989 ;
+SC cultures with IGF-1 stimulates differentiation, whereas treatment with EGF, FGF, or TGF β inhibits differentiation ( Allen and Boxhorn, 1987 ;
+Greene and Allen, 1991 ). GH has been shown to increase protein synthesis rate in bovine skeletal muscle cells without altering mRNA expression of
+SC and the resultant skeletal muscle. Additional research is needed to determine specifically how nutrition impacts concentration of both circulating and locally produced growth factors and the effects that these growth factors have on SC growth.
+IMPACT OF NUTRITION ON SKELETAL
+MUSCLE GROWTH PRENATALLY
+Skeletal muscle mass increases through two dif - ferent mechanisms, hyperplasia and hypertrophy.
+Early skeletal muscle development can be separated into primary myogenesis and second - ary myogenesis. Primary myofibers form during the first trimester of pregnancy and are followed by formation of secondary myofibers. Secondary myofibers account for the majority of muscle that is formed within an adult mammal. Because mam - mals are born with a set number of muscle fibers that are not capable of hyperplasia, it is likely that
+When the maternal plane of nutrition is below maintenance levels, it is hypothesized that the off - spring develop a “thrifty” phenotype, allowing for the animal to survive during instances of low nu - trition ( Neel, 1962 , 1999; Hales and Barker, 1992 ).
+However, other research suggests that any effects of inadequate nutrition during the first or second trimesters of gestation can be alleviated as long as adequate levels of nutrition are provided during the third trimester ( Greenwood and Thompson, 2007 ).
+Currently, the molecular mechanism(s) through which these changes occur remains unknown. The main pathway that is thought to regulate differen - tiation of mesenchymal stem cells in utero is the
+Research analyzing the effects of maternal overnutrition during gestation on skeletal muscle development of the offspring provides conflict - ing results. Feeding ewes at either 20% or 80% above maintenance levels during gestation had no effect on birth or weaning weights of the offspring
+IMPACT OF NUTRITION ON SATELLITE
+CELLS POSTNATALLY
+Postnatal increases in muscle size are due to hypertrophy rather than hyperplasia as muscle fiber number does not significantly increase after birth in livestock species. Although muscle fiber number does not increase postnatally, muscle DNA con - tent continues to increase throughout growth due to SC proliferation, differentiation, and fusion with existing myofibers. As such, SC play an integral role in postnatal growth of skeletal muscle. Recent research in rats suggests that hypertrophy of skel - etal muscle can occur independently of SC, but it is unknown whether this occurs in livestock species
+However, more research needs to be conducted in this area to determine how nutrition might impact
+SC during postnatal skeletal muscle growth of live - stock species.
+Although not much research has been con - ducted in vivo relating nutrition to proliferation and differentiation of SC, a number of in vitro studies have analyzed the effects of how different nutrients may impact SC and myoblast proliferation in cul - ture. A classic example of how nutrition impacts growth of muscle cells in culture can be observed through the practice of reducing serum concen - trations in culture media to induce differentiation.
+This indicates that in vitro a lower plane of nutrition promotes differentiation, whereas a higher plane of nutrition promotes proliferation and growth of existing myofibers. When myoblasts are provided with low glucose medium, when compared with high glucose medium, differentiation is increased
+Another nutrient that has been shown to alter proliferation and differentiation of SC are fatty acids. In an early report, linoleic acid stimulated differentiation of rat satellite cells ( Allen et al.,
+A lack of calcium results in inhibition of muscle cell fusion ( Merlie and Gros, 1976 ; Morris et al.,
+SUMMARY AND CONCLUSIONS
+Satellite cells are crucial to skeletal muscle growth during both prenatal and postnatal peri - ods of life. Prenatally, SC are important as they are responsible for initial formation of the myofib - ers. In mammals, the number of myofibers an animal is born with does not change following birth, demonstrating that prenatal development of myofibers is integral in determining postnatal growth potential. During postnatal growth, SC are required for myonuclear accretion, a necessity for skeletal muscle hypertrophy. Nutrient status of growing animals impacts growth of skeletal muscle, which is especially important in livestock animals as it eventually becomes the marketable product, meat. Recently, many studies analyzing the effects of maternal nutrition on growth of skel - etal muscle in livestock have been completed. From these studies, it is apparent that nutrient status of the dam, especially during the second and third trimesters, affects skeletal muscle development of the offspring in utero which can impact lifelong production of those offspring. More research is needed to determine exactly how and when ma - ternal plane of nutrition should be altered during gestation in order to produce offspring with the highest growth potential. In postnatal growth, the impacts of nutrition on SC specifically are cur - rently understudied in livestock species. Nutrient status of an animal is known to impact concen - trations of circulating growth factors, which in turn are known to impacts skeletal muscle growth and SC. The exact mechanism through which this occurs has not been studied. Several early studies in chickens show that nutrient status affects SC and muscle growth, indicating that nutrition plays a large role in this process. A more recent study in dairy calves shows that plane of nutrition im - pacts mitotic index of SC. Furthermore, several studies have been completed using cultured SC models that show different nutrients are able to af - fect SC proliferation and differentiation. However, many of these studies have not been completed in cells from livestock animals. Consequently, add - itional in vivo and in vitro studies are needed to understand how nutrition alters proliferation and differentiation of SC in livestock animals. The in - formation gained from completion of these studies will help in developing diets for livestock animals that optimize growth of skeletal muscle and, ul - timately, production of more meat.
+Conflict of interest statement . None declared.
+LITERATURE CITED
+Allen, R. E., and L. K. Boxhorn. 1989. Regulation of skel - etal muscle satellite cell proliferation and differentiation by transforming growth factor-beta, insulin-like growth factor I, and fibroblast growth factor. J. Cell. Physiol.
+Allen, R. E., L. S. Luiten, and M. V . Dodson. 1985. Effect of insulin and linoleic acid on satellite cell differentiation. J.
+Allen, R. E., R. A. Merkel, and R. B. Y oung. 1979. Cellular aspects of muscle growth: myogenic cell proliferation. J.
+Amaral, P . M., L. D. S. Mariz, D. Zanetti, L. F . Pradoes, M.
+Bonnet, M., I. Cassar-Malek, Y . Chilliard, and B. Picard. 2010.
+Ontogenesis of muscle and adipose tissues and their inter - actions in ruminants and other species. Animal. 4:1093–
+Boyd, R. D., and D. E. Bauman. 1989. Mechanisms of action for somatotropin in growth. In: D. R. Campion,
+Brameld, J. M. 1997. Molecular mechanisms involved in the nutritional and hormonal regulation of growth in pigs.
+Brameld, J. M., P . J. Buttery, J. M. Dawson, and J. M. Harper.
+Breier, B. H., J. J. Bass, J. H. Butler, and P . D. Gluckman. 1986.
+The somatotrophic axis in young steers: influence of nutri - tional status on pulsatile release of growth hormone and circulating concentrations of insulin-like growth factor 1.
+Breier, B. H., P . D. Gluckman, and J. J. Bass. 1988. Influence of nutritional status and oestradiol-17 beta on plasma growth hormone, insulin-like growth factors-I and -II and the re - sponse to exogenous growth hormone in young steers. J.
+0/00288233.1959.10422827
+Cerletti, M., Y . C. Jang, L. W . Finley, M. C. Haigis, and A.
+J. Wagers. 2012. Short-term calorie restriction enhances skeletal muscle stem cell function. Cell Stem Cell. 10:515–
+Choi, S. H., S. K. Park, B. J. Johnson, K. Y . Chung, C. W . Choi,
+K. H. Kim, W . Y . Kim, and B. Smith. 2015. Ampk α, C/ ebpβ, CPT1 β, GPR43, ppar γ, and SCD gene expression in single- and co-cultured bovine satellite cells and intra - muscular preadipocytes treated with palmitic, stearic, oleic, and linoleic acid. Asian-Australas. J. Anim. Sci.
+Clemmons, D. R., and L. E. Underwood. 1991. Nutritional regulation of IGF-I and IGF binding proteins.
+S0003356100000258
+Davis, T. A., M. L. Fiorotto, D. G. Burrin, P . J. Reeds, H. V .
+Nguyen, P . R. Beckett, R. C. Vann, and P . M. O’Connor.
+C. G. Leandro, C. M. de Castro, and M. D. Nagel. 2011.
+Effect of a neonatal low-protein diet on the morphology of myotubes in culture and the expression of key proteins that regulate myogenesis in young and adult rats. Eur. J.
+Dodson, M. V ., B. A. Mathison, and B. D. Mathison. 1990.
+Effects of medium and substratum on ovine satellite cell attachment, proliferation and differentiation in vitro. Cell
+Doumit, M. E., D. R. Cook, and R. A. Merkel. 1993.
+Du, M., Y . Huang, A. K. Das, Q. Yang, M. S. Duarte, M. V .
+Du, M., J. Tong, J. Zhao, K. R. Underwood, M. Zhu, S. P .
+Ford, and P . W . Nathanielsz. 2010. Fetal programming of skeletal muscle development in ruminant animals. J. Anim.
+Du, M., J. X. Zhao, X. Yan, Y . Huang, L. V . Nicodemus, W .
+Yue, R. J. McCormick, and M. J. Zhu. 2011. Fetal muscle development, mesenchymal multipotent cell differenti - ation, and associated signaling pathways. J. Anim. Sci.
+Ellenberger, M. A., D. E. Johnson, G. E. Carstens, K. L.
+Hossner, M. D. Holland, T. M. Nett, and C. F . Nockels.
+Elsasser, T. H., T. S. Rumsey, and A. C. Hammond. 1989.
+Influence of diet on basal and growth hormone-stim - ulated plasma concentrations of IGF-I in beef cattle. J.
+Fahey, A. J., J. M. Brameld, T. Parr, and P . J. Buttery. 2005. The effect of maternal undernutrition before muscle differenti - ation on the muscle fiber development of the newborn lamb.
+Farup, J., S. K. Rahbek, S. Riis, M. H. Vendelbo, F . d. Paoli, and K. Vissing. 2014. Influence of exercise contraction mode and protein supplementation on human skeletal muscle satellite cell content and muscle fiber growth.
+Gautsch, T. A., J. C. Anthony, S. R. Kimball, G. L. Paul, D.
+Ge, X., J. Yu, and H. Jiang. 2012. Growth hormone stimulates protein synthesis in bovine skeletal muscle cells without altering insulin-like growth factor-I mRNA expression. J.
+Gill, D. R., F . N. Owens, M. C. King, and H. G. Dolezal. 1993.
+Body composition of grazing or feedlot steers differing in age and background. In Anim. Sci. Res. Rep., Oklahoma
+State Univ., Stillwater. p. 185–190.
+Gionbelli, T. R. S., C. M. Veloso, P . P . Rotta, S. C. Valadares
+Filho, B. C Carvalho, M. I. Marcondes, C. S Cunha, M.
+A. S. Novaes, L. D. Prezotto, M. S. Duarte, et al. 2018.
+Goll, D. E., G. Neti, S. W . Mares, and V . F . Thompson. 2008.
+Gonzalez, J. M., L. E. Camacho, S. M. Ebarb, K. C. Swanson,
+K. A. Vonnahme, A. M. Stelzleni, and S. E. Johnson. 2013.
+Realimentation of nutrient restricted pregnant beef cows supports compensatory fetal muscle growth. J. Anim. Sci.
+Greene, E. A., and R. E. Allen. 1991. Growth factor regula - tion of bovine satellite cell growth in vitro. J. Anim. Sci.
+Greenwood, P ., L. Cafe, H. Hearnshaw, and D. Hennessy. 2005.
+Consequences of nutrition and growth retardation early
+Greenwood, P ., and A. Thompson. 2007. Consequences of maternal nutrition during pregnancy and of foetal growth for productivity of sheep. Recent Adv. Anim. Nutr. Aust.
+Hales, C. N., and D. J. Barker. 1992. Type 2
+Hales, K. E., S. D. Shackelford, J. E. Wells, D. A. King, N.
+Han, B., J. Tong, M. J. Zhu, C. Ma, and M. Du. 2008. Insulin- like growth factor-1 (IGF-1) and leucine activate pig myogenic satellite cells through mammalian target of rapamycin (MTOR) pathway. Mol. Reprod. Dev. 75:810–
+Han, I. K., P . Bosi, Y . Hyun, J. D. Kim, K. S. Sohn, and S.
+W . Kim. 2000. Recent advances in sow nutrition to im - prove reproductive performance. Asian-Aust. J. Anim.
+Sci. 13:335–355.
+Hannon, K., A. Gronowski, and A. Trenkle. 1991. Relationship of liver and skeletal muscle IGF-1 mRNA to plasma GH profile, production of IGF-1 by liver, plasma IGF-1 con - centrations, and growth rates of cattle. Proc. Soc. Exp.
+Hara, M., K. Tabata, T. Suzuki, M. K. Do, W . Mizunoya,
+M. Nakamura, S. Nishimura, S. Tabata, Y . Ikeuchi, K.
+Sunagawa, et al. 2012. Calcium influx through a possible coupling of cation channels impacts skeletal muscle satel - lite cell activation in response to mechanical stretch. Am.
+Hines, E. A., J. D. Coffey, C. W . Starkey, T. K. Chung, and J. D.
+Starkey. 2013. Improvement of maternal vitamin D status with 25-hydroxycholecalciferol positively impacts porcine fetal skeletal muscle development and myoblast activity. J.
+Houseknecht, K. L., D. L. Boggs, D. R. Campion, J. L. Sartin,
+T. E. Kiser, G. B. Rampacek, and H. E. Amos. 1988.
+Hulmi, J. J., C. M. Lockwood, and J. R. Stout. 2010. Effect of protein/essential amino acids and resistance training on skeletal muscle hypertrophy: a case for whey protein.
+Jennings, T. D., M. G. Gonda, K. R. Underwood, A. E. Wertz-
+Lutz, and A. D. Blair. 2016. The influence of maternal nutrition on expression of genes responsible for adipogen - esis and myogenesis in the bovine fetus. Animal. 10:1697–
+Kamanga-Sollo, E., K. J. Thornton, M. E. White, and W . R.
+Dayton. 2014. Role of G protein-coupled estrogen re - ceptor-1, matrix metalloproteinases 2 and 9, and heparin binding epidermal growth factor-like growth factor in estradiol-17 β-stimulated bovine satellite cell proliferation.
+Kamanga-Sollo, E., M. E. White, M. R. Hathaway, K. Y .
+Chung, B. J. Johnson, and W . R. Dayton. 2008. Roles of IGF-I and the estrogen, androgen and IGF-I recep - tors in estradiol-17beta- and trenbolone acetate-stim - ulated proliferation of cultured bovine satellite cells.
+Kamanga-Sollo, E., M. S. Pampusch, G. Xi, M. E. White, M.
+Kumar, V ., P . Atherton, K. Smith, and M. J. Rennie. 2009.
+Larson, D. M., J. L. Martin, D. C. Adams, and R. N. Funston.
+Long, N. M., C. B. Tousley, K. R. Underwood, S. I. Paisley,
+W . J. Means, B. W . Hess, M. Du, and S. P . Ford. 2012.
+Effects of early- to mid-gestational undernutrition with or without protein supplementation on offspring growth, carcass characteristics, and adipocyte size in beef cattle. J.
+MacGhee, M. E., J. S. Bradley, S. R. McCoski, A. M. Reeg,
+A. D. Ealy, and S. E. Johnson. 2017. Plane of nutrition affects growth rate, organ size and skeletal muscle satellite cell activity in newborn calves. J. Anim. Physiol. Anim.
+McGuire, M. A., J. L. Vicini, D. E. Bauman, and J. J.
+Veenhuizen. 1992. Insulin-like growth factors and binding proteins in ruminants and their nutritional regulation. J.
+Merlie, J. P ., and F . Gros. 1976. In vitro myogenesis. Expression of muscle specific function in the absence of cell fusion. Exp.
+Micke, G. C., T. M. Sullivan, K. L. Gatford, J. A. Owens, and
+Micke, G. C., T. M. Sullivan, I. C. McMillen, S. Gentili, and
+V . E. Perry. 2011. Protein intake during gestation affects postnatal bovine skeletal muscle growth and relative ex - pression of IGF1, IGF1R, IGF2 and IGF2R. Mol. Cell.
+Mohrhauser, D. A., A. R. Taylor, M. G. Gonda, K. R.
+Underwood, R. H. Pritchard, A. E. Wertz-Lutz, and A.
+D. Blair. 2015. The influence of maternal energy status during mid-gestation on beef offspring tenderness, muscle characteristics, and gene expression. Meat Sci. 110:201–
+Moisá, S. J., D. W . Shike, L. Shoup, S. L. Rodriguez-Zas, and
+Moriel, P ., L. F . Artioli, M. H. Poore, A. W . Confer, R. S.
+Marques, and R. F . Cooke. 2015. Increasing the metab - olizable protein supply enhanced growth performance and led to variable results on innate and humoral immune response of preconditioning beef steers. J. Anim. Sci.
+Morris, G. E., M. Piper, and R. Cole. 1976. Differential effects of calcium ion concentration on cell fusion, cell division and creatine kinase activity in mucle cell cultures. Exp.
+Moss, F . P . 1968. The relationship between the dimensions of the fibres and the number of nuclei during normal growth of skeletal muscle in the domestic fowl. Am. J. Anat.
+Mozdziak, P . E., E. Schultz, and R. G. Cassens. 1997.
+Myonuclear accretion is a major determinant of avian skeletal muscle growth. Am. J. Physiol. 272(2 Pt 1):C565–
+Murach, K. A., C. S. Fry, T. J. Kirby, J. R. Jackson, J. D. Lee, S.
+H. White, E. E. Dupont-Versteegden, J. J. McCarthy, and
+C. A. Peterson. 2018. Starring or supporting role? Satellite cells and skeletal muscle fiber size regulation. Physiology
+Neel, J. V . 1962. Diabetes mellitus: a “thrifty” genotype ren - dered detrimental by “progress”? Am. J. Hum. Genet.
+14:353–362. PMCID: PMC1932342
+Neel, J. V . 1999. The “thrifty genotype” in 1998. Nutr. Rev.
+Ohashi, K., Y . Nagata, E. Wada, P . S. Zammit, M. Shiozuka, and R. Matsuda. 2015. Zinc promotes proliferation and activation of myogenic cells via the PI3K/akt and
+Olsen, S., P . Aagaard, F . Kadi, G. Tufekovic, J. Verney, J. L.
+Owens, F . N., D. R. Gill, D. S. Secrist, and S. W . Coleman.
+Petrie, L., J. N. Buskin, and J. K. Chesters. 1996. Zinc and the initiation of myoblast differentiation. J. Nutr. Biochem.
+Powell, D. J., D. C. McFarland, A. J. Cowieson, W . I. Muir, and S. G. Velleman. 2013. The effect of nutritional status on myogenic satellite cell proliferation and differentiation.
+Quigley, S. P ., D. O. Kleemann, S. K. Walker, P . A. Speck,
+S. R. Rudiger, G. S. Nattrass, M. J. DeBlasio, and J. A.
+Raja, J. S., M. L. Hoffman, K. E. Govoni, S. A. Zinn, and
+S1751731116000070
+Reiter, B. C., E. Kamanga-Sollo, M. S. Pampusch, M. E.
+White, and W . R. Dayton. 2014. Epidermal growth factor receptor is required for estradiol-stimulated bovine satel - lite cell proliferation. Domest. Anim. Endocrinol. 48:48–
+Samuelsson, A. M., P . A. Matthews, M. Argenton, M. R.
+Christie, J. M. McConnell, E. H. Jansen, A. H. Piersma,
+S. E. Ozanne, D. F . Twinn, C. Remacle, et al. 2008.
+HYPERTENSIONAHA.107.101477
+Thissen, J. P ., J. M. Ketelslegers, and L. E. Underwood. 1994.
+Nutritional regulation of the insulin-like growth factors.
+Thornton, K. J., C. M. Welch, L. C. Davis, M. E. Doumit, R.
+Tong, J. F ., X. Yan, M. J. Zhu, S. P . Ford, P . W . Nathanielsz, and
+M. Du. 2009. Maternal obesity downregulates myogenesis and beta-catenin signaling in fetal skeletal muscle. Am. J.
+Underwood, K. R., J. F . Tong, P . L. Price, A. J. Roberts, E.
+E. Grings, B. W . Hess, W . J. Means, and M. Du. 2010.
+Wallace, J. M., J. S. Milne, and R. P . Aitken. 2004. Maternal growth hormone treatment from day 35 to 80 of gesta - tion alters nutrient partitioning in favor of uteroplacental growth in the overnourished adolescent sheep. Biol. Reprod.
+Wang, X., X. Lan, A. E. Radunz, and H. Khatib. 2015.
+Maternal nutrition during pregnancy is associated with differential expression of imprinted genes and DNA methyltranfereases in muscle of beef cattle offspring. J.
+Wu, G. 2009. Amino acids: metabolism, functions, and nutrition.
+Wu, G., Z. Wu, Z. Dai, Y . Yang, W . Wang, C. Liu, B. Wang,
+Xi, P ., Z. Jiang, C. Zheng, Y . Lin, and G. Wu. 2011. Regulation of protein metabolism by glutamine: implications for nutrition and health. Front. Biosci. (Landmark Ed.).
+Yan, X., Y . Huang, J. X. Zhao, N. M. Long, A. B. Uthlaut, M.
+J. Zhu, S. P . Ford, P . W . Nathanielsz, and M. Du. 2011.
+Nathanielsz, and M. Du. 2010. Up-regulation of toll- like receptor 4/nuclear factor-kappab signaling is associ - ated with enhanced adipogenesis and insulin resistance in fetal skeletal muscle of obese sheep at late gestation.
+Yao, K., Y . L. Yin, W . Chu, Z. Liu, D. Deng, T. Li, R. Huang,
+BMBRep.2010.43.2.140
+Zhou, H., Y . Chen, G. Lv, Y . Zhuo, Y . Lin, B. Feng, Z. Fang, L.
+Che, J. Li, S. Xu, et al. 2016. Improving maternal vitamin
+Zhu, M. J., S. P . Ford, P . W . Nathanielsz, and M. Du. 2004.
+Effect of maternal nutrient restriction in sheep on the de - velopment of fetal skeletal muscle. Biol. Reprod. 71:1968–
+Zhu, M. J., S. P . Ford, W . J. Means, B. W . Hess, P . W . Nathanielsz, and M. Du. 2006. Maternal nutrient restriction affects properties of skeletal muscle in offspring. J. Physiol.
+Zhu, M. J., B. Han, J. Tong, C. Ma, J. M. Kimzey, K. R.
+Underwood, Y . Xiao, B. W . Hess, S. P . Ford, P . W .

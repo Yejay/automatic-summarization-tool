@@ -1,0 +1,385 @@
+Mechanisms of Cardiac Regeneration
+Aysu Uygur, PhD  and Richard T. Lee, MD
+Department of Stem Cell and Regenerative Biology, Harvard University, the Brigham
+Regenerative Medicine Center and the Department of Medicine, Brigham and Women's Hospital,
+Harvard Medical School, and the Harvard Stem Cell Institute, Cambridge, MA.
+Abstract
+Adult humans fail to regenerate their hearts following injury, and this failure to regenerate myocardium is a leading cause of heart failure and death worldwide. Although all adult mammals appear to lack significant cardiac regeneration potential, some vertebrates can regenerate myocardium throughout life. In addition, new studies indicate that mammals have cardiac regeneration potential during development and very soon after birth. The mechanisms of heart regeneration among model organisms, including neonatal mice, appear remarkably similar.
+Orchestrated waves of inflammation, matrix deposition and remodeling, and cardiomyocyte proliferation are commonly seen in heart regeneration models. Understanding why adult mammals develop extensive scarring instead of regeneration is a crucial goal for regenerative biology.
+Introduction
+Address for correspondence: Richard T. Lee, MD, Brigham Regenerative Medicine Center, Partners Research Facility, 65
+Landsdowne St., Cambridge, MA 02139, RLee@bwh.harvard.edu.
+Publisher's Disclaimer: This is a PDF file of an unedited manuscript that has been accepted for publication. As a service to our customers we are providing this early version of the manuscript. The manuscript will undergo copyediting, typesetting, and review of the resulting proof before it is published in its final citable form. Please note that during the production process errors may be discovered which could affect the content, and all legal disclaimers that apply to the journal pertain.
+HHS Public Access
+Author manuscript
+Dev Cell . Author manuscript; available in PMC 2017 February 22.
+Published in final edited form as:
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript therapeutic goal. We are far from a complete understanding of how heart tissue can regenerate, but we are now defining molecular mechanisms that could open the door to stimulating adult mammalian heart regeneration.
+Heart Regeneration in Lower Vertebrates
+Teleosts
+Teleost fish can effectively regenerate many body parts including brain ( Kroehne et al.,
+14 days post resection. By 60 days post resection, almost all the lost muscle tissue is replaced, with contractile function of hearts appearing grossly normal ( Kikuchi and Poss,
+It should be noted that while organ regeneration studies in teleosts have not been limited to zebrafish ( Nabrit, 1929 ), heart regeneration in medaka, another teleost model species, have Uygur and Lee Page 2
+Dev Cell . Author manuscript; available in PMC 2017 February 22.
+Urodeles
+(Spallanzani, 1769 ), and classical experiments by Paul Weiss and colleagues in the 1930's in the regenerating urodele limb described the kinetics of regeneration ( Weiss and Walker,
+The newt and aquatic axolotl hearts have two atria and a single avascular ventricle.
+Following axolotl or newt heart injury, the heart can replace lost tissue and function within
+Anurans
+Anurans are an order of Amphibians distinct from urodeles and includes toads and frogs. In the late 1960s and the early 1970s, the Soviet scientist Rumyantsev characterized cellular proliferation and ultrastructure of muscle fibers following heart injury in adult frogs
+(Rumjancev and Carlson, 1991 ; Rumyantsev, 1973 ). Adult anuran cardiomyocytes are capable of DNA synthesis, cellular proliferation and dedifferentiation to some extent, but Uygur and Lee Page 3
+Dev Cell . Author manuscript; available in PMC 2017 February 22.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript fail to carry out complete heart regeneration, leading to formation of scar tissue in the injured frog heart ( Rumjancev and Carlson, 1991 ; Rumyantsev, 1973 ).
+There is a remarkable difference in the regenerative capacity of the heart in anuran and urodele species of Amphibia. Anurans lose their overall regenerative capacity progressively as they go through metamorphisis from the larvae stage to the adult, concominant with maturation of the immune system ( Izutsu and Yoshizato, 1993 ; Rollins-Smith, 1998 ).
+Urodeles, which have strikingly different immune systems compared to anurans, also go through metamorphosis, but their immune system is more stable ( Godwin and Rosenthal,
+Heart Regeneration in Rodents
+Cardiac regeneration in the fetal mouse heart
+Cardiac regeneration in neonatal mammals
+Adult mammalian hearts fail to show significant regenerative capacity in different injury models ( Kikuchi and Poss, 2012 ; Rumyantsev, 1977 ), but the possibility of a regenerative window in children has been proposed for almost a century in analyses of post-mortem histological specimens ( Macmahon, 1937 ; Warthin, 1924 ). These studies inspired Robledo to explore cardiac regeneration in young rats in the 1950s, but he observed only incomplete regeneration following a myocardial burn injury in rats day 4-7 after birth (Robledo, 1956).
+Recently, direct experimental evidence for a robust regenerative capacity in neonates has been reported in mice in a range of injury models including ventricular resection ( Porrello et Uygur and Lee Page 4
+Dev Cell . Author manuscript; available in PMC 2017 February 22.
+Evolutionarily Conserved Mechanisms in Heart Regeneration
+Sources of regenerated myocardium
+Dev Cell . Author manuscript; available in PMC 2017 February 22.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+EGFP expression, and 30 days post ventricular resection, the majority of the regenerated tissue was labeled with EGFP expression, showing that cmlc2+ cardiomyocytes were the major source for regenerated myocardium.
+30 days post amputation in a restricted lateral expansion, as observed during embryogenesis.
+However, the appearance of muscle layers during regeneration is in reverse order to the order in cardiac development ( Gupta and Poss, 2012 ).
+Dev Cell . Author manuscript; available in PMC 2017 February 22.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+The curious role of nerves
+Over the last century, studies across multiple species has shown that nerves are indispensible for regeneration in many organs. Classical experiments in newt limbs show that denervated limbs cannot regenerate ( Todd, 1823 ). Newt and salamander lens, retina and tail are other systems where adequate number of nerve fibres are required to guide regeneration To date, several nerve-derived factors have been shown to function in regeneration, including fibroblast growth factors (FGFs) in vertebrate limb regeneration( Gospodarowicz and
+Recently, the role of nerves in heart regeneration has also been explored. Mahmoud and
+Dev Cell . Author manuscript; available in PMC 2017 February 22.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+Inflammatory and immune response in heart regeneration
+Unlike embryonic development, tissue growth in regeneration is initiated by an injury, and the inflammatory response to that injury is a critical regulator of the regenerative process.
+Inflammation can drive regeneration but can also inhibit it under some circumstances.
+Xenopus  limbs. As young Xenopus  larvae transition into adulthood through metamorphosis, their immune system also passes through gradual maturation; concominantly, they lose their regenerative capacity ( Godwin and Rosenthal, 2014 ). Grow et al. performed gene expression analysis comparing earlier stage regeneration-competent xenopus limbs and later stage regeneration-incompetent xenopus limbs and reported a higher level of pro-inflammatory genes expression 1 day post amputation in the regeneration incompetent limbs ( Grow et al.,
+Together, the studies in frogs and salamanders show that the early inflammatory response plays a crucial role in the intiation of regenerative processes.
+Interestingly, macrophage depletion did not influence cardiomyocyte proliferation following infarction. The molecular profiling of macrophages suggested that secretion of pro- angiogenic cytokines may be responsible for their important role in cardiac regeneration
+Angiogenesis and heart regeneration
+Throughout phylogeny, formation of new vasculature following injury is vital for regeneration ( Kleinheinz, 2013 ). As new tissue with complex architecture is restored, the Uygur and Lee Page 8
+Dev Cell . Author manuscript; available in PMC 2017 February 22.
+(modRNA) technology to induce VEGF expression in a spatiotemporally controlled manner and thereby improve the regenerative response following injury, through neoangiogenesis
+Extracellular matrix and heart regeneration
+During normal cardiac development, signaling from extracellular matrix (ECM) provides structure and guidance for cellular migration, proliferation and differentiation. For example, fibronectin is a key cue for migration of cardiomyocytes towards the midline ( Trinh and
+In the newt and zebrafish, ECM components and ECM-modifying proteases are among the most robustly enriched genes expressed in response to local injury; in contrast, in adult mammalian myocardium, inflammation and metabolic genes comprise the most significantly Uygur and Lee Page 9
+Dev Cell . Author manuscript; available in PMC 2017 February 22.
+Development vs. Regeneration in the heart
+Transcriptional profile of cardiomyocytes in development and regeneration
+A common principle observed in tissue regeneration is the reactivation of the previously employed developmental transcriptional programs. Studies in different model organisms have shown that mechanisms in developmental cardiogenesis also govern morphological regeneration of the injured heart. As discussed previously, in lower vertebrates and Uygur and Lee Page 10
+Dev Cell . Author manuscript; available in PMC 2017 February 22.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript mammals, the source of new cardiomyocytes appears to be predominantly pre-existing cardiomyocytes that re-enter the cell cycle, although a role for progenitors and stem cells remains hotly debated in the cardiovascular community.
+Dedifferentiation has also been explored in mammalian cardiomyocytes ( Szibor et al.,
+Dev Cell . Author manuscript; available in PMC 2017 February 22.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+Epigenetic control of cardiogenesis has also gained considerable attention, particularly because epigenetic events regulate maintanence of the proliferative state of cardiomyocytes through several mechanisms such as DNA methylation, chromatin remodeling, or covalent histone modifications including acetylation and methylation. The chromatin remodeling
+Epicardium in regeneration
+Dev Cell . Author manuscript; available in PMC 2017 February 22.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+Distinct role of Neuregulin1 in development and regeneration
+The cardiomyocyte mitogenic property of NRG1 in vitro  has motivated studies on a potential role of NRG-1 in cardiac regeneration. In injured zebrafish hearts, NRG1 protein expression is induced in the cells of the outer layer of the heart wall ( Gemberling et al.,
+The Hippo pathway controls heart development and regeneration
+Dev Cell . Author manuscript; available in PMC 2017 February 22.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript cardiac organogenesis in a range of events from progenitor migration to the midline in early cardiac development ( Miesfeld and Link, 2014 ), to cardiac proliferation ( von Gise et al.,
+Mice that are null for the Hippo pathway component protein salvador homolog1 ( Sav1)
+Conclusion
+New research in heart regeneration in different experimental models is revealing that many molecular mechanisms may be shared by organisms that are able to regenerate their hearts.
+These mechanisms include stimulation of an essential immune response, regulation by extracellular cues, a role for nerves and a critical contribution for cardiomyocyte division.
+We still do not understand the barriers to heart regeneration that lead to extensive scarring and eventual heart failure in humans who have major cardiac injuries. The imperative for the field is to learn from the developmental biology of the heart and define the regenerative pathways. Currently, after blood flow is restored in heart attack patients, we largely watch and see how extensive the injury become. In this critical time window, there is an opportunity to identify which patients may develop heart failure in the future and treat them with a regenerative therapy. Should we deliver exogenous cells to replace the lost cardiomyocytes, or can we activate endogenous regeneration pathways at just the right moment?
+Acknowledgments
+SOURCES OF FUNDING  This study was supported in part by the National Institutes of Health R01AG032977,
+R01AG040019, and R03AG049657 and by the Leducq Foundation.
+References
+Andersen DC, Ganesalingam S, Jensen CH, Sheikh SP. Do neonatal mouse hearts regenerate following heart apex resection? Stem Cell Reports. 2014; 2:406–413. [PubMed: 24749066]
+Angert D, Berretta RM, Kubo H, Zhang H, Chen X, Wang W, Ogorek B, Barbe M, Houser SR. Repair of the injured adult heart involves new myocytes potentially derived from resident cardiac stem cells. Circ. Res. 2011; 108:1226–1237. [PubMed: 21454756] Uygur and Lee Page 14
+Dev Cell . Author manuscript; available in PMC 2017 February 22.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+Aurora AB, Porrello ER, Tan W, Mahmoud AI, Hill JA, Bassel-Duby R, Sadek HA, Olson EN.
+Macrophages are required for neonatal heart regeneration. J. Clin. Invest. 2014; 124:1382–1392.
+[PubMed: 24569380]
+Azcoitia V, Aracil M, Martínez-A C, Torres M. The homeodomain protein Meis1 is essential for definitive hematopoiesis and vascular patterning in the mouse embryo. Dev. Biol. 2005; 280:307–
+Baliga RR, Pimental DR, Zhao YY, Simmons WW, Marchionni MA, Sawyer DB, Kelly RA. NRG-1- induced cardiomyocyte hypertrophy. Role of PI-3-kinase, p70(S6K), and MEK-MAPK-RSK. Am.
+J. Physiol. 1999; 277:H2026–H2037. [PubMed: 10564160]
+Bartel DP. MicroRNAs: target recognition and regulatory functions. Cell. 2009; 136:215–233.
+[PubMed: 19167326]
+Becker RO, Chapin S, Sherry R. Regeneration of the ventricular myocardium in amphibians. Nature.
+Becker T, Wullimann MF, Becker CG, Bernhardt RR, Schachner M. Axonal regrowth after spinal cord transection in adult zebrafish. J. Comp. Neurol. 1997; 377:577–595. [PubMed: 9007194]
+Beltrami AP, Barlucchi L, Torella D, Baker M, Limana F, Chimenti S, Kasahara H, Rota M, Musso E,
+Urbanek K, et al. Adult Cardiac Stem Cells Are Multipotent and Support Myocardial Regeneration.
+Cell. 2003; 114:763–776. [PubMed: 14505575]
+Bergmann O, Bhardwaj RD, Bernard S, Zdunek S, Barnabé-Heider F, Walsh S, Zupicich J, Alkass K,
+Buchholz BA, Druid H, et al. Evidence for cardiomyocyte renewal in humans. Science. 2009;
+324:98–102. [PubMed: 19342590]
+Bergmann O, Zdunek S, Felker A, Salehpour M, Alkass K, Bernard S, Sjostrom SL, Szewczykowska
+M, Jackowska T, Dos Remedios C, et al. Dynamics of Cell Generation and Turnover in the Human
+Heart. Cell. 2015; 161:1566–1575. [PubMed: 26073943] van Berlo JH, Kanisicak O, Maillet M, Vagnozzi RJ, Karch J, Lin S-CJ, Middleton RC, Marbán E,
+Molkentin JD. c-kit+ cells minimally contribute cardiomyocytes to the heart. Nature. 2014;
+509:337–341. [PubMed: 24805242]
+Bersell K, Arab S, Haring B, Kühn B. Neuregulin1/ErbB4 signaling induces cardiomyocyte proliferation and repair of heart injury. Cell. 2009; 138:257–270. [PubMed: 19632177]
+Bondue A, Lapouge G, Paulissen C, Semeraro C, Iacovino M, Kyba M, Blanpain C. Mesp1 acts as a master regulator of multipotent cardiovascular progenitor specification. Cell Stem Cell. 2008;
+3:69–84. [PubMed: 18593560]
+Bryant DM, O'Meara CC, Ho NN, Gannon J, Cai L, Lee RT. A systematic analysis of neonatal mouse heart regeneration after apical resection. J. Mol. Cell. Cardiol. 2014; 79:315–318. [PubMed:
+Butcher JT, Norris RA, Hoffman S, Mjaatvedt CH, Markwald RR. Periostin promotes atrioventricular mesenchyme matrix invasion and remodeling mediated by integrin signaling through Rho/PI 3- kinase. Dev. Biol. 2007; 302:256–266. [PubMed: 17070513]
+Cai C-L, Liang X, Shi Y, Chu P-H, Pfaff SL, Chen J, Evans S. Isl1 Identifies a Cardiac Progenitor
+Population that Proliferates Prior to Differentiation and Contributes a Majority of Cells to the
+Heart. Dev. Cell. 2003; 5:877–889. [PubMed: 14667410]
+Chablais F, Jazwinska A. The regenerative capacity of the zebrafish heart is dependent on TGF β signaling. Development. 2012; 139:1921–1930. [PubMed: 22513374]
+Chablais F, Veit J, Rainer G, Jaźwińska A. The zebrafish heart regenerates after cryoinjury-induced myocardial infarction. BMC Dev. Biol. 2011; 11:21. [PubMed: 21473762]
+Chen J, Huang Z-P, Seok HY, Ding J, Kataoka M, Zhang Z, Hu X, Wang G, Lin Z, Wang S, et al. mir-17-92 cluster is required for and sufficient to induce cardiomyocyte proliferation in postnatal and adult hearts. Circ. Res. 2013; 112:1557–1566. [PubMed: 23575307]
+Chong JJH, Yang X, Don CW, Minami E, Liu Y-W, Weyers JJ, Mahoney WM, Van Biber B, Cook
+SM, Palpant NJ, et al. Human embryonic-stem-cell-derived cardiomyocytes regenerate non-human primate hearts. Nature. 2014; 510:273–277. [PubMed: 24776797] da Costa Martins PA, Bourajjaj M, Gladka M, Kortland M, van Oort RJ, Pinto YM, Molkentin JD, De
+Windt LJ. Conditional dicer gene deletion in the postnatal myocardium provokes spontaneous cardiac remodeling. Circulation. 2008; 118:1567–1576. [PubMed: 18809798] Uygur and Lee Page 15
+Dev Cell . Author manuscript; available in PMC 2017 February 22.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+D'Uva G, Aharonov A, Lauriola M, Kain D, Yahalom-Ronen Y, Carvalho S, Weisinger K, Bassat E,
+Rajchman D, Yifa O, et al. ERBB2 triggers mammalian heart regeneration by promoting cardiomyocyte dedifferentiation and proliferation. Nat. Cell Biol. 2015; 17:627–638. [PubMed:
+Darehzereshki A, Rubin N, Gamba L, Kim J, Fraser J, Huang Y, Billings J, Mohammadzadeh R,
+Wood J, Warburton D, et al. Differential regenerative capacity of neonatal mouse hearts after cryoinjury. Dev. Biol. 2015; 399:91–99. [PubMed: 25555840]
+Drenckhahn J-D, Schwarz QP, Gray S, Laskowski A, Kiriazis H, Ming Z, Harvey RP, Du X-J,
+Thorburn DR, Cox TC. Compensatory growth of healthy cardiac cells in the presence of diseased cells restores tissue homeostasis during heart development. Dev. Cell. 2008; 15:521–533.
+[PubMed: 18854137]
+Ehrman LA, Yutzey KE. Lack of regulation in the heart forming region of avian embryos. Dev. Biol.
+Epelman S, Liu PP, Mann DL. Role of innate and adaptive immune mechanisms in cardiac injury and repair. Nat. Rev. Immunol. 2015; 15:117–129. [PubMed: 25614321]
+Eulalio A, Mano M, Dal Ferro M, Zentilin L, Sinagra G, Zacchigna S, Giacca M. Functional screening identifies miRNAs inducing cardiac regeneration. Nature. 2012; 492:376–381. [PubMed:
+FABER J. An experimental analysis of regional organization in the regenerating fore limb of the axolotl (Ambystoma mexicanum). Arch. Biol. (Liege). 71:1–72. [PubMed: 13821173]
+Flink IL. Cell cycle reentry of ventricular and atrial cardiomyocytes and cells within the epicardium following amputation of the ventricular apex in the axolotl, Amblystoma mexicanum: confocal microscopic immunofluorescent image analysis of bromodeoxyuridine-label. Anat. Embryol.
+(Berl). 2002; 205:235–244. [PubMed: 12107494]
+Fratz S, Hager A, Schreiber C, Schwaiger M, Hess J, Stern HC. Long-Term Myocardial Scarring After
+Operation for Anomalous Left Coronary Artery From the Pulmonary Artery. Ann. Thorac. Surg.
+Gamba L, Harrison M, Lien C-L. Cardiac regeneration in model organisms. Curr. Treat. Options
+Cardiovasc. Med. 2014; 16:288. [PubMed: 24496965]
+Gemberling M, Karra R, Dickson AL, Poss KD. Nrg1 is an injury-induced cardiomyocyte mitogen for the endogenous heart regeneration program in zebrafish. Elife. 2015; 4:e05871. von Gise A, Lin Z, Schlegelmilch K, Honor LB, Pan GM, Buck JN, Ma Q, Ishiwata T, Zhou B,
+Camargo FD, et al. YAP1, the nuclear target of Hippo signaling, stimulates heart growth through cardiomyocyte proliferation but not hypertrophy. Proc. Natl. Acad. Sci. U. S. A. 2012; 109:2394–
+Godwin JW, Rosenthal N. Scar-free wound healing and regeneration in amphibians: immunological influences on regenerative success. Differentiation. 2014; 87:66–75. [PubMed: 24565918]
+Godwin JW, Pinto AR, Rosenthal NA. Macrophages are required for adult salamander limb regeneration. Proc. Natl. Acad. Sci. U. S. A. 2013; 110:9415–9420. [PubMed: 23690624]
+González-Rosa JM, Martín V, Peralta M, Torres M, Mercader N. Extensive scar formation and regression during heart regeneration after cryoinjury in zebrafish. Development. 2011; 138:1663–
+Gospodarowicz D, Mescher AL. Fibroblast growth factor and the control of vertebrate regeneration and repair. Ann. N. Y. Acad. Sci. 1980; 339:151–174. [PubMed: 6446870]
+Gottlieb PD, Pierce SA, Sims RJ, Yamagishi H, Weihe EK, Harriss JV, Maika SD, Kuziel WA, King
+HL, Olson EN, et al. Bop encodes a muscle-restricted protein containing MYND and SET domains and is essential for cardiac differentiation and morphogenesis. Nat. Genet. 2002; 31:25–
+Grego-Bessa J, Luna-Zurita L, del Monte G, Bolós V, Melgar P, Arandilla A, Garratt AN, Zang H,
+Mukouyama Y-S, Chen H, et al. Notch signaling is essential for ventricular chamber development.
+Dev. Cell. 2007; 12:415–429. [PubMed: 17336907]
+Grow M, Neff AW, Mescher AL, King MW. inhibit inflammatory responses, and promote bone formation. Dev. Dyn. 2006; 235:2667–2685. [PubMed: 16871633] Uygur and Lee Page 16
+Dev Cell . Author manuscript; available in PMC 2017 February 22.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+Gupta V, Poss KD. Clonally dominant cardiomyocytes direct heart morphogenesis. Nature. 2012;
+484:479–484. [PubMed: 22538609]
+Gupta V, Gemberling M, Karra R, Rosenfeld GE, Evans T, Poss KD. An injury-responsive gata4 program shapes the zebrafish cardiac ventricle. Curr. Biol. 2013; 23:1221–1227. [PubMed:
+Han C, Nie Y, Lian H, Liu R, He F, Huang H, Hu S. Acute inflammation stimulates a regenerative response in the neonatal mouse heart. Cell Res. 2015; 25:1137–1151. [PubMed: 26358185]
+Hang CT, Yang J, Han P, Cheng H-L, Shang C, Ashley E, Zhou B, Chang C-P. Chromatin regulation by Brg1 underlies heart muscle development and disease. Nature. 2010; 466:62–67. [PubMed:
+Harrison MRM, Bussmann J, Huang Y, Zhao L, Osorio A, Burns CG, Burns CE, Sucov HM,
+Siekmann AF, Lien C-L. Chemokine-guided angiogenesis directs coronary vasculature formation in zebrafish. Dev. Cell. 2015; 33:442–454. [PubMed: 26017769]
+Hatzistergos KE, Quevedo H, Oskouei BN, Hu Q, Feigenbaum GS, Margitich IS, Mazhari R, Boyle
+AJ, Zambrano JP, Rodriguez JE, et al. Bone marrow mesenchymal stem cells stimulate cardiac stem cell proliferation and differentiation. Circ. Res. 2010; 107:913–922. [PubMed: 20671238]
+Hatzistergos KE, Takeuchi LM, Saur D, Seidler B, Dymecki SM, Mai JJ, White IA, Balkan W,
+Kanashiro-Takeuchi RM, Schally AV, et al. cKit+ cardiac progenitors of neural crest origin. Proc.
+Natl. Acad. Sci. U. S. A. 2015; 112:13051–13056. [PubMed: 26438843]
+Haubner BJ, Adamowicz-Brice M, Khadayate S, Tiefenthaler V, Metzler B, Aitman T, Penninger JM.
+Complete cardiac regeneration in a mouse model of myocardial infarction. Aging (Albany. NY).
+Haubner BJ, Schneider J, Schweigmann UU, Schuetz T, Dichtl W, Velik-Salchner C, Stein J-I,
+Penninger JM. Functional Recovery of a Human Neonatal Heart After Severe Myocardial
+Infarction. Circ. Res. 2015
+Heallen T, Zhang M, Wang J, Bonilla-Claudio M, Klysik E, Johnson RL, Martin JF. Hippo pathway inhibits Wnt signaling to restrain cardiomyocyte proliferation and heart size. Science. 2011;
+332:458–461. [PubMed: 21512031]
+Heallen T, Morikawa Y, Leach J, Tao G, Willerson JT, Johnson RL, Martin JF. Hippo signaling impedes adult heart regeneration. Development. 2013; 140:4683–4690. [PubMed: 24255096]
+Hertig CM, Kubalak SW, Wang Y, Chien KR. Synergistic roles of neuregulin-1 and insulin-like growth factor-I in activation of the phosphatidylinositol 3-kinase pathway and cardiac chamber morphogenesis. J. Biol. Chem. 1999; 274:37362–37369. [PubMed: 10601306]
+Huang Y, Harrison MR, Osorio A, Kim J, Baugh A, Duan C, Sucov HM, Lien C-L. Igf Signaling is
+Required for Cardiomyocyte Proliferation during Zebrafish Heart Development and Regeneration.
+PLoS One. 2013; 8:e67266. [PubMed: 23840646]
+Ieda M, Tsuchihashi T, Ivey KN, Ross RS, Hong T-T, Shaw RM, Srivastava D. Cardiac fibroblasts regulate myocardial proliferation through beta1 integrin signaling. Dev. Cell. 2009; 16:233–244.
+[PubMed: 19217425]
+Ito K, Morioka M, Kimura S, Tasaki M, Inohaya K, Kudo A. Differential reparative phenotypes between zebrafish and medaka after cardiac injury. Dev. Dyn. 2014; 243:1106–1115. [PubMed:
+Izutsu Y, Yoshizato K. Metamorphosis-dependent recognition of larval skin as non-self by inbred adult frogs (Xenopus laevis). J. Exp. Zool. 1993; 266:163–167. [PubMed: 8501439]
+Jain R, Li D, Gupta M, Manderfield LJ, Ifkovits JL, Wang Q, Liu F, Liu Y, Poleshko A, Padmanabhan
+A, et al. HEART DEVELOPMENT. Integration of Bmp and Wnt signaling by Hopx specifies commitment of cardiomyoblasts. Science. 2015; 348:aaa6071. [PubMed: 26113728]
+Jesty, S. a; Steffey, M. a; Lee, FK.; Breitbach, M.; Hesse, M.; Reining, S.; Lee, JC.; Doran, RM.;
+Nikitin, AY.; Fleischmann, BK., et al. C-Kit+ Precursors Support Postinfarction Myogenesis in the Neonatal, But Not Adult, Heart. Proc. Natl. Acad. Sci. 2012; 109:13380–13385. [PubMed:
+Johnson SL, Weston JA. Temperature-sensitive mutations that cause stage-specific defects in
+Zebrafish fin regeneration. Genetics. 1995; 141:1583–1595. [PubMed: 8601496] Uygur and Lee Page 17
+Dev Cell . Author manuscript; available in PMC 2017 February 22.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+Jonker SS, Zhang L, Louey S, Giraud GD, Thornburg KL, Faber JJ. Myocyte enlargement, differentiation, and proliferation kinetics in the fetal sheep heart. J. Appl. Physiol. 2007;
+102:1130–1142. [PubMed: 17122375]
+Jopling C, Sleep E, Raya M, Martí M, Raya A, Izpisúa Belmonte JC. Zebrafish heart regeneration occurs by cardiomyocyte dedifferentiation and proliferation. Nature. 2010; 464:606–609.
+[PubMed: 20336145]
+Kikuchi K, Poss KD. Cardiac regenerative capacity and mechanisms. Annu. Rev. Cell Dev. Biol.
+Kikuchi K, Holdway JE, Werdich AA, Anderson RM, Fang Y, Egnaczyk GF, Evans T, MacRae CA,
+Stainier DYR, Poss KD. Primary contribution to zebrafish heart regeneration by gata4+ cardiomyocytes. Nature. 2010; 464:601–605. [PubMed: 20336144]
+Kim J, Wu Q, Zhang Y, Wiens KM, Huang Y, Rubin N, Shimada H, Handin RI, Chao MY, Tuan T-L, et al. PDGF signaling is required for epicardial function and blood vessel formation in regenerating zebrafish hearts. Proc. Natl. Acad. Sci. U. S. A. 2010; 107:17206–17210. [PubMed:
+Kimura W, Xiao F, Canseco DC, Muralidhar S, Thet S, Zhang HM, Abdulrahman Y, Chen R, Garcia
+JA, Shelton JM, et al. Hypoxia fate mapping identifies cycling cardiomyocytes in the adult heart.
+Nature. 2015; 523:226–230. [PubMed: 26098368]
+King MW, Neff AW, Mescher AL. The developing Xenopus limb as a model for studies on the balance between inflammation and regeneration. Anat. Rec. (Hoboken). 2012; 295:1552–1561.
+[PubMed: 22933418]
+Kleinheinz SJ, J. Regenerative Medicine and Tissue Engineering (InTech). 2013
+Kroehne V, Freudenreich D, Hans S, Kaslin J, Brand M. Regeneration of the adult zebrafish brain from neurogenic radial glia-type progenitors. Development. 2011; 138:4831–4841. [PubMed:
+Kühn B, del Monte F, Hajjar RJ, Chang Y-S, Lebeche D, Arab S, Keating MT. Periostin induces proliferation of differentiated cardiomyocytes and promotes cardiac repair. Nat. Med. 2007;
+13:962–969. [PubMed: 17632525]
+Kumar A, Brockes JP. Nerve dependence in tissue, organ, and appendage regeneration. Trends
+Neurosci. 2012; 35:691–699. [PubMed: 22989534]
+Kumar A, Godwin JW, Gates PB, Garza-Garcia AA, Brockes JP. Molecular basis for the nerve dependence of limb regeneration in an adult vertebrate. Science. 2007; 318:772–777. [PubMed:
+Kyritsis N, Kizil C, Zocher S, Kroehne V, Kaslin J, Freudenreich D, Iltzsche A, Brand M. Acute inflammation initiates the regenerative response in the adult zebrafish brain. Science. 2012;
+338:1353–1356. [PubMed: 23138980]
+Laube F, Heister M, Scholz C, Borchardt T, Braun T. Re-programming of newt cardiomyocytes is induced by tissue regeneration. J. Cell Sci. 2006; 119:4719–4729. [PubMed: 17077121]
+Lavine KJ, Yu K, White AC, Zhang X, Smith C, Partanen J, Ornitz DM. Endocardial and epicardial derived FGF signals regulate myocardial proliferation and differentiation in vivo. Dev. Cell. 2005;
+8:85–95. [PubMed: 15621532]
+Lavine KJ, Epelman S, Uchida K, Weber KJ, Nichols CG, Schilling JD, Ornitz DM, Randolph GJ,
+Mann DL. Distinct macrophage lineages contribute to disparate patterns of cardiac recovery and remodeling in the neonatal and adult heart. Proc. Natl. Acad. Sci. U. S. A. 2014; 111:16029–
+Lepilina A, Coon AN, Kikuchi K, Holdway JE, Roberts RW, Burns CG, Poss KD. A dynamic epicardial injury response supports progenitor cell activity during zebrafish heart regeneration.
+Cell. 2006; 127:607–619. [PubMed: 17081981]
+Li P, Cavallero S, Gu Y, Chen THP, Hughes J, Hassan AB, Brüning JC, Pashmforoush M, Sucov HM.
+IGF signaling directs ventricular cardiomyocyte proliferation during embryonic heart development. Development. 2011; 138:1795–1805. [PubMed: 21429986]
+Lickert H, Takeuchi JK, Von Both I, Walls JR, McAuliffe F, Adamson SL, Henkelman RM, Wrana
+JL, Rossant J, Bruneau BG. Baf60c is essential for function of BAF chromatin remodelling complexes in heart development. Nature. 2004; 432:107–112. [PubMed: 15525990] Uygur and Lee Page 18
+Dev Cell . Author manuscript; available in PMC 2017 February 22.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+Lien C-L, Schebesta M, Makino S, Weber GJ, Keating MT. Gene expression analysis of zebrafish heart regeneration. PLoS Biol. 2006; 4:e260. [PubMed: 16869712]
+Lin Z, von Gise A, Zhou P, Gu F, Ma Q, Jiang J, Yau AL, Buck JN, Gouin KA, van Gorp PRR, et al.
+Cardiac-specific YAP activation improves cardiac function and survival in an experimental murine
+MI model. Circ. Res. 2014; 115:354–363. [PubMed: 24833660]
+Litvin J, Zhu S, Norris R, Markwald R. Periostin family of proteins: therapeutic targets for heart disease. Anat. Rec. A. Discov. Mol. Cell. Evol. Biol. 2005; 287:1205–1212. [PubMed: 16240445]
+Litwiller R. Quantitative studies on nerve regeneration in Amphibia II. Factors controlling nerve regeneration in regenerating limbs. J. Exp. Zool. 1938; 79:377–397.
+Livet J, Weissman TA, Kang H, Draft RW, Lu J, Bennis RA, Sanes JR, Lichtman JW. Transgenic strategies for combinatorial expression of fluorescent proteins in the nervous system. Nature.
+Lorts A, Schwanekamp JA, Elrod JW, Sargent MA, Molkentin JD. Genetic manipulation of periostin expression in the heart does not affect myocyte content, cell cycle activity, or cardiac repair. Circ.
+Res. 2009; 104:e1–e7. [PubMed: 19038863]
+Lucas D, Scheiermann C, Chow A, Kunisaki Y, Bruns I, Barrick C, Tessarollo L, Frenette PS.
+Chemotherapy-induced bone marrow nerve injury impairs hematopoietic regeneration. Nat. Med.
+Macmahon HE. Hyperplasia and Regeneration of the Myocardium in Infants and in Children. Am. J.
+Pathol. 1937; 13:845–854.5. [PubMed: 19970351]
+Mahmoud AI, Kocabas F, Muralidhar SA, Kimura W, Koura AS, Thet S, Porrello ER, Sadek HA.
+Meis1 regulates postnatal cardiomyocyte cell cycle arrest. Nature. 2013; 497:249–253. [PubMed:
+Mahmoud AI, O'Meara CC, Gemberling M, Zhao L, Bryant DM, Zheng R, Gannon JB, Cai L, Choi
+W-Y, Egnaczyk GF, et al. Nerves Regulate Cardiomyocyte Proliferation and Heart Regeneration.
+Dev. Cell. 2015; 34:387–399. [PubMed: 26256209]
+Mercer SE, Odelberg SJ, Simon H-G. A dynamic spatiotemporal extracellular matrix facilitates epicardial-mediated vertebrate heart regeneration. Dev. Biol. 2013; 382:457–469. [PubMed:
+Miesfeld JB, Link BA. Establishment of transgenic lines to monitor and manipulate Yap/Taz-Tead activity in zebrafish reveals both evolutionarily conserved and divergent functions of the Hippo pathway. Mech. Dev. 2014; 133:177–188. [PubMed: 24560909]
+Molkentin JD, Lin Q, Duncan SA, Olson EN. Requirement of the transcription factor GATA4 for heart tube formation and ventral morphogenesis. Genes Dev. 1997; 11:1061–1072. [PubMed: 9136933]
+Mollova M, Bersell K, Walsh S, Savla J, Das LT, Park S-Y, Silberstein LE, Dos Remedios CG,
+Graham D, Colan S, et al. Cardiomyocyte proliferation contributes to heart growth in young humans. Proc. Natl. Acad. Sci. U. S. A. 2013; 110:1446–1451. [PubMed: 23302686]
+Mysliwiec MR, Carlson CD, Tietjen J, Hung H, Ansari AZ, Lee Y. Jarid2 (Jumonji, AT rich interactive domain 2) regulates NOTCH1 expression via histone modification in the developing heart. J. Biol. Chem. 2012; 287:1235–1241. [PubMed: 22110129]
+Nabrit SM. The role of the fin rays in the regeneration in the tail fins of fishes (fundulus and goldfish).
+Biol. Bull. 1929; 56:235–266.
+O'Meara CC, Wamstad JA, Gladstone RA, Fomovsky GM, Butty VL, Shrikumar A, Gannon JB,
+Boyer LA, Lee RT. Transcriptional reversion of cardiac myocyte fate during mammalian cardiac regeneration. Circ. Res. 2015; 116:804–815. [PubMed: 25477501]
+Oberpriller JO, Oberpriller JC. Response of the adult newt ventricle to injury. J. Exp. Zool. 1974;
+187:249–253. [PubMed: 4813417]
+Ogura Y, Ouchi N, Ohashi K, Shibata R, Kataoka Y, Kambara T, Kito T, Maruyama S, Yuasa D,
+Matsuo K, et al. Therapeutic impact of follistatin-like 1 on myocardial ischemic injury in preclinical models. Circulation. 2012; 126:1728–1738. [PubMed: 22929303]
+Oka T, Xu J, Kaiser RA, Melendez J, Hambleton M, Sargent MA, Lorts A, Brunskill EW, Dorn GW,
+Conway SJ, et al. Genetic manipulation of periostin expression reveals a role in cardiac hypertrophy and ventricular remodeling. Circ. Res. 2007; 101:313–321. [PubMed: 17569887] Uygur and Lee Page 19
+Dev Cell . Author manuscript; available in PMC 2017 February 22.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+Orlic D, Kajstura J, Chimenti S, Jakoniuk I, Anderson SM, Li B, Pickel J, McKay R, Nadal-Ginard B,
+Bodine DM, et al. Bone marrow cells regenerate infarcted myocardium. Nature. 2001; 410:701–
+Oshima Y, Ouchi N, Sato K, Izumiya Y, Pimentel DR, Walsh K. Follistatin-like 1 is an Akt-regulated cardioprotective factor that is secreted by the heart. Circulation. 2008; 117:3099–3108. [PubMed:
+Pesce M, Burba I, Gambini E, Prandi F, Pompilio G, Capogrossi MC. Endothelial and cardiac progenitors: boosting, conditioning and (re)programming for cardiovascular repair. Pharmacol.
+Ther. 2011; 129:50–61. [PubMed: 21035506]
+Piatkowski T, Mühlfeld C, Borchardt T, Braun T. Reconstitution of the myocardium in regenerating newt hearts is preceded by transient deposition of extracellular matrix components. Stem Cells
+Dev. 2013; 22:1921–1931. [PubMed: 23398466]
+Porrello ER, Olson EN. A neonatal blueprint for cardiac regeneration. Stem Cell Res. 2014; 13:556–
+Porrello ER, Mahmoud AI, Simpson E, Hill JA, Richardson JA, Olson EN, Sadek HA. Transient
+Regenerative Potential of the Neonatal Mouse Heart. Science (80-.). 2011a; 331:1078–1080.
+Porrello ER, Johnson BA, Aurora AB, Simpson E, Nam Y-J, Matkovich SJ, Dorn GW, van Rooij E,
+Olson EN. MiR-15 family regulates postnatal mitotic arrest of cardiomyocytes. Circ. Res. 2011b;
+109:670–679. [PubMed: 21778430]
+Porrello ER, Mahmoud AI, Simpson E, Johnson BA, Grinsfelder D, Canseco D, Mammen PP,
+Rothermel BA, Olson EN, Sadek HA. Regulation of neonatal and adult mammalian heart regeneration by the miR-15 family. Proc. Natl. Acad. Sci. U. S. A. 2013; 110:187–192.
+[PubMed: 23248315]
+Poss KD, Wilson LG, Keating MT. Heart regeneration in zebrafish. Science. 2002; 298:2188–2190.
+[PubMed: 12481136]
+Qian L, Huang Y, Spencer CI, Foley A, Vedantham V, Liu L, Conway SJ, Fu J, Srivastava D. In vivo reprogramming of murine cardiac fibroblasts into induced cardiomyocytes. Nature. 2012;
+485:593–598. [PubMed: 22522929]
+Reischauer S, Arnaout R, Ramadass R, Stainier DYR. Actin binding GFP allows 4D in vivo imaging of myofilament dynamics in the zebrafish heart and the identification of Erbb2 signaling as a remodeling factor of myofibril architecture. Circ. Res. 2014; 115:845–856. [PubMed: 25228389]
+Reuter S, Soonpaa MH, Firulli AB, Chang AN, Field LJ. Recombinant neuregulin 1 does not activate cardiomyocyte DNA synthesis in normal or infarcted adult mice. PLoS One. 2014; 9:e115871.
+[PubMed: 25545368]
+ROBLEDO M. Myocardial regeneration in young rats. Am. J. Pathol. 32:1215–1239. [PubMed:
+Rojas-Muñoz A, Rajadhyksha S, Gilmour D, van Bebber F, Antos C, Rodríguez Esteban C, Nüsslein-
+Volhard C, Izpisúa Belmonte JC. ErbB2 and ErbB3 regulate amputation-induced proliferation and migration during vertebrate regeneration. Dev. Biol. 2009; 327:177–190. [PubMed:
+Rollins-Smith LA. Metamorphosis and the amphibian immune system. Immunol. Rev. 1998; 166:221–
+Rumjancev, PP.; Carlson, BM. Growth and Hyperplasia of Cardiac Muscle Cells. Taylor & Francis;
+Rumyantsev PP. Post-injury DNA synthesis, mitosis and ultrastructural reorganization of adult frog cardiac myocytes. An electron microscopic-autoradiographic study. Z. Zellforsch. Mikrosk.
+Anat. 1973; 139:431–450. [PubMed: 4541034]
+Rumyantsev PP. Interrelations of the proliferation and differentiation processes during cardiact myogenesis and regeneration. Int. Rev. Cytol. 1977; 51:186–273. [PubMed: 338537]
+Schindler YL, Garske KM, Wang J, Firulli BA, Firulli AB, Poss KD, Yelon D. Hand2 elevates cardiomyocyte production during zebrafish heart development and regeneration. Development.
+Dev Cell . Author manuscript; available in PMC 2017 February 22.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+Schnabel K, Wu C-C, Kurth T, Weidinger G. Regeneration of cryoinjury induced necrotic heart lesions in zebrafish is associated with epicardial activation and cardiomyocyte proliferation.
+PLoS One. 2011; 6:e18503. [PubMed: 21533269]
+Senyo SE, Steinhauser ML, Pizzimenti CL, Yang VK, Cai L, Wang M, Wu T-D, Guerquin-Kern J-L,
+Lechene CP, Lee RT. Mammalian heart renewal by pre-existing cardiomyocytes. Nature. 2013;
+493:433–436. [PubMed: 23222518]
+Soonpaa MH, Kim KK, Pajak L, Franklin M, Field LJ. Cardiomyocyte DNA synthesis and binucleation during murine development. Am. J. Physiol. 1996; 271:H2183–H2189. [PubMed:
+Spallanzani, A. An Essay on Animal Reproductions. Becket and de Hondt; London: 1769.
+Reproductions of the legs in the aquatic salamander.; p. 68-82.
+Stankunas K, Shang C, Twu KY, Kao S-C, Jenkins NA, Copeland NG, Sanyal M, Selleri L, Cleary
+ML, Chang C-P. Pbx/Meis deficiencies demonstrate multigenetic origins of congenital heart disease. Circ. Res. 2008; 103:702–709. [PubMed: 18723445]
+Stanton LW, Garrard LJ, Damm D, Garrick BL, Lam A, Kapoun AM, Zheng Q, Protter AA, Schreiner
+GF, White RT. Altered patterns of gene expression in response to myocardial infarction. Circ.
+Res. 2000; 86:939–945. [PubMed: 10807865]
+Strungs EG, Ongstad EL, O'Quinn MP, Palatinus JA, Jourdan LJ, Gourdie RG. Cryoinjury models of the adult and neonatal mouse heart for studies of scarring and regeneration. Methods Mol. Biol.
+Suetsugu-Maki R, Maki N, Nakamura K, Sumanas S, Zhu J, Del Rio-Tsonis K, Tsonis PA. Lens regeneration in axolotl: new evidence of developmental plasticity. BMC Biol. 2012; 10:103.
+[PubMed: 23244204]
+Sultana N, Zhang L, Yan J, Chen J, Cai W, Razzaque S, Jeong D, Sheng W, Bu L, Xu M, et al.
+Resident c-kit(+) cells in the heart are not cardiac stem cells. Nat. Commun. 2015; 6:8701.
+[PubMed: 26515110]
+Szibor M, Pöling J, Warnecke H, Kubin T, Braun T. Remodeling and dedifferentiation of adult cardiomyocytes during disease and regeneration. Cell. Mol. Life Sci. 2014; 71:1907–1916.
+[PubMed: 24322910]
+Takaya T, Kawamura T, Morimoto T, Ono K, Kita T, Shimatsu A, Hasegawa K. Identification of p300-targeted acetylated residues in GATA4 during hypertrophic responses in cardiac myocytes.
+J. Biol. Chem. 2008; 283:9828–9835. [PubMed: 18252717]
+Temsah R, Nemer M. GATA factors and transcriptional regulation of cardiac natriuretic peptide genes.
+Regul. Pept. 2005; 128:177–185. [PubMed: 15837526]
+Todd JT. On the process of reproduction of the members of the aquatic salamander. Q. J. Sci. Lit. Arts.
+Tournefier A, Laurens V, Chapusot C, Ducoroy P, Padros MR, Salvadori F, Sammut B. Structure of
+MHC class I and class II cDNAs and possible immunodeficiency linked to class II expression in the Mexican axolotl. Immunol. Rev. 1998; 166:259–277. [PubMed: 9914918]
+Trinh LA, Stainier DYR. Fibronectin regulates epithelial organization during myocardial migration in zebrafish. Dev. Cell. 2004; 6:371–382. [PubMed: 15030760]
+Trivedi CM, Zhu W, Wang Q, Jia C, Kee HJ, Li L, Hannenhalli S, Epstein JA. Hopx and Hdac2 interact to modulate Gata4 acetylation and embryonic cardiac myocyte proliferation. Dev. Cell.
+Vihtelic TS, Hyde DR. Light-induced rod and cone cell death and regeneration in the adult albino zebrafish (Danio rerio) retina. J. Neurobiol. 2000; 44:289–307. [PubMed: 10942883]
+Wang J, Greene SB, Bonilla-Claudio M, Tao Y, Zhang J, Bai Y, Huang Z, Black BL, Wang F, Martin
+JF. Bmp signaling regulates myocardial differentiation from cardiac progenitors through a
+MicroRNA-mediated mechanism. Dev. Cell. 2010; 19:903–912. [PubMed: 21145505]
+Wang J, Panáková D, Kikuchi K, Holdway JE, Gemberling M, Burris JS, Singh SP, Dickson AL, Lin
+Y-F, Sabeh MK, et al. The regenerative capacity of zebrafish reverses cardiac failure caused by genetic cardiomyocyte depletion. Development. 2011; 138:3421–3430. [PubMed: 21752928] Uygur and Lee Page 21
+Dev Cell . Author manuscript; available in PMC 2017 February 22.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+Wang J, Karra R, Dickson AL, Poss KD. Fibronectin is deposited by injury-activated epicardial cells and is necessary for zebrafish heart regeneration. Dev. Biol. 2013; 382:427–435. [PubMed:
+Wang J, Cao J, Dickson AL, Poss KD. Epicardial regeneration is guided by cardiac outflow tract and
+Hedgehog signalling. Nature. 2015; 522:226–230. [PubMed: 25938716]
+Wang L, Marchionni MA, Tassava RA. Cloning and neuronal expression of a type III newt neuregulin and rescue of denervated, nerve-dependent newt limb blastemas by rhGGF2. J. Neurobiol. 2000;
+43:150–158. [PubMed: 10770844]
+Warthin AS. The Myocardial Lesions of diphteria. J. Infect. Dis. 1924; 35
+Wei K, Serpooshan V, Hurtado C, Diez-Cuñado M, Zhao M, Maruyama S, Zhu W, Fajardo G, Noseda
+M, Nakamura K, et al. Epicardial FSTL1 reconstitution regenerates the adult mammalian heart.
+Nature. 2015; 525:479–485. [PubMed: 26375005]
+Weiss P, Walker R. Nerve Pattern in Regenerated Urodele Limbs. Exp. Biol. Med. 1934; 31:810–812.
+White IA, Gordon J, Balkan W, Hare JM. Sympathetic Reinnervation Is Required for Mammalian
+Cardiac Regeneration. Circ. Res. 2015; 117:990–994. [PubMed: 26371181]
+Witman N, Murtuza B, Davis B, Arner A, Morrison JI. Recapitulation of developmental cardiogenesis governs the morphological and functional regeneration of adult newt hearts following injury.
+Dev. Biol. 2011; 354:67–76. [PubMed: 21457708]
+Xie M, Hill JA. HDAC-dependent ventricular remodeling. Trends Cardiovasc. Med. 2013; 23:229–
+Xin M, Olson EN, Bassel-Duby R. Mending broken hearts: cardiac development as a basis for adult heart regeneration and repair. Nat. Rev. Mol. Cell Biol. 2013a; 14:529–541. [PubMed:
+Xin M, Kim Y, Sutherland LB, Murakami M, Qi X, McAnally J, Porrello ER, Mahmoud AI, Tan W,
+Shelton JM, et al. Hippo pathway effector Yap promotes cardiac regeneration. Proc. Natl. Acad.
+Sci. U. S. A. 2013b; 110:13839–13844. [PubMed: 23918388]
+Yin VP, Lepilina A, Smith A, Poss KD. Regulation of zebrafish heart regeneration by miR-133. Dev.
+Biol. 2012; 365:319–327. [PubMed: 22374218]
+Zangi L, Lui KO, von Gise A, Ma Q, Ebina W, Ptaszek LM, Später D, Xu H, Tabebordbar M,
+Gorbatov R, et al. Modified mRNA directs the fate of heart progenitor cells and induces vascular regeneration after myocardial infarction. Nat. Biotechnol. 2013; 31:898–907. [PubMed:
+Zhao B, Tumaneng K, Guan K-L. The Hippo pathway in organ size control, tissue regeneration and stem cell self-renewal. Nat. Cell Biol. 2011; 13:877–883. [PubMed: 21808241]
+Zhou Q, Li L, Zhao B, Guan K-L. The hippo pathway in heart development, regeneration, and diseases. Circ. Res. 2015; 116:1431–1447. [PubMed: 25858067] Uygur and Lee Page 22
+Dev Cell . Author manuscript; available in PMC 2017 February 22.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+Figure 1. Cardiac Regeneration Across Model Organisms
+Cardiac regeneration has been studied in a number of model systems. While lower vertebrate model species like teleost fish and urodeles retain regenerative capacity throughout adult life, anurans and mammals lose this ability in adulthood. It should be noted that not all teleost fish have been reported to have complete regenerative response upon heart injury. Future studies on different species and different injury types will broaden our understanding of evolutionary conservation of capacity for cardiac regeneration.Uygur and Lee Page 23
+Dev Cell . Author manuscript; available in PMC 2017 February 22.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+Figure 2. Mammalian response to injury
+Cardiac regeneration has been explored in fetal, neonatal and adult mammals and occurs to a different extent in each model. At embryonic stages, compensatory growth in cardiomyocytes restores up to 50% of lost tissue. In the neonatal mouse, tissue can replace a majority of lost cardiomyocytes with minimal scarring in myocardial infarction and ventricular resection models. In the adult mouse, cardiomyocyte proliferation is insufficient to replace lost tissue, and extracellular matrix deposition following injury leads to extensive scarring.Uygur and Lee Page 24
+Dev Cell . Author manuscript; available in PMC 2017 February 22.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
+Figure 3. Evolutionarily conserved mechanisms of cardiac regeneration
+Cardiomyocyte proliferation is central to the process of cardiac regeneration, and several processes have been shown to modulate proliferation upon injury in a range of organisms that are capable of a complete regenerative response. An inflammatory response tightly regulates a fine balance between proliferation and repair. Extracellular matrix deposition following injury creates a permissive environment for cellular proliferation and is influenced by signals from the epicardium following injury. Neoangiogenesis is triggered by FGF and
+PDGF signaling and provides a supply of oxygen and nutrients to the regrowing tissue, and new studies emphasize the requirement of nerves in the regenerate.Uygur and Lee Page 25
+Dev Cell . Author manuscript; available in PMC 2017 February 22.
+Author Manuscript Author Manuscript Author Manuscript Author Manuscript
