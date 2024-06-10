@@ -31,9 +31,18 @@ def clean_text(text):
     return normalized_text
 
 def is_reference(line):
+    # Heuristik zur Identifizierung von Quellenangaben für verschiedene Zitierstile
     patterns = [
-        r"^\[\d+\]", r"^\d+\.", r"^\(\d+\)", r"\(\d{4}\)", r"^\d{4}", r"\d{4}\)$",
-        r"et al\., \d{4}", r"\[\d{4}\]", r"doi:.*$", r"http[s]?://\S+",
+        r"^\[\d+\]",         # [1], [2], etc. (IEEE)
+        r"^\d+\.",           # 1. 2. etc. (numerische Stile)
+        r"^\(\d+\)",         # (1), (2), etc.
+        r"\(\d{4}\)",        # (2020), (2019), etc. (APA)
+        r"^\d{4}",           # 2020, 2019 am Anfang der Zeile
+        r"\d{4}\)$",         # 2020), 2019) am Ende der Zeile
+        r"et al\., \d{4}",   # et al., 2020 (Harvard)
+        r"\[\d{4}\]",        # [2020], [2019] (Jahr in eckigen Klammern)
+        r"doi:.*$",          # DOI-Links
+        r"http[s]?://\S+",   # URLs
     ]
     for pattern in patterns:
         if re.search(pattern, line):
@@ -77,7 +86,8 @@ def main():
             text = extract_text(pdf_path)
             cleaned_text = clean_text(text)
             
-            text_file_path = os.path.join(texts_dir, f"{study_id}.txt")
+            text_file_name = f"{study_id}.txt"
+            text_file_path = os.path.join(texts_dir, text_file_name)
             save_text_to_file(cleaned_text, text_file_path)
             
             abstract_file_name = abstracts.get(study_id, None)
@@ -89,11 +99,12 @@ def main():
             
             study_data = {
                 "id": study_id,
-                "text_file": text_file_path,
-                "abstract_file": abstract_file_path
+                "text_file": text_file_name,
+                "abstract_file": abstract_file_name
             }
             studies.append(study_data)
             print(f"Text von {pdf_path} wurde erfolgreich extrahiert und bereinigt.")
+
     
     save_json(studies, output_json_path)
     print(f"Studieninformationen wurden erfolgreich in {output_json_path} gespeichert.")
