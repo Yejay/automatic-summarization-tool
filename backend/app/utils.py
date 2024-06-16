@@ -1,31 +1,74 @@
+import re
+import unicodedata
 from pypdf import PdfReader
 from io import BytesIO
 
 
-# Function to extract text from a file
 def extract_text(file):
-    # Check if the file is a PDF
-    if file.filename.endswith(".pdf"):
-        # Read the PDF file
-        pdf = PdfReader(BytesIO(file.read()))
-        text = ""
-        # Loop through each page in the PDF
-        for page in pdf.pages:
-            # Extract the text from the page
-            page_text = page.extract_text()
-            # If the page contains text, add it to the overall text
-            if page_text:
-                text += page_text
-    else:
-        # If the file is not a PDF, read the text directly
-        text = file.read().decode("utf-8", errors="ignore")
-    # Return the extracted text
+    if isinstance(file, str):  # Handle file path
+        if file.endswith(".pdf"):
+            with open(file, "rb") as f:
+                pdf = PdfReader(f)
+                text = ""
+                for page in pdf.pages:
+                    page_text = page.extract_text()
+                    if page_text:
+                        text += page_text
+        else:
+            with open(file, "r", encoding="utf-8", errors="ignore") as f:
+                text = f.read()
+    else:  # Handle file-like object
+        if file.filename.endswith(".pdf"):
+            pdf = PdfReader(BytesIO(file.read()))
+            text = ""
+            for page in pdf.pages:
+                page_text = page.extract_text()
+                if page_text:
+                    text += page_text
+        else:
+            text = file.read().decode("utf-8", errors="ignore")
     return text
+
+
+def clean_text(text):
+    lines = text.splitlines()
+    cleaned_lines = [line.strip() for line in lines if line.strip()]
+    combined_lines = []
+    for i in range(len(cleaned_lines)):
+        if i > 0 and cleaned_lines[i][0].islower():
+            combined_lines[-1] += " " + cleaned_lines[i]
+        else:
+            combined_lines.append(cleaned_lines[i])
+    filtered_lines = [line for line in combined_lines if not is_reference(line)]
+    normalized_text = "\n".join(filtered_lines)
+    normalized_text = unicodedata.normalize("NFKD", normalized_text)
+    return normalized_text
+
+
+def is_reference(line):
+    # Heuristik zur Identifizierung von Quellenangaben für verschiedene Zitierstile
+    patterns = [
+        r"^\[\d+\]",  # [1], [2], etc. (IEEE)
+        r"^\d+\.",  # 1. 2. etc. (numerische Stile)
+        r"^\(\d+\)",  # (1), (2), etc.
+        r"\(\d{4}\)",  # (2020), (2019), etc. (APA)
+        r"^\d{4}",  # 2020, 2019 am Anfang der Zeile
+        r"\d{4}\)$",  # 2020), 2019) am Ende der Zeile
+        r"et al\., \d{4}",  # et al., 2020 (Harvard)
+        r"\[\d{4}\]",  # [2020], [2019] (Jahr in eckigen Klammern)
+        r"doi:.*$",  # DOI-Links
+        r"http[s]?://\S+",  # URLs
+    ]
+    for pattern in patterns:
+        if re.search(pattern, line):
+            return True
+    return False
 
 
 # Function to split text into chunks
 def split_text(text, tokenizer, chunk_size=512, chunk_overlap=100):
-    # Tokenize the text and get the input IDs
+    if not isinstance(text, str):
+        raise ValueError(f"Expected text to be a str, but got {type(text)}")
     inputs = tokenizer(
         text, return_tensors="pt", truncation=True, max_length=chunk_size, padding=False
     )
@@ -34,17 +77,11 @@ def split_text(text, tokenizer, chunk_size=512, chunk_overlap=100):
 
     chunks = []
     start = 0
-    # Loop until all tokens have been processed
     while start < total_tokens:
-        # Determine the end index for the current chunk
         end = min(start + chunk_size, total_tokens)
-        # Decode the tokens to get the chunk text
         chunk = tokenizer.decode(input_ids[start:end], skip_special_tokens=True)
-        # Add the chunk to the list of chunks
         chunks.append(chunk)
-        # Move the start index to the next chunk, overlapping as specified
         start += chunk_size - chunk_overlap
-    # Return the list of chunks
     return chunks
 
 
@@ -54,7 +91,9 @@ def summarize_chunk(chunk, summarizer, max_length=512, min_length=30):
     input_length = len(chunk.split())
     dynamic_max_length = min(max_length, max(min_length, input_length // 2))
     # Generate the summary
-    summary = summarizer(chunk, max_length=dynamic_max_length, min_length=min_length, do_sample=False)
+    summary = summarizer(
+        chunk, max_length=dynamic_max_length, min_length=min_length, do_sample=False
+    )
     # Return the summary text
     return summary[0]["summary_text"]
 
@@ -66,12 +105,24 @@ def combine_summaries(summaries):
 
 
 # Function to summarize large text
-def summarize_text(text, chunk_size, summarizer, tokenizer, max_length=512, min_length=30, use_reduce_step=True):
+def summarize_text(
+    text,
+    chunk_size,
+    summarizer,
+    tokenizer,
+    max_length=512,
+    min_length=30,
+    use_reduce_step=True,
+):
+    cleaned_text = clean_text(text)
+
     # Split the text into chunks
-    chunks = split_text(text, tokenizer, chunk_size)
+    chunks = split_text(cleaned_text, tokenizer, chunk_size)
 
     # Summarize each chunk (map step)
-    first_round_summaries = [summarize_chunk(chunk, summarizer, max_length, min_length) for chunk in chunks]
+    first_round_summaries = [
+        summarize_chunk(chunk, summarizer, max_length, min_length) for chunk in chunks
+    ]
 
     # If not using the reduce step, return the combined summaries
     if not use_reduce_step:
@@ -82,7 +133,10 @@ def summarize_text(text, chunk_size, summarizer, tokenizer, max_length=512, min_
     final_chunks = split_text(combined_text, tokenizer, chunk_size)
 
     # Summarize each final chunk (reduce step)
-    final_summaries = [summarize_chunk(chunk, summarizer, max_length, min_length) for chunk in final_chunks]
+    final_summaries = [
+        summarize_chunk(chunk, summarizer, max_length, min_length)
+        for chunk in final_chunks
+    ]
 
     # Return the final combined summary
     return combine_summaries(final_summaries)

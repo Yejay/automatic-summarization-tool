@@ -1,23 +1,49 @@
+from io import BytesIO
 import os
 import re
 from pypdf import PdfReader
 
-def extract_text(file_path):
-    # Öffne die PDF-Datei
-    with open(file_path, 'rb') as file:
-        pdf = PdfReader(file)
-        text = ""
-        total_pages = len(pdf.pages)
+# def extract_text(file_path):
+#     # Öffne die PDF-Datei
+#     with open(file_path, 'rb') as file:
+#         pdf = PdfReader(file)
+#         text = ""
+#         total_pages = len(pdf.pages)
         
-        # Schleife durch jede Seite in der PDF
-        for page_num in range(total_pages):
-            page = pdf.pages[page_num]
-            # Extrahiere den Text von der Seite
-            page_text = page.extract_text()
-            # Wenn die Seite Text enthält, füge ihn zum Gesamten hinzu
-            if page_text:
-                text += page_text + "\n"
-    # Rückgabe des extrahierten Textes
+#         # Schleife durch jede Seite in der PDF
+#         for page_num in range(total_pages):
+#             page = pdf.pages[page_num]
+#             # Extrahiere den Text von der Seite
+#             page_text = page.extract_text()
+#             # Wenn die Seite Text enthält, füge ihn zum Gesamten hinzu
+#             if page_text:
+#                 text += page_text + "\n"
+#     # Rückgabe des extrahierten Textes
+#     return text
+
+def extract_text(file):
+    if isinstance(file, str):  # Handle file path
+        if file.endswith(".pdf"):
+            with open(file, "rb") as f:
+                pdf = PdfReader(f)
+                text = ""
+                for page in pdf.pages:
+                    page_text = page.extract_text()
+                    if page_text:
+                        text += page_text
+        else:
+            with open(file, "r", encoding="utf-8", errors="ignore") as f:
+                text = f.read()
+    else:  # Handle file-like object
+        if file.filename.endswith(".pdf"):
+            pdf = PdfReader(BytesIO(file.read()))
+            text = ""
+            for page in pdf.pages:
+                page_text = page.extract_text()
+                if page_text:
+                    text += page_text
+        else:
+            text = file.read().decode("utf-8", errors="ignore")
     return text
 
 def clean_text(text):

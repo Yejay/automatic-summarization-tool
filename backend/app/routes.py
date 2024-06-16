@@ -4,6 +4,7 @@ from flask import request, jsonify
 from .summarizers.bart_summarizer import summarize_bart
 from .summarizers.pegasus_summarizer import summarize_pegasus
 from .summarizers.openai_summarizer import summarize_openai
+from rouge_score import rouge_scorer
 
 
 def register_routes(app):
@@ -13,9 +14,7 @@ def register_routes(app):
             return jsonify({"error": "No file provided"}), 400
 
         file = request.files["file"]
-        max_length = int(request.form.get("max_length", 512))
-        min_length = int(request.form.get("min_length", 30))
-        summary = summarize_bart(file, max_length=max_length, min_length=min_length)
+        summary = summarize_bart(file, max_length=1024, min_length=256)
         return jsonify({"summary": summary})
 
     @app.route("/summarize_pegasus", methods=["POST"])
@@ -24,9 +23,7 @@ def register_routes(app):
             return jsonify({"error": "No file provided"}), 400
 
         file = request.files["file"]
-        max_length = int(request.form.get("max_length", 512))
-        min_length = int(request.form.get("min_length", 30))
-        summary = summarize_pegasus(file, max_length=max_length, min_length=min_length)
+        summary = summarize_pegasus(file, max_length=1024, min_length=256)
         return jsonify({"summary": summary})
 
     @app.route("/summarize_openai", methods=["POST"])
@@ -37,51 +34,58 @@ def register_routes(app):
         file = request.files["file"]
         summary = summarize_openai(file)
         return jsonify({"summary": summary})
-    
-    # Test endpoint for evaluating the summarization models
-    @app.route("/test_eval_wip", methods=["GET"])
-    def test_eval_wip_endpoint():
-        # Get the directory of the current script
-        script_dir = os.path.dirname(os.path.abspath(__file__))
 
-        # Navigate up two directories to the project root
-        project_root = os.path.dirname(os.path.dirname(script_dir))
+    @app.route("/test_eval_wip", methods=["POST"])
+    def test_eval_wip():
+        studies_file_path = os.path.join(
+            os.path.dirname(__file__), "..", "data", "studies.json"
+        )
 
-        # Construct the path to the studies.json file
-        json_file_path = os.path.join(project_root, "output", "studies.json")
+        if not os.path.exists(studies_file_path):
+            return jsonify({"error": "Studies file not found"}), 404
 
-        with open(json_file_path, "r", encoding="utf-8") as json_file:
-            studies = json.load(json_file)
-        first_study = studies[0]
+        with open(studies_file_path, "r") as f:
+            studies = json.load(f)
 
-        # Construct the absolute path for the text file
-        text_file_path = os.path.join(project_root, "output", "texts", first_study["text_file"])
+        scorer = rouge_scorer.RougeScorer(
+            ["rouge1", "rouge2", "rougeL"], use_stemmer=True
+        )
+        results = []
 
-        # Load the text of the first study
-        with open(text_file_path, "r", encoding="utf-8") as text_file:
-            study_text = text_file.read()
-        
-        model = request.args.get("model", "bart")
-        
-        if model == "bart":
-            summary = summarize_bart_text(study_text)
-        elif model == "pegasus":
-            summary = summarize_pegasus_text(study_text)
-        elif model == "openai":
-            summary = summarize_openai_text(study_text)
-        else:
-            return jsonify({"error": "Invalid model selected"}), 400
-        
-        return jsonify({"summary": summary})
+        for study in studies:
+            study_id = study["id"]
+            text_file = study["text_file"]
+            abstract_file = study["abstract_file"]
 
-def summarize_bart_text(text):
-    from .summarizers.bart_summarizer import bart_summarizer
-    return bart_summarizer(text, max_length=512, min_length=30)[0]["summary_text"]
+            text_file_path = os.path.join(
+                os.path.dirname(__file__), "..", "output", "texts", text_file
+            )
+            abstract_file_path = os.path.join(
+                os.path.dirname(__file__), "..", "output", "abstracts", abstract_file
+            )
 
-def summarize_pegasus_text(text):
-    from .summarizers.pegasus_summarizer import pegasus_summarizer
-    return pegasus_summarizer(text, max_length=512, min_length=30)[0]["summary_text"]
+            if not os.path.exists(text_file_path) or not os.path.exists(
+                abstract_file_path
+            ):
+                return jsonify({"error": f"File not found for study {study_id}"}), 404
 
-def summarize_openai_text(text):
-    from .summarizers.openai_summarizer import openai_summarizer
-    return openai_summarizer(text)[0]["summary_text"]
+            summary_bart = summarize_bart(text_file_path, max_length=1024, min_length=256)
+            summary_pegasus = summarize_pegasus(text_file_path, max_length=1024, min_length=256)
+            summary_openai = summarize_openai(text_file_path)
+
+            scores_bart = scorer.score(abstract_file, summary_bart)
+            scores_pegasus = scorer.score(abstract_file, summary_pegasus)
+            scores_openai = scorer.score(abstract_file, summary_openai)
+
+            results.append(
+                {
+                    "study_id": study_id,
+                    "scores": {
+                        "bart": scores_bart,
+                        "pegasus": scores_pegasus,
+                        "openai": scores_openai,
+                    },
+                }
+            )
+
+        return jsonify(results)

@@ -18,7 +18,7 @@ def summarize_pegasus(file, max_length=512, min_length=30):
     # The text is split into chunks of 512 tokens, and the reduce step is used
     final_summary = summarize_text(
         text,
-        chunk_size=512,
+        chunk_size=1024,
         summarizer=pegasus_summarizer,
         tokenizer=pegasus_tokenizer,
         max_length=max_length,
