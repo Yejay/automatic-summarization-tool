@@ -4,9 +4,9 @@ import './App.css';
 interface EvaluationResult {
 	study_id: string;
 	scores: {
-		bart: { rouge1: number[]; rouge2: number[]; rougeL: number[] };
-		pegasus: { rouge1: number[]; rouge2: number[]; rougeL: number[] };
-		openai: { rouge1: number[]; rouge2: number[]; rougeL: number[] };
+		bart: { rouge1: number[]; rouge2: number[]; rougeL: number[], composite: number };
+		pegasus: { rouge1: number[]; rouge2: number[]; rougeL: number[], composite: number};
+		openai: { rouge1: number[]; rouge2: number[]; rougeL: number[],  composite: number};
 	};
 }
 
@@ -14,8 +14,6 @@ function App() {
 	const [summary, setSummary] = useState<string>('');
 	const [model, setModel] = useState<string>('bart');
 	const [loading, setLoading] = useState<boolean>(false);
-	// const [maxLength, setMaxLength] = useState<number>(512);
-	// const [minLength, setMinLength] = useState<number>(30);
 	const [evaluationResults, setEvaluationResults] = useState<EvaluationResult[] | null>(null);
 	const [dragActive, setDragActive] = useState<boolean>(false);
 	const [fileName, setFileName] = useState<string | null>(null);
@@ -61,8 +59,6 @@ function App() {
 		setLoading(true);
 		const formData = new FormData();
 		formData.append('file', file);
-		// formData.append('max_length', maxLength.toString());
-		// formData.append('min_length', minLength.toString());
 
 		const endpoint = model === 'bart' ? 'summarize_bart' : model === 'pegasus' ? 'summarize_pegasus' : 'summarize_openai';
 
@@ -98,8 +94,8 @@ function App() {
 
 		return (
 			<div>
-				<div>P: {scores[0].toFixed(3)}</div>
-				<div>R: {scores[1].toFixed(3)}</div>
+				<div>Precision: {scores[0].toFixed(3)}</div>
+				<div>Recall: {scores[1].toFixed(3)}</div>
 				<div>F1: {scores[2].toFixed(3)}</div>
 			</div>
 		);
@@ -133,18 +129,6 @@ function App() {
 						GPT
 					</button>
 				</div>
-				{/* <div>
-					<label>
-						Max Length: {maxLength}
-						<input type='range' min='50' max='1024' value={maxLength} onChange={(e) => setMaxLength(Number(e.target.value))} style={{ width: '100%' }} />
-					</label>
-				</div>
-				<div>
-					<label>
-						Min Length: {minLength}
-						<input type='range' min='10' max='500' value={minLength} onChange={(e) => setMinLength(Number(e.target.value))} style={{ width: '100%' }} />
-					</label>
-				</div> */}
 				<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px', marginTop: '20px' }}>
 					<button onClick={handleSubmit} style={{ width: '25%', padding: '10px', backgroundColor: '#646cffaa', border: 'none', borderRadius: '5px' }}>
 						Summarize
@@ -193,6 +177,7 @@ function App() {
 									<th>ROUGE-1</th>
 									<th>ROUGE-2</th>
 									<th>ROUGE-L</th>
+                                    <th>Composite</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -204,18 +189,21 @@ function App() {
 											<td>{formatRougeScores(result.scores.bart.rouge1)}</td>
 											<td>{formatRougeScores(result.scores.bart.rouge2)}</td>
 											<td>{formatRougeScores(result.scores.bart.rougeL)}</td>
+                                            <td>{result.scores.bart.composite.toFixed(3)}</td>
 										</tr>
 										<tr>
 											<td>PEGASUS</td>
 											<td>{formatRougeScores(result.scores.pegasus.rouge1)}</td>
 											<td>{formatRougeScores(result.scores.pegasus.rouge2)}</td>
 											<td>{formatRougeScores(result.scores.pegasus.rougeL)}</td>
+                                            <td>{result.scores.pegasus.composite.toFixed(3)}</td>
 										</tr>
 										<tr>
 											<td>OpenAI</td>
 											<td>{formatRougeScores(result.scores.openai.rouge1)}</td>
 											<td>{formatRougeScores(result.scores.openai.rouge2)}</td>
 											<td>{formatRougeScores(result.scores.openai.rougeL)}</td>
+                                            <td>{result.scores.openai.composite.toFixed(3)}</td>
 										</tr>
 									</React.Fragment>
 								))}
@@ -229,3 +217,6 @@ function App() {
 }
 
 export default App;
+
+
+

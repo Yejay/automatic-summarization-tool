@@ -11,7 +11,7 @@ pegasus_tokenizer = PegasusTokenizer.from_pretrained("google/pegasus-pubmed")
 
 
 # Function to summarize a text file using the Pegasus model
-def summarize_pegasus(file, max_length=512, min_length=30):
+def summarize_pegasus(file, min_length=512, max_length=30):
     # Extract the text from the file
     text = extract_text(file)
     # Summarize the text using the Pegasus summarizer and tokenizer
@@ -21,8 +21,8 @@ def summarize_pegasus(file, max_length=512, min_length=30):
         chunk_size=1024,
         summarizer=pegasus_summarizer,
         tokenizer=pegasus_tokenizer,
-        max_length=max_length,
         min_length=min_length,
+        max_length=max_length,
         # Set to True to resummarize the combined text after the first round of summarization
         use_reduce_step=True,
     )

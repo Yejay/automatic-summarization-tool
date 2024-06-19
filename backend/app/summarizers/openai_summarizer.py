@@ -12,7 +12,7 @@ client = OpenAI()
 
 
 # Function to summarize a text file using the OpenAI GPT-3 model
-def summarize_openai(file):
+def summarize_openai(file, max_tokens):
     # Extract the text from the file
     text = extract_text(file)
     # Create a chat completion with the GPT-3 model
@@ -22,7 +22,7 @@ def summarize_openai(file):
     # The maximum number of tokens in the output is set to 64
     # The top_p parameter is set to 1 to use nucleus sampling, which can improve the quality of the output
     response = client.chat.completions.create(
-        model="gpt-3.5-turbo-16k",
+        model="gpt-3.5-turbo",
         messages=[
             {
                 "role": "system",
@@ -30,11 +30,11 @@ def summarize_openai(file):
             },
             {
                 "role": "user",
-                "content": "Summarize the following text:\n" + text,
+                "content": "Summarize the following text, your answer should be a continuous text. No formatting or markdown in your response. Your response should be 1000 Tokens long:\n"
+                + text,
             },
         ],
         temperature=0.7,
-        max_tokens=64,
         top_p=1,
     )
     # Extract the content of the model's message from the response

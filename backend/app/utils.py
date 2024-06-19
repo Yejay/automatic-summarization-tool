@@ -66,7 +66,7 @@ def is_reference(line):
 
 
 # Function to split text into chunks
-def split_text(text, tokenizer, chunk_size=512, chunk_overlap=100):
+def split_text(text, tokenizer, chunk_size, chunk_overlap=100):
     if not isinstance(text, str):
         raise ValueError(f"Expected text to be a str, but got {type(text)}")
     inputs = tokenizer(
@@ -86,13 +86,13 @@ def split_text(text, tokenizer, chunk_size=512, chunk_overlap=100):
 
 
 # Function to summarize a chunk of text
-def summarize_chunk(chunk, summarizer, max_length=512, min_length=30):
+def summarize_chunk(chunk, summarizer, min_length, max_length):
     # Determine the maximum length for the summary
     input_length = len(chunk.split())
     dynamic_max_length = min(max_length, max(min_length, input_length // 2))
     # Generate the summary
     summary = summarizer(
-        chunk, max_length=dynamic_max_length, min_length=min_length, do_sample=False
+        chunk, min_length=min_length, max_length=max_length, do_sample=False
     )
     # Return the summary text
     return summary[0]["summary_text"]
@@ -110,8 +110,8 @@ def summarize_text(
     chunk_size,
     summarizer,
     tokenizer,
-    max_length=512,
-    min_length=30,
+    min_length,
+    max_length,
     use_reduce_step=True,
 ):
     cleaned_text = clean_text(text)
@@ -121,7 +121,7 @@ def summarize_text(
 
     # Summarize each chunk (map step)
     first_round_summaries = [
-        summarize_chunk(chunk, summarizer, max_length, min_length) for chunk in chunks
+        summarize_chunk(chunk, summarizer, min_length, max_length) for chunk in chunks
     ]
 
     # If not using the reduce step, return the combined summaries
@@ -134,7 +134,7 @@ def summarize_text(
 
     # Summarize each final chunk (reduce step)
     final_summaries = [
-        summarize_chunk(chunk, summarizer, max_length, min_length)
+        summarize_chunk(chunk, summarizer, min_length, max_length)
         for chunk in final_chunks
     ]
 
