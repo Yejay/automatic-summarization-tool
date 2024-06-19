@@ -234,7 +234,8 @@ interface EvaluationResult {
 function App() {
 	const [summary, setSummary] = useState<string>('');
 	const [model, setModel] = useState<string>('bart');
-	const [loading, setLoading] = useState<boolean>(false);
+	const [loadingSummarize, setLoadingSummarize] = useState<boolean>(false);
+	const [loadingEvaluate, setLoadingEvaluate] = useState<boolean>(false);
 	const [evaluationResults, setEvaluationResults] = useState<EvaluationResult[] | null>(null);
 	const [dragActive, setDragActive] = useState<boolean>(false);
 	const [fileName, setFileName] = useState<string | null>(null);
@@ -277,7 +278,7 @@ function App() {
 			return;
 		}
 
-		setLoading(true);
+		setLoadingSummarize(true);
 		const formData = new FormData();
 		formData.append('file', file);
 
@@ -290,7 +291,7 @@ function App() {
 
 		const data = await response.json();
 		setSummary(data.summary);
-		setLoading(false);
+		setLoadingSummarize(false);
 	};
 
 	const handleDelete = () => {
@@ -298,13 +299,13 @@ function App() {
 	};
 
 	const handleEvaluation = async () => {
-		setLoading(true);
+		setLoadingEvaluate(true);
 		const response = await fetch('http://localhost:5000/evaluate_summaries', {
 			method: 'POST',
 		});
 		const data: EvaluationResult[] = await response.json();
 		setEvaluationResults(data);
-		setLoading(false);
+		setLoadingEvaluate(false);
 	};
 
 	const formatScores = (scores: number[] | undefined) => {
@@ -354,7 +355,7 @@ function App() {
 					<button onClick={handleSubmit} style={{ width: '25%', padding: '10px', backgroundColor: '#646cffaa', border: 'none', borderRadius: '5px' }}>
 						Summarize
 					</button>
-					{loading && <div className='spinner'></div>}
+					{loadingSummarize && <div className='spinner'></div>}
 					{summary && (
 						<div style={{ marginTop: '20px', backgroundColor: '#333333', padding: '10px', borderRadius: '8px' }}>
 							<h2>Summary</h2>
@@ -388,7 +389,7 @@ function App() {
 					<button onClick={handleEvaluation} style={{ width: '25%', padding: '10px', backgroundColor: '#646cffaa', border: 'none', borderRadius: '5px' }}>
 						Evaluate Summaries
 					</button>
-					{loading && <div className='spinner'></div>}
+					{loadingEvaluate && <div className='spinner'></div>}
 				</div>
 				{evaluationResults && (
 					<div style={{ marginTop: '20px' }}>

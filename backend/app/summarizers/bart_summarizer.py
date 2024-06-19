@@ -24,7 +24,7 @@ def summarize_bart(file, min_length, max_length):
         min_length=min_length,
         max_length=max_length,
         # Set to True to resummarize the combined text after the first round of summarization
-        use_reduce_step=False,
+        use_reduce_step=True,
     )
     # Return the final summary
     return final_summary

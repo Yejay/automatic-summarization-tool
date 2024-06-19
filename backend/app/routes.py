@@ -16,7 +16,7 @@ def register_routes(app):
             return jsonify({"error": "No file provided"}), 400
 
         file = request.files["file"]
-        summary = summarize_bart(file, min_length=512, max_length=1024)
+        summary = summarize_bart(file, min_length=256, max_length=1024)
         return jsonify({"summary": summary})
 
     @app.route("/summarize_pegasus", methods=["POST"])
