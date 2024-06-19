@@ -22,7 +22,7 @@ def summarize_openai(file, max_tokens):
     # The maximum number of tokens in the output is set to 64
     # The top_p parameter is set to 1 to use nucleus sampling, which can improve the quality of the output
     response = client.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4o",
         messages=[
             {
                 "role": "system",

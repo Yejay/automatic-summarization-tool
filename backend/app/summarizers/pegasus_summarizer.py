@@ -9,9 +9,8 @@ pegasus_summarizer = pipeline("summarization", model="google/pegasus-pubmed")
 # Initialize the Pegasus tokenizer using the same pre-trained model
 pegasus_tokenizer = PegasusTokenizer.from_pretrained("google/pegasus-pubmed")
 
-
 # Function to summarize a text file using the Pegasus model
-def summarize_pegasus(file, min_length=512, max_length=30):
+def summarize_pegasus(file, min_length, max_length):
     # Extract the text from the file
     text = extract_text(file)
     # Summarize the text using the Pegasus summarizer and tokenizer
