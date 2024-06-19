@@ -1,42 +1,58 @@
 [
     {
         "id": "study1",
-        "text_file": "study1.txt",
+        "BART_sum": "bart_summary_study1.txt",
+        "PEGASUS_sum": "pegasus_summary_study1.txt",
+        "OpenAI_sum": "openai_summary_study1.txt",
         "abstract_file": "abstract1_for_study1.txt"
     },
     {
         "id": "study2",
-        "text_file": "study2.txt",
-        "abstract_file": "abstract1_for_study2.txt"
+        "BART_sum": "bart_summary_study2.txt",
+        "PEGASUS_sum": "pegasus_summary_study2.txt",
+        "OpenAI_sum": "openai_summary_study2.txt",
+        "abstract_file": "abstract2_for_study2.txt"
     },
     {
         "id": "study3",
-        "text_file": "study3.txt",
-        "abstract_file": "abstract1_for_study3.txt"
+        "BART_sum": "bart_summary_study3.txt",
+        "PEGASUS_sum": "pegasus_summary_study3.txt",
+        "OpenAI_sum": "openai_summary_study3.txt",
+        "abstract_file": "abstract3_for_study3.txt"
     },
     {
         "id": "study4",
-        "text_file": "study4.txt",
-        "abstract_file": "abstract1_for_study4.txt"
+        "BART_sum": "bart_summary_study4.txt",
+        "PEGASUS_sum": "pegasus_summary_study4.txt",
+        "OpenAI_sum": "openai_summary_study4.txt",
+        "abstract_file": "abstract4_for_study4.txt"
     },
     {
         "id": "study5",
-        "text_file": "study5.txt",
-        "abstract_file": "abstract1_for_study5.txt"
+        "BART_sum": "bart_summary_study5.txt",
+        "PEGASUS_sum": "pegasus_summary_study5.txt",
+        "OpenAI_sum": "openai_summary_study5.txt",
+        "abstract_file": "abstract5_for_study5.txt"
     },
     {
         "id": "study6",
-        "text_file": "study6.txt",
-        "abstract_file": "abstract1_for_study6.txt"
+        "BART_sum": "bart_summary_study6.txt",
+        "PEGASUS_sum": "pegasus_summary_study6.txt",
+        "OpenAI_sum": "openai_summary_study6.txt",
+        "abstract_file": "abstract6_for_study6.txt"
     },
     {
         "id": "study7",
-        "text_file": "study7.txt",
-        "abstract_file": "abstract1_for_study7.txt"
+        "BART_sum": "bart_summary_study7.txt",
+        "PEGASUS_sum": "pegasus_summary_study7.txt",
+        "OpenAI_sum": "openai_summary_study7.txt",
+        "abstract_file": "abstract7_for_study7.txt"
     },
     {
         "id": "study8",
-        "text_file": "study8.txt",
-        "abstract_file": "abstract1_for_study8.txt"
+        "BART_sum": "bart_summary_study8.txt",
+        "PEGASUS_sum": "pegasus_summary_study8.txt",
+        "OpenAI_sum": "openai_summary_study8.txt",
+        "abstract_file": "abstract8_for_study8.txt"
     }
 ]
