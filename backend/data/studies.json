@@ -47,12 +47,5 @@
         "PEGASUS_sum": "pegasus_summary_study7.txt",
         "OpenAI_sum": "openai_summary_study7.txt",
         "abstract_file": "abstract7_for_study7.txt"
-    },
-    {
-        "id": "study8",
-        "BART_sum": "bart_summary_study8.txt",
-        "PEGASUS_sum": "pegasus_summary_study8.txt",
-        "OpenAI_sum": "openai_summary_study8.txt",
-        "abstract_file": "abstract8_for_study8.txt"
     }
 ]

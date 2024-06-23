@@ -29,7 +29,7 @@ function App() {
 			setDragActive(false);
 		}
 	};
-
+	
 	const handleDrop = (e: React.DragEvent<HTMLDivElement>) => {
 		e.preventDefault();
 		e.stopPropagation();
@@ -160,11 +160,10 @@ function App() {
 						<li>
 							<strong>ROUGE-L</strong>: Measures the longest common subsequence (LCS) between the system and reference summaries. Higher values indicate better performance.
 						</li>
+						<li>
+							<strong>BERTScore</strong>: Evaluates text generation based on semantic similarity using BERT embeddings. Higher values indicate better semantic similarity.
+						</li>
 					</ul>
-					<h2>BERTScore Metrics</h2>
-					<p>
-						BERTScore evaluates text generation based on semantic similarity using BERT embeddings. Higher values indicate better semantic similarity.
-					</p>
 					<button onClick={handleEvaluation} style={{ width: '25%', padding: '10px', backgroundColor: '#646cffaa', border: 'none', borderRadius: '5px' }}>
 						Evaluate Summaries
 					</button>

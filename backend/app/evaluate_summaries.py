@@ -67,9 +67,3 @@ def evaluate_summaries(studies_file_path):
         })
 
     return results
-
-if __name__ == "__main__":
-    studies_file_path = "path/to/your/studies.json"
-    results = evaluate_summaries(studies_file_path)
-    for result in results:
-        print(json.dumps(result, indent=2))
