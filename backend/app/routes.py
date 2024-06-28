@@ -1,55 +1,44 @@
+import os
 from flask import request, jsonify
-from transformers import pipeline
-from pypdf import PdfReader
-from io import BytesIO
+from .summarizers.bart_summarizer import summarize_bart
+from .summarizers.pegasus_summarizer import summarize_pegasus
+from .summarizers.openai_summarizer import summarize_openai
+from .evaluate_summaries import evaluate_summaries
 
-summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
-
-def extract_text(file):
-    if file.filename.endswith(".pdf"):
-        pdf = PdfReader(BytesIO(file.read()))
-        text = ""
-        for page in pdf.pages:
-            page_text = page.extract_text()
-            if page_text is not None:
-                text += page_text
-    else:
-        text = file.read().decode("utf-8", errors="ignore")
-    return text
-
-def split_text(text, max_length=1024):
-    # Split the text into smaller chunks of a specified max length
-    words = text.split()
-    chunks = []
-    current_chunk = []
-    current_length = 0
-    for word in words:
-        if current_length + len(word) + 1 <= max_length:
-            current_chunk.append(word)
-            current_length += len(word) + 1
-        else:
-            chunks.append(' '.join(current_chunk))
-            current_chunk = [word]
-            current_length = len(word) + 1
-    if current_chunk:
-        chunks.append(' '.join(current_chunk))
-    return chunks
 
 def register_routes(app):
-    @app.route("/summarize", methods=["POST"])
-    def summarize():
+    @app.route("/summarize_bart", methods=["POST"])
+    def summarize_bart_endpoint():
         if "file" not in request.files:
             return jsonify({"error": "No file provided"}), 400
 
         file = request.files["file"]
-        text = extract_text(file)
+        summary = summarize_bart(file, min_length=256, max_length=1024)
+        return jsonify({"summary": summary})
 
-        chunks = split_text(text)
-        summaries = []
-        for chunk in chunks:
-            summary = summarizer(chunk, do_sample=False)
-            summaries.append(summary[0]["summary_text"])
+    @app.route("/summarize_pegasus", methods=["POST"])
+    def summarize_pegasus_endpoint():
+        if "file" not in request.files:
+            return jsonify({"error": "No file provided"}), 400
 
-        combined_summary = " ".join(summaries)
+        file = request.files["file"]
+        summary = summarize_pegasus(file, min_length=256, max_length=1024)
+        return jsonify({"summary": summary})
 
-        return jsonify({"summary": combined_summary})
+    @app.route("/summarize_openai", methods=["POST"])
+    def summarize_openai_endpoint():
+        if "file" not in request.files:
+            return jsonify({"error": "No file provided"}), 400
+
+        file = request.files["file"]
+        summary = summarize_openai(file, max_tokens=4096)
+        return jsonify({"summary": summary})
+
+    @app.route("/evaluate_summaries", methods=["POST"])
+    def evaluate_summaries_route():
+        studies_file_path = os.path.join(
+            os.path.dirname(__file__), "..", "data", "studies.json"
+        )
+
+        results = evaluate_summaries(studies_file_path)
+        return jsonify(results)

@@ -1,0 +1,9 @@
+Adult humans fail to regenerate their hearts following injury, and this failure to regenerate 
+myocardium is a leading cause of heart failure and death worldwide. Although all adult mammals 
+appear to lack significant cardiac regeneration potential, some vertebrates can regenerate 
+myocardium throughout life. In addition, new studies indicate that mammals have cardiac 
+regeneration potential during development and very soon after birth. The mechanisms of heart 
+regeneration among model organisms, including neonatal mice, appear remarkably similar. 
+Orchestrated waves of inflammation, matrix deposition and remodeling, and cardiomyocyte 
+proliferation are commonly seen in heart regeneration models. Understanding why adult mammals 
+develop extensive scarring instead of regeneration is a crucial goal for regenerative biology.

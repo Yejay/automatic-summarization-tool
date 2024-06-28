@@ -1,0 +1,11 @@
+Muscle architecture, which includes parameters like fascicle length, pennation angle, and physiological cross-sectional 
+area, strongly influences skeletal muscles' mechanical properties. During maturation, the muscle architecture has to adapt 
+to a growing organism. This study aimed to develop an architectural model capable of predicting the complete 3D fascicle 
+architecture for primarily unipennate muscles of an arbitrary age, based on fascicle data for an initial age. For model develop-
+ment, we collected novel data on 3D muscle architecture of the rabbit (Oryctolagus cuniculus) M. plantaris of eight animals 
+ranging in age from 29 to 106 days. Experimental results show that plantaris muscle belly length increases by 73%, whereas 
+mean fascicle length and mean pennation angle increases by 39 and 14%, respectively. Those changes were incorporated into 
+the model. In addition to the data collected for M. plantaris the predictions of the model were compared to existing literature 
+data of rabbit M. soleus and M. gastrocnemius medialis. With an error of −1.0 ± 8.6% for relative differences in aponeurosis 
+length, aponeurosis width, muscle height, and muscle mass, the model delivered good results matching interindividual dif-
+ferences. For future studies, the model could be utilized to generate realistic architectural data sets for simulation studies.
