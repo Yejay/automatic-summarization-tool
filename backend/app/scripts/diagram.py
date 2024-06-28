@@ -5,7 +5,7 @@ import pandas as pd
 
 print("Skript gestartet")
 
-# Daten
+# Daten für die Verarbeitungszeiten
 studies = ["Studie1", "Studie2", "Studie3", "Studie4", "Studie5", "Studie6", "Studie7"]
 bart_times = [57, 61, 58, 59, 67, 58, 59]
 pegasus_times = [187, 111, 150, 135, 177, 129, 161]
@@ -24,92 +24,69 @@ bar_width = 0.25
 r1 = np.arange(len(studies))
 r2 = [x + bar_width for x in r1]
 r3 = [x + bar_width for x in r2]
-
 plt.bar(r1, bart_times, color=bart_color, width=bar_width, label="BART")
 plt.bar(r2, pegasus_times, color=pegasus_color, width=bar_width, label="PEGASUS")
 plt.bar(r3, gpt_times, color=gpt_color, width=bar_width, label="GPT-4o")
-
 plt.xlabel("Studien")
 plt.ylabel("Zeit in Sekunden")
 plt.title("Absolute Verarbeitungszeiten der Modelle für jede Studie")
 plt.xticks([r + bar_width for r in range(len(studies))], studies)
 plt.legend()
 plt.ylim(0, max(pegasus_times) * 1.1)
-
 plt.tight_layout()
 plt.savefig("1_verarbeitungszeit_balken_diagramm.png")
 plt.close()
-
 print("1. Balkendiagramm gespeichert")
 
-# 2. Radar-Diagramm
-plt.figure(figsize=(10, 10))
-angles = np.linspace(0, 2 * np.pi, len(studies), endpoint=False)
 
-bart_times_closed = np.concatenate((bart_times, [bart_times[0]]))
-pegasus_times_closed = np.concatenate((pegasus_times, [pegasus_times[0]]))
-gpt_times_closed = np.concatenate((gpt_times, [gpt_times[0]]))
-angles = np.concatenate((angles, [angles[0]]))
+# Neue Daten für die quantitative Analyse
+models = ['BART', 'PEGASUS', 'OpenAI']
+metrics = ['ROUGE-1', 'ROUGE-2', 'ROUGE-L', 'BERTScore']
 
-ax = plt.subplot(111, polar=True)
-ax.plot(angles, bart_times_closed, "o-", linewidth=2, label="BART", color=bart_color)
-ax.fill(angles, bart_times_closed, alpha=0.25, color=bart_color)
-ax.plot(angles, pegasus_times_closed, "o-", linewidth=2, label="PEGASUS", color=pegasus_color)
-ax.fill(angles, pegasus_times_closed, alpha=0.25, color=pegasus_color)
-ax.plot(angles, gpt_times_closed, "o-", linewidth=2, label="GPT-4o", color=gpt_color)
-ax.fill(angles, gpt_times_closed, alpha=0.25, color=gpt_color)
+# Daten für Precision, Recall und F1
+precision = [
+    [0.384, 0.114, 0.228, 0.821],  # BART
+    [0.366, 0.076, 0.216, 0.804],  # PEGASUS
+    [0.280, 0.134, 0.190, 0.859]   # OpenAI
+]
 
-ax.set_xticks(angles[:-1])
-ax.set_xticklabels(studies)
-ax.set_ylim(0, max(pegasus_times) * 1.1)
-ax.set_ylabel("Verarbeitungszeit (Sekunden)")
-ax.set_title("Vergleich der Verarbeitungszeiten über alle Studien")
+recall = [
+    [0.366, 0.110, 0.218, 0.817],  # BART
+    [0.270, 0.056, 0.159, 0.801],  # PEGASUS
+    [0.825, 0.394, 0.560, 0.858]   # OpenAI
+]
 
-plt.legend(loc="upper right", bbox_to_anchor=(1.3, 1.0))
-plt.tight_layout()
-plt.savefig("2_verarbeitungszeit_radar_diagramm.png")
-plt.close()
+f1 = [
+    [0.371, 0.111, 0.221, 0.819],  # BART
+    [0.301, 0.062, 0.177, 0.802],  # PEGASUS
+    [0.404, 0.193, 0.273, 0.858]   # OpenAI
+]
 
-print("2. Radar-Diagramm gespeichert")
+# 5. Balkendiagramme für Precision, Recall und F1
+fig, axs = plt.subplots(3, 1, figsize=(12, 18))
+fig.suptitle('Vergleich der Modelle nach Metriken')
 
-# 3. Liniendiagramm
-plt.figure(figsize=(12, 6))
-plt.plot(studies, bart_times, marker="o", label="BART", color=bart_color)
-plt.plot(studies, pegasus_times, marker="s", label="PEGASUS", color=pegasus_color)
-plt.plot(studies, gpt_times, marker="^", label="GPT-4o", color=gpt_color)
+def create_bar_plot(ax, data, title):
+    x = np.arange(len(metrics))
+    width = 0.25
+    
+    ax.bar(x - width, data[0], width, label=models[0], color=bart_color)
+    ax.bar(x, data[1], width, label=models[1], color=pegasus_color)
+    ax.bar(x + width, data[2], width, label=models[2], color=gpt_color)
+    
+    ax.set_ylabel('Score')
+    ax.set_title(title)
+    ax.set_xticks(x)
+    ax.set_xticklabels(metrics)
+    ax.legend()
 
-plt.xlabel("Studien")
-plt.ylabel("Zeit in Sekunden")
-plt.title("Verarbeitungszeiten der Modelle über alle Studien")
-plt.legend()
-plt.xticks(rotation=45)
-plt.grid(True, linestyle="--", alpha=0.7)
-
-plt.tight_layout()
-plt.savefig("3_verarbeitungszeit_linien_diagramm.png")
-plt.close()
-
-print("3. Liniendiagramm gespeichert")
-
-# 4. Heatmap
-plt.figure(figsize=(12, 8))
-data = [bart_times, pegasus_times, gpt_times]
-sns.heatmap(
-    data,
-    annot=True,
-    fmt="d",
-    cmap="YlOrRd",
-    xticklabels=studies,
-    yticklabels=["BART", "PEGASUS", "GPT-4o"],
-)
-plt.xlabel("Studien")
-plt.ylabel("Modelle")
-plt.title("Heatmap der Verarbeitungszeiten")
+create_bar_plot(axs[0], precision, 'Precision')
+create_bar_plot(axs[1], recall, 'Recall')
+create_bar_plot(axs[2], f1, 'F1-Score')
 
 plt.tight_layout()
-plt.savefig("4_verarbeitungszeit_heatmap.png")
+plt.savefig('2_model_comparison_detailed.png')
 plt.close()
-
-print("4. Heatmap gespeichert")
+print("2. Detailliertes Modellvergleichsdiagramm gespeichert")
 
 print("Alle Diagramme wurden erfolgreich erstellt und gespeichert.")
