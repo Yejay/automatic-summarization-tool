@@ -28,10 +28,8 @@ The Automatic Summarization Tool is a full-stack web application designed to sum
 - Support for multiple summarization models (BART, PEGASUS, OpenAI GPT)
 - File upload for PDF and text documents
 - Text extraction and preprocessing
-- Summary generation with customizable parameters
 - Summary evaluation using ROUGE and BERTScore metrics
 - Visualization of evaluation results
-- RESTful API for integration with other applications
 
 ## Technology Stack
 
@@ -174,3 +172,5 @@ For detailed API specifications, refer to the [Backend Documentation](backend/RE
 ---
 
 For more detailed information about the frontend or backend implementation, please refer to their respective README files linked at the top of this document.
+
+This documentation was partially generated with generative AI.

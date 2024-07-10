@@ -260,9 +260,6 @@ To modify evaluation metrics:
 1. Update the `evaluate_summaries` function in `evaluate_summaries.py`
 2. Ensure new metrics are calculated and returned in the results
 
-## 9. Testing
-
-(Note: Add information about your testing strategy and how to run tests once implemented.)
 
 ## 10. Performance Considerations
 
@@ -274,3 +271,5 @@ To modify evaluation metrics:
 ---
 
 This documentation provides an in-depth look at the code structure and implementation details of the Automatic Summarization Tool Backend. For setup instructions, API usage, and deployment guidelines, please refer to the separate developer documentation.
+
+This documentation was partially generated with generative AI.

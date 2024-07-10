@@ -407,3 +407,5 @@ Areas for potential improvement or expansion:
 3. Implement caching mechanisms for API responses
 4. Consider adding more customization options for summarization
 5. Explore options for visualizing evaluation results (e.g., charts or graphs)
+
+This documentation was partially generated with generative AI.
