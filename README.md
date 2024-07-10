@@ -38,17 +38,39 @@ The Automatic Summarization Tool is a full-stack web application designed to sum
 ### Frontend
 - React
 - TypeScript
-- Tailwind CSS
+- CSS (with standard stylesheets)
 - Vite (build tool)
 
 ### Backend
 - Python
 - Flask
 - Transformers (Hugging Face)
-- PyTorch
 - OpenAI API
-- NLTK
+- rouge_score (for ROUGE metrics)
+- bert_score (for BERTScore metrics)
 - Matplotlib (for visualizations)
+
+## Dependencies
+
+### Frontend Dependencies
+- react
+- react-dom
+- typescript
+
+### Backend Dependencies
+- flask
+- flask-cors
+- transformers
+- torch(PyTorch, required by Transformers)
+- openai
+- python-dotenv
+- pypdf
+- rouge-score
+- bert-score
+- matplotlib
+
+For a complete list of dependencies and their versions, please refer to the `package.json` file in the frontend directory and the `requirements.txt` file in the backend directory.
+
 
 ## Project Structure
 
@@ -93,19 +115,13 @@ automatic-summarization-tool/
 
 ### Installation
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/automatic-summarization-tool.git
-   cd automatic-summarization-tool
-   ```
-
-2. Set up the frontend:
+1. Set up the frontend:
    ```
    cd frontend
    npm install
    ```
 
-3. Set up the backend:
+2. Set up the backend:
    ```
    cd ../backend
    python -m venv venv
@@ -113,7 +129,7 @@ automatic-summarization-tool/
    pip install -r requirements.txt
    ```
 
-4. Set up environment variables:
+3. Set up environment variables:
    - Create a `.env` file in the `backend` directory
    - Add your OpenAI API key: `OPENAI_API_KEY=your_api_key_here`
 
@@ -135,7 +151,7 @@ automatic-summarization-tool/
 
 ## Usage
 
-1. Upload a PDF or text file containing the research paper you want to summarize.
+1. Upload a PDF or text file containing the research paper you want to summarize. As this is a POC (Proof of Concept), please use one of the provided research papers in `data/research-papers`.
 2. Select a summarization model (BART, PEGASUS, or OpenAI).
 3. Click the "Summarize" button to generate a summary.
 4. View the generated summary and evaluation metrics.
@@ -154,31 +170,6 @@ The backend provides the following API endpoints:
 
 For detailed API specifications, refer to the [Backend Documentation](backend/README.md#api-endpoints).
 
-## Contributing
-
-We welcome contributions to the Automatic Summarization Tool! Please follow these steps to contribute:
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/your-feature-name`)
-3. Make your changes
-4. Commit your changes (`git commit -am 'Add some feature'`)
-5. Push to the branch (`git push origin feature/your-feature-name`)
-6. Create a new Pull Request
-
-For more information on contributing, please see our [Contributing Guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the [MIT License](LICENSE.md).
-
-## Acknowledgments
-
-- [Hugging Face Transformers](https://huggingface.co/transformers/) for providing pre-trained models
-- [OpenAI](https://openai.com/) for their GPT models and API
-- [NLTK](https://www.nltk.org/) for natural language processing utilities
-- [Flask](https://flask.palletsprojects.com/) for the backend web framework
-- [React](https://reactjs.org/) for the frontend library
-- All contributors and supporters of this project
 
 ---
 
