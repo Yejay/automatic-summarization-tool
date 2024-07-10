@@ -62,7 +62,7 @@ f1 = [
     [0.404, 0.193, 0.273, 0.858]   # OpenAI
 ]
 
-# 5. Balkendiagramme für Precision, Recall und F1
+# 2. Balkendiagramme für Precision, Recall und F1
 fig, axs = plt.subplots(3, 1, figsize=(12, 18))
 fig.suptitle('Vergleich der Modelle nach Metriken')
 

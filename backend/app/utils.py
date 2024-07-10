@@ -4,7 +4,7 @@ from pypdf import PdfReader
 from io import BytesIO
 
 def extract_text(file):
-    if isinstance(file, str):  # Handle file path
+    if isinstance(file, str):
         if file.endswith(".pdf"):
             with open(file, "rb") as f:
                 pdf = PdfReader(f)
@@ -16,7 +16,7 @@ def extract_text(file):
         else:
             with open(file, "r", encoding="utf-8", errors="ignore") as f:
                 text = f.read()
-    else:  # Handle file-like object
+    else:
         if file.filename.endswith(".pdf"):
             pdf = PdfReader(BytesIO(file.read()))
             text = ""
@@ -96,24 +96,19 @@ def split_text(text, tokenizer, chunk_size, chunk_overlap=150):
         start += chunk_size - chunk_overlap
     return chunks
 
-# Function to summarize a chunk of text
+
 def summarize_chunk(chunk, summarizer, min_length, max_length):
-    # Determine the maximum length for the summary
     input_length = len(chunk.split())
     dynamic_max_length = min(max_length, max(min_length, input_length // 2))
-    # Generate the summary
     summary = summarizer(
         chunk, min_length=min_length, max_length=dynamic_max_length, do_sample=False
     )
-    # Return the summary text
     return summary[0]["summary_text"]
 
-# Function to combine multiple summaries into a single text
 def combine_summaries(summaries):
-    # Join the summaries with spaces in between
     return " ".join(summaries)
 
-# Function to summarize large text
+
 def summarize_text(
     text,
     chunk_size,
@@ -125,27 +120,21 @@ def summarize_text(
 ):
     cleaned_text = clean_text(text)
 
-    # Split the text into chunks
     chunks = split_text(cleaned_text, tokenizer, chunk_size)
 
-    # Summarize each chunk (map step)
     first_round_summaries = [
         summarize_chunk(chunk, summarizer, min_length, max_length) for chunk in chunks
     ]
 
-    # If not using the reduce step, return the combined summaries
     if not use_reduce_step:
         return combine_summaries(first_round_summaries)
 
-    # Combine the summaries and split them into chunks again
     combined_text = combine_summaries(first_round_summaries)
     final_chunks = split_text(combined_text, tokenizer, chunk_size)
 
-    # Summarize each final chunk (reduce step)
     final_summaries = [
         summarize_chunk(chunk, summarizer, min_length, max_length)
         for chunk in final_chunks
     ]
 
-    # Return the final combined summary
     return combine_summaries(final_summaries)
