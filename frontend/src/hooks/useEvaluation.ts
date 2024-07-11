@@ -13,7 +13,6 @@ export const useEvaluation = () => {
       setEvaluationResults(results);
     } catch (error) {
       console.error('Error evaluating summaries:', error);
-      // Handle error (e.g., show error message to user)
     } finally {
       setLoadingEvaluate(false);
     }
